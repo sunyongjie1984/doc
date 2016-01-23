@@ -1766,3 +1766,12 @@ cd /ets/init.d
     git diff
     git push origin master
     git checkout *
+add
+
+cd /home/sunyj/new
+git init
+git add *
+git commit -m "add new"
+git remote add origin
+https://sunyongjie1984:Git541981101211@github.com/sunyongjie1984/new
+git push origin master
