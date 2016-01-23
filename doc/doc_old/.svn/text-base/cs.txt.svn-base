@@ -1,0 +1,4848 @@
+第1章  目 录
+第1章 目 录	1
+第2章 习惯与注意事项	8
+2.1 备份	8
+2.2 windows 7备份	8
+2.3 常用经常打开的文件	8
+第3章 编译	9
+3.1 有必要把很多东西拿到linux下再编译去深刻理解c++	9
+3.2 g++	9
+3.3 文件查找	9
+3.4 debug没有问题release有问题	9
+3.5 编译方法	9
+3.6 2008的转换功能（从vc6.0到2008）	9
+第4章 Windows操作系统	10
+4.1 输出到终端与输出到硬盘文件	10
+4.2 飞创电脑ip地址设置	10
+第5章 windows	11
+5.1 telnet服务启动	11
+5.2 重定向	11
+5.3 桌面	12
+5.4 桌面windows7 与vim与桌面	14
+5.1 windows7使用windows经典主题，像个64位的xp	14
+5.2 设置某个进程使用的cpu数目	15
+5.3 Windows search卸载	15
+5.4 系统无法执行指定的程序	15
+第6章 Linux	16
+6.1 who netstat ps	16
+6.2 shutdown reboot sync	16
+6.3 文件权限owner group others	16
+6.4 which locate whereis find grep	16
+6.5 du df	16
+6.6 tar	17
+6.7 ls	17
+6.8 jobs	17
+6.9 who whoami	17
+6.10 U盘	17
+6.11 命令帮助	17
+6.12 find	18
+6.13 参考资料	18
+6.14 shell script	18
+6.15 僵尸进程	18
+6.16 vim安装	24
+6.17 vm tools安装	24
+6.18 ctags安装	24
+6.19 rpm软件安装	25
+6.20 中文相关	25
+6.21 中文相关把系统语言在用户.bash_profile	25
+6.22 把孙永杰目录虚拟机的功能加载到linux中去，这样就可以在linux和windows下来编辑调试程序了。	25
+6.23 环境变量累加路径	25
+6.24 查看binary符号	25
+6.25 查看谁在使用这台机器，与内存，CPU情况	25
+6.26 查看进程	25
+6.27 查看内存	25
+6.28 查看当前目录的所有文件，文件夹大小	26
+6.29 ctrl +ｈ	26
+6.30 环境变量累加路径	26
+6.31 find	26
+6.32 du命令	26
+6.33 cent_os	26
+6.33.1 网络	27
+6.34 telnet	27
+6.35 光盘，U盘	27
+6.36 Su	27
+6.37 后台运行服务器程序&	27
+6.38 Linux profile	28
+6.39 输入法	28
+6.40 快捷捷	29
+6.41 打开某端口	30
+6.42 I/O与重定向	31
+6.43 alias	31
+6.44 ftp服务	31
+6.44.1 匿名登录	31
+6.44.2 开启ftp服务	31
+6.44.3 开机启动	31
+6.45 删除软链接	32
+6.46 用vs2008编辑code最好，linux不行就还是用vs2008编辑吧	32
+6.47 ftp服务开启	32
+6.48 yum命令	32
+6.49 log4cxx安装	33
+6.50 scp命令	33
+6.51 more *	33
+6.52 g++编译，链接动态链接库	33
+6.53 g++编译，链接动态链接库，apr，log4cxx	33
+6.54 nm 与 ldd	33
+6.55 查看linux版本信息	33
+第7章 DS_A_math	34
+第8章 软件设置	35
+8.1 vim	35
+8.1.1 picute	35
+8.1.2 命令	36
+8.1.3 绝对的vim	42
+8.1.4 Color scheme	42
+8.1.5 自定义类型上颜色	42
+8.1.6 换行符unix dos	42
+8.1.7 vim_rc	42
+8.1.8 给gvim加上编译器与调试器	47
+8.1.9 ctrl + F2书签	47
+8.1.10 自定义颜色	47
+8.1.11 Linux下vim汉字显示	47
+8.1.12 _vimrc设置字体	47
+8.1.13 全屏	47
+8.1.14 VIM中空格和TAB的替换	47
+8.1.15 tag颜色设置linux	49
+8.1.16 Linux 中文显示	49
+8.1.17 vim查找	50
+8.1.18 查找空格（下划线等），字符串替换时空格（下划线等）	81
+8.2 万能五笔	81
+8.3 360	81
+8.4 7zip	81
+8.5 ghost	81
+8.6 storm 2006	81
+8.7 daemon tools	81
+8.8 tm	81
+8.9 beyond compare	81
+8.10 screen recorder	81
+8.11 Vmware 6.0	81
+8.11.1 Network	81
+8.11.2 光盘	84
+8.11.3 Vmtools	84
+8.11.4 Linux 设置 picture	84
+8.11.5 网络桥接	85
+8.12 vc6	87
+8.12.1 快捷键	87
+8.12.2 picture	88
+8.13 visual 2008	88
+8.13.1 picture	88
+8.13.2 new project from exsiting code	90
+8.13.3 another configure	90
+8.13.4 visual assistant	91
+8.13.5 快捷键	92
+8.13.6 Solution exploer选中文件可用vim打开	92
+8.13.7 使用方法	92
+8.13.8 命令行参数添加	92
+8.13.9 命令行参数添加转换工程从6.0到2008	93
+8.13.10 所有文件关掉某个警告	93
+8.13.11 系统无法执行指定的程序	93
+8.14 windows	94
+8.14.1 桌面	94
+8.14.2 任务栏	97
+8.15 msdn	97
+8.15.1 picture	97
+8.16 U盘	98
+8.17 IE6	98
+8.17.1 Picture	98
+8.18 金山词霸生词本功能	98
+8.18.1 Picture	98
+8.19 blog csdn	99
+8.19.1 Picture	99
+8.20 Foxmail_GMail_网易	99
+8.20.1 产品说明	99
+8.20.2 picture	102
+8.20.3 邮件帐户设置	103
+8.20.4 如何阅读RSS	107
+8.20.5 标签	107
+8.20.6 Picture	109
+8.20.7 Gmail自己给自己发自动重要，我只能手动调成不重要了	112
+8.20.8 收到邮件后	112
+8.20.9 给转发邮件作笔记	112
+8.20.10 服务器设置	113
+8.20.11 置顶邮件表示急迫，存档表示重要	113
+8.20.12 如何发gmail邮件保存资料	114
+8.20.13 使用日历	114
+8.20.14 如何发gmail邮件保存资料列的视图与宽度等	114
+8.20.15 如何备份	114
+8.20.16 离开lucent的时候把那个outlook的邮件导入到foxmail中来，来整理	114
+8.20.17 如何修改并保存收到的邮件	114
+8.20.18 网易网盘与gmail文档的取舍	114
+8.20.19 字体模版verdana 20	114
+8.20.20 打开一个邮件件后显示往来邮件功能非常好用	114
+8.20.21 写邮件	114
+8.20.22 模版与签名	115
+8.20.23 Gmail可imap	115
+8.20.24 等待回复与提醒邮件功能非常好用	115
+8.20.25 无格式粘贴非常好用	115
+8.20.26 鼠标手式非常好用，预览时候也可以用	115
+8.21 VSS	115
+8.21.1 加入文件夹	115
+8.21.2 Differ用vim –d的形式比较	116
+8.21.3 用vim读	116
+8.21.4 Check in file 好好地加comments	117
+8.21.5 如何备份VSS上的check in的记录	117
+8.22 chrome	117
+8.22.1 下载	117
+8.22.2 字体	117
+8.23 firefox	118
+8.23.1 调节字体大小	118
+8.24 ssh secure shell	118
+8.25 vc 6.0	118
+8.25.1 release版本调试	118
+8.25.2 Picture	120
+8.25.3 Visual assistant颜色问题	120
+8.26 遨游	121
+8.26.1 网页探测器	121
+8.27 socket tool	121
+8.28 windows search	121
+8.28.1 语法	121
+8.29 Word	121
+8.30 罗技鼠标	121
+8.31 罗技鼠标	121
+8.31.1 语法	121
+第9章 coding rule and preference style	122
+9.1 括号	122
+9.2 坚持构造函数初始化列表	122
+9.3 命名	122
+9.3.1 目录的命名	122
+9.3.2 类的命名	122
+9.3.3 文件的命名	122
+9.3.4 变量的命名	122
+第10章 cygvim	124
+10.1 环境路径的添加	124
+第11章 windows网络编程	125
+11.1 winsock简介	125
+11.1.1 Winsock头文件及库文件	125
+11.1.2 winsock的初始化	125
+11.1.3 错误检查和处理	125
+11.1.4 协议寻址	125
+11.1.5 创建套接字	126
+11.1.6 面向连接的通信	126
+11.2 winsock IO方法	130
+11.2.1 套接字模式	130
+11.3 套接字I/O模型	131
+11.4 地址结构的内容	135
+11.5 地址结构的使用	135
+第12章 vnc	136
+12.1 安装	136
+12.1.1 套接字操作尝试一个无法连接的主机	140
+12.1.2 开端口	141
+第13章 内存池	142
+13.1 安装	142
+第14章 网络编程	143
+14.1 同步、异步、阻塞、非阻塞	143
+14.1.1 使用异步 I/O 大大提高应用程序的性能	143
+14.1.2 网络编程socket基本概念：同步、异步、阻塞和非阻塞	143
+14.1.3 另一个解释	143
+14.1.4 较好	146
+14.1.5 较好二	147
+14.2 端口添加	150
+14.2.1 windows xp	150
+14.2.2 linux cent_os	150
+14.3 TCP/UDP	151
+14.3.1 UDP在TCP/IP协议族中的位置	151
+14.3.2 TCP/UDP相同	152
+14.3.3 TCP/UDP不同	152
+14.3.4 进程间通信	152
+14.3.5 端口号	153
+14.3.6 插口地址	153
+14.3.7 IANA	153
+14.3.8 IANA端口号范围	155
+14.3.9 UDP特点	155
+14.4 ARP	156
+14.4.1 基本功能	156
+14.4.2 工作原理	156
+14.4.3 数据结构	157
+14.4.4 RARP 反向地址解析协议	158
+14.4.5 ARP缓存表查看方法及修改	158
+14.5 mtu	158
+14.6 wireshark	158
+14.6.1 过滤器的区别	158
+14.6.2 捕捉过滤器	159
+14.6.3 显示过滤器	161
+14.7 acceptex	161
+14.8 设置socket的非阻塞模式	162
+14.9 博客园newlist	163
+14.10 一些命令	167
+第15章 我的书	168
+第16章 log	170
+16.1.1 Log4cxx配置文件介绍	170
+第17章 调试	173
+17.1 dll与app联调	173
+
+第2章  习惯与注意事项
+2.1  备份
+注意备份各种东西，code，vmware，word文档。
+2.2  windows 7备份 
+2012/5/9 早上备份了一个，vc6，vc8，CFW，vmware，ofice2007，socket tool，gvim，屏幕录像，foxmail，tm，wireshark，visio，vnc，cent_os.
+2.3  常用经常打开的文件
+常用经常打开的文件，用gvim全部以tab的形式打开，结合:e!来重新加载等，非常适合看log，修改配置文件等工作。
+第3章  编译
+3.1  有必要把很多东西拿到linux下再编译去深刻理解c++
+3.2  g++
+g++ main.cpp libadd.a -o main
+
+g++ -I ../../lib -c strcliselect01.c
+生成strcliselect01.o
+../../lib中有strliselect01.c中引用的头文件
+
+gcc -o main strcliselect01.c tcpcli01.c  -I  ../../lib   ../../libunp.a
+
+3.3  文件查找
+g++中，在文件中如果是自定义头文件，一定要用#include “../my_file.h”
+不然查找 不到
+3.4  debug没有问题release有问题
+有可能是数组没有初始化为安全值 造成的。
+3.5  编译方法
+1.	warning as error
+2.	level 4
+3.	batch build
+3.6  2008的转换功能（从vc6.0到2008）
+开始的时候用凯号给的大商扬扬的code，在2008上用建空工程然后添加文件的办法，不能编译通过，但是在6.0下，建空工程在添加文件就能编译通过，
+这个时候我就用2008转换了6.0的工程，这样在2008下就能用了。
+非常有用，等我有时间，我去研究一下直接下我那里出错了，才导致有链接错误的发生。
+第4章 Windows操作系统
+4.1  输出到终端与输出到硬盘文件
+输出到硬盘文件远快于到显示器
+4.2  飞创电脑ip地址设置
+172.16.16.25
+255.255.255.0
+172.16.16.254
+202.106.196.115
+第5章  windows
+5.1  telnet服务启动
+ 
+5.2  重定向
+Client.exe > log.windows 是可以的像linux一样
+
+生成一个文件
+Vi test.bat
+Dir
+Ttttteeeeee
+
+运行test.bat
+
+5.3  桌面
+ 
+为了vim的全屏
+ 
+ 
+ 
+5.4  桌面windows7 与vim与桌面
+ 
+5.5  windows7使用windows经典主题，像个64位的xp
+
+5.6  设置某个进程使用的cpu数目
+ 
+5.7  Windows search卸载
+
+%systemroot%\$NtUninstallKB940157$\spuninst\spuninst.exe
+5.8  系统无法执行指定的程序
+系统无法执行指定的程序，详见8.13.11
+第6章  Linux
+6.1  who netstat ps
+who目前有谁在线
+netstat –a网络状况
+ps –aux查看后台执行的程序
+6.2  shutdown reboot sync
+shutdown 通知通知在线用户要关机
+sync 同步写入硬盘命令
+只有root可能shutdown reboot
+6.3  文件权限owner group others
+Read write execute
+6.4  which locate whereis find grep
+which 寻找可执行文件
+whereis locate 利用数据库查找，find不是所以比较慢，它查找硬盘。
+Find [PATH] [option] [action]
+find . –mtime 0当前目录下，过去24小时内修改过的文件
+find . –mtime -3当前目录下，三天内修改过的文件
+
+find . –name ‘ma’ 完全匹配文件名ma
+find . –name ‘ma*’ 以ma开头的文件名
+
+find . -iname '*prset*' 当前目录及子目录中，所有包含prset的不分大小写的文件名的文件。
+
+find . –iname ‘*prset*’ -maxdepth 1 只在当前目录
+ls | grep gen 这样做才是最简单的容易的。
+grep –ih –color ‘ma’ ./* 查询文件中带有连续ma的行的文件
+
+grep –i –R --color ‘prset’ . 当前目录及子目录下的所有文件中查找，不分大小写文件中内容。
+
+grep –irn read\( ./** （注意括号的问题）
+grep –irn read\( ./** -C 3 显示上下三行
+
+
+6.5  du df
+du * -s | sort –n
+df . –h
+
+du a.cpp -h
+6.6  tar
+压缩tar –zcvf a.tar.gz ./*
+解压tar –zxvf a.tar.gz
+备份 tar –zcvfp a.tar.gz ./*
+
+
+有的时候因为格式的问题，z->j不常用。
+6.7  ls
+ls –lht
+ls -R
+6.8  jobs
+显示后台运行的程序
+6.9  who whoami
+who 都有谁登陆到这台机器
+whoami 我是谁
+6.10  U盘
+su –
+/sbin/fdisk –l
+mount /dev/sdb1 /home/sunyongjie/usb
+
+将文件拷到U盘后，umount /dev/sdb1后，很可能U盘中windows下看不见那文件，原因是拷贝完东西后，没有使用sync命令。
+6.11  命令帮助
+比如 man Sleep
+
+
+
+6.12  find
+find . -iname "*cc" -or -iname "*hh" |xargs tar -zcvf r4.0_all_c++_file.tar.gz
+
+find /vob -name "*cc" -or -name "*hh" | xargs tar -zcvf ./r4.0_all_c++_file.tar.gz
+
+所有vob中的c++文件
+find . -name "*cc" -or -name "*hh" | grep -v c++ | grep -v gcc | xargs tar -zcvf /local/yongjisu/r4.0_all_c++_file.tar.gz
+
+
+find /vob -name "*.cc" -or -name "*.hh" > list
+tar -T list -czvf picture.tar.gz
+
+
+find . -iname "*scc" | xargs rm 删除掉指定文件。
+6.13  参考资料
+Linux自身的文件数据：/usr/share/doc
+CLDP中文文件计划：http://www.linux.org.cn/CLDP/
+Linux documentation project: http://www.tldp.org/
+Google
+http://linux.vbird.org/Searching.php
+6.14  shell script
+针对shell撰写的脚本。是利用shell的功能所写的程序，将一些shell的语法和命令(含外部命令)写在一个纯文本文件中。
+6.15  僵尸进程
+
+Linux安全攻略—僵尸进程
+
+DearMichael发布于 2007-1-30 | 1219次阅读   字号: 大 中 小  (网友评论 0 条) 我要评论
+　　一、进程概念：
+
+　　当运行任何一个UNIX/Linux命令时，shell至少会建立一个进程来运行这个命令（这个进程也叫做父进程），所以可以把任何在UNIX/Linux系统中运行的程序叫做进程；但是进程并不是程序，进程是动态的，而程序是静态的，并且多个进程（这多个进程里除了父进程，其他的就是子进程）可以并发的调用同一个程序。
+
+　　系统中每一个进程都包含一个task_struct数据结构，所有指向这些数据结构的指针组成一个进程向量数组，系统缺省的进程向量数据大小是512，表示系统中可同时容纳512个进程。进程的task_struct数据结构包括了进程的状态、调度信息、进程标识符等信息。
+
+　　由于UNIX系统是一个多进程的操作系统，所以每一个进程都是独立的，都有自己的权限及任务，所以当某一进程失败时并不会导致别的进程失败。系统通过进程标识符来区分不同的进程，进程标识符是一个非负正数，他在任何时刻都是唯一的，当某个进程结束时，他的进程标识符可以分配给另外一个新进程。系统将标识符0分配给调度进程，标识符1分配给初始化进程。
+
+　　出生：编程中的一句fork（），爸爸妈妈（父进程）让小孩（子进程）出生了，并且继承里父母所有的东西，我们也可以把他看成克隆人。
+
+　　生活：然后随着exec（），小孩长大（新进程）脱胎换骨，离家独立，开始了为人民服务的职业生涯。
+
+　　死亡： 人有生老病死，进程也一样，它可以是自然死亡，即运行到main函数的最后一个"}"，从容地离我们而去；也可以是自杀，自杀有2种方式，一种是调用exit函数， 一种是在main函数内使用return，无论哪一种方式，它都可以留下遗书，放在返回值里保留下来；它还甚至能可被谋杀，被其它进程通过另外一些方式结束他的生命（这里跟人有些不一样，在进程里，如果父进程死了，那么他创建的所有子进程也一起跟着死去）。
+
+　　死后安葬方式：这一过程也是必有的，不能说人在哪死后就不管他，也不把尸体搬走吧！:)进程死掉以后，会留下一具僵尸，wait()函数充当了殓尸工，把僵尸推去火化，使其最终归于无形。
+
+　　这就是进程完整的一生。
+
+　　进程在运行期间，会用到很多资源，包括最宝贵的CPU资源，当某一个进程占用CPU资源时，别的进程必须等待正在运行的进程空闲CPU后才能运行，由于存在很多进程在等待，所以内核通过调度算法来决定将CPU分配给哪个进程。概念清晰后我们接下来看看Linux中，进程有哪几种状态。
+
+　　二、Linux中的进程基本状态：
+
+　　1、执行(R)状态：CPU正在执行，即进程正在占用CPU。
+　　2、就绪(W)状态：进程已经具备的执行的一切条件，正在等待分配CPU的处理时间片。
+　　3、停止(S)状态：进程不能使用CPU。
+
+　　大家看到了在Linux中，正常来说进程有这么3种状态，但是在特殊情况下会多出一种状态，这就是我们要讲的"僵尸进程（Zombie）"。下面我们会仔细的讲解，接下来再介绍一下进程的管理。
+
+　　三、Linux中的进程管理
+
+　　管理分两种，一个是如何启动进程，另一个是如何调度进程。 
+
+　　1、启动进程 
+
+　　键入需要运行的程序的程序名，执行一个程序，其实也就是启动了一个进程。在Linux系统中每个进程都具有一个进程号（PID），用于系统识别和调度进程。启动一个进程有两个主要途径∶手工启动和调度启动，后者是事先进行设置，根据用户要求自行启动。由用户输入命令，直接启动一个进程便是手工启动进程。但手工启动进程又可以分为很多种，根据启动的进程类型不同、性质不同，实际结果也不一样。 
+
+　　（1） 前台启动 
+　　前台启动是手工启动一个进程的最常用的方式。一般来说用户输入一个命令"test"，这就在前台启动了一个进程。这时候系统其实已经处于一个多进程状态。有许多运行在后台的、系统启动时就已经自动启动的进程正在悄悄运行着。这时如果有用户输入"test"命令以后赶紧使用"ps -x"来查看，但是却没有发现这个进程，原因是因为这个进程结束的太快，使用ps查看时该进程已经执行结束了。所以如果大家想看到进程的话，得输入一个耗时的程序，我们下面会讲到。
+
+　　（2） 后台启动 
+　　直接从后台手工启动一个进程用得比较少一些，除非是该进程甚为耗时，且用户也不急着需要结果的时候。假设用户要启动一个需要长时间运行的格式化文本文件的进程。为了不使整个shell在格式化过程中都处于"瘫痪"状态，从后台启动这个进程是明智的选择。 
+
+　　2、进程调度 
+
+　　当需要中断一个前台进程的时候,通常是使用Ctrl+c组合键；但是对于一个后台进程就不是一个组合键所能解决的了,这时就必须使用kill命令.该命令可以终止后台进程.至于终止后台进程的原因很多,或许是该进程占用的CPU时间过多；或许是该进程已经挂死.这种情况是经常发生的。Kill命令的工作原理是：向Linux系统的内核发送一个系统操作信号和某个程序的进程标识号，然后系统内核就可以对进程标识号指定的进程进行操作。 
+
+　　好了，进程的基本概念熟悉了以后大家会问那么到底什么是所谓的"僵尸进程"？，什么情况下会产生僵尸进程，如何杀掉僵尸进程？不用着急，我们先来熟悉一下有关Linux进程方面的编程。
+
+　　首先我先给大家介绍几个非常重要的有关函数：
+QUOTE:
+fork(); 功能:创建一个新的进程。（fork()<0[出错]、fork()==0[子进程]、fork()>0[父进程]
+wait(); 功能：真正结束进程（收尸）。
+exec(); 功能：执行外部程序。
+
+　　好了，我现在让大家就看看我们神秘僵尸进程是什么样子的？下面我来用c写出父进程建立子进程的代码：
+QUOTE:
+/**********************************子进程正常出生和灭亡过程****************************************/
+#include 
+#include 
+main()
+{
+
+fork(); /*开始创建一个子进程*/
+
+if(fork()>0) /* 如果是父进程 */
+
+wait(NULL); /* 收集僵尸进程 */
+}
+
+大家看完代码后，就会觉得这个代码正是我刚才讲的进程一生是怎么样的，进程死后，一定要为他收尸，否则他就会编程僵尸进程。下面就让我们来看看未能把死去的进程收尸会变成什么样子？
+
+/**********************************僵尸进程******zombie.c*****************************************************/
+
+#include 
+#include 
+main()
+{
+
+fork(); /*开始创建一个子进程*/
+
+if(fork>0) /* 如果是父进程 */
+
+sleep(30); /* 休眠30秒，这段时间里，父进程什么也干不了 */
+wait(NULL); /* 收起僵尸进程 */
+
+/*因为父进程死了，子进程也得一起陪葬，那么我们就让父进程睡眠30秒，在这30秒内我们就可以看到僵尸进程。
+30秒过后，父进程醒来后就得死，所以到那时子进程也就死去。*/
+}
+
+
+/********************************************************************************************/
+
+　　为了让大家更清楚的看到僵尸进程我们把这个僵尸进程代码编译，然后执行，#gcc -o zombie zombie.c
+
+　　编译成功后我们开始执行这个程序因为代码里的sleep(30)是让父进程睡眠30秒，如果我们在前台执行我们这个程序，那么就不能执行其他shell命令了，所以这里我们在执行的命令后面加一个& 代表后台运行的意思。#./zomber &
+
+　　好了，我们在30秒内执行查看进程命令来看看我们这个zombie进程是什么样的？
+
+　　#ps -aux |grep zombie
+
+　　这个命令是显示有关zombie的所有信息。
+
+　　看到这里后，聪明的朋友会问，既然子进程是由父进程创造出来的，那么如果一个父程序执行完退出后，子进程不管是不是僵尸进程也直接就退出了，因为父进程死了嘛。那么这也不会造成多大危害啊？如果大家这么认为那可就错了，当我们刚才用ps命令观察进程的执行状态时，看到某些进程的状态栏为defunct，这就是所谓的"僵尸"进程。"僵尸"进程是一个早已死亡的进程，但在进程表（processs table）中仍占了一个位置（slot）。由于进程表的容量是有限的，所以，defunct进程不仅占用系统的内存资源，影响系统的性能，而且如果其数目太多，还会导致系统瘫痪，具体请看下面的
+QUOTE:
+/***********************************无限创建子进程********************************************/
+
+#include 
+#include 
+main()
+{
+for (;;) /*制作一个死循环*/
+
+fork(); /*开始创建一个子进程*/
+
+}
+
+
+/********************************************************************************************/
+
+　　懂C语言的朋友会知道for(;;)是一个死循环。那么这仅有2行代码的程序就可以把你的linux瞬间死机，因为他的作用是无限制的在内存里增加新的子进程，一个系统根据内存的容量会分配进程的最大限制，一旦同时运行的进程数超符合，那么你的机器必然会死机。
+
+　　我这里分别用了2个用户进行测试过，一个是普通权限的用户，一个是Root用户，测试结果是"任何用户只要执行这个程序都会让机器死掉"。原因就是默认的Linux系统没有对普通用户的使用最大进程进行限制。所以这样对系统造成很大一个威胁，那么我们如何避免普通用户非法执行过多资源或进程导致系统拖死，所以我们的给除了Root的用户做一下限制。
+
+　　对普通用户进行限制：
+
+　　第1步：首先进到Linux终端用vi编辑/etc/security /limits.conf文件，在里面加入：
+QUOTE:
+　　* hard core 0 
+　　* hard rss 5000 
+　　* hard nproc 20
+
+　　这里的* 代表除了Root的所有用户，(* hard core 0) 是禁止core files"core 0"，(* hard rss 5000) 是限制内存使用为5MB"rss 5000", (* hard nproc 20 )是限制进程数为"nproc 50"。大家可以根据自己系统内存大小进行合理配置。
+
+　　第2步：用vi编辑/etc/pam.d/login文件，然后加上下面这行保存退出就可以。 
+
+　　session required /lib/security/pam_limits.so 
+
+　　好了，现在我们已经对普通用户限制了进程和内存使用极限，修改完配置以后大家可以用Root和普通用户分别进行测试，结果当然是普通用户执行完我们刚才做的程序不会死机了。
+
+　　一个系统的安全性不取决与打不打补丁，虽然打补丁很重要，但是对系统做出相应的配置也是相当重要的。
+
+6.16  vim安装
+1.	./configure
+2.	Make install
+3.	/home/sunyongjie/software/software/software/vim73/src
+4.	Make install
+
+然后按装ctags，然后其他插件都是直接拷过来就行了。
+6.17  vm tools安装
+C:\Program Files\VMware\VMware Workstation\linux.iso，只需要把iso放到光驱时，然后在vmware软件上点击安装vmtools，然后，系统就会弹出。其实就是有了vmtools什么什么tar.gz，
+然后root在mnt在建一个cdrom文件夹，然后mount /dev/cdrom /mnt/cdrom，进入/mnt/cdrom将tar.gz拷出来，然后root安装。
+
+6.18  ctags安装
+./configuration
+6.19  rpm软件安装
+
+　rpm -ivh MYsoftware-1.2 -1.i386.rpm
+	rpm –e 软件名(software)
+6.20  中文相关
+
+export LANG=zh_CN.UTF-8 export LANG=en_US
+6.21  中文相关把系统语言在用户.bash_profile
+export LANG=zh_CN.utf-8整个用户就是中文的界面了，对于初学者非常有用。
+6.22  把孙永杰目录虚拟机的功能加载到linux中去，这样就可以在linux和windows下来编辑调试程序了。
+6.23  环境变量累加路径
+Lincase上用的命令
+set PATH=${PATH}:/home/yongjisu
+windows上的cygwin
+PATH=$PATH}:/cygdrive/c/
+6.24  查看binary符号 
+nm命令
+6.25  查看谁在使用这台机器，与内存，CPU情况 
+top命令
+6.26  查看进程 
+ps –ef | grep –i oam
+6.27  查看内存 
+cat /proc/meminfo
+6.28  查看当前目录的所有文件，文件夹大小
+du –sh *
+6.29  ctrl +ｈ
+stty erase ^?就可以用backspace键了。
+6.30  环境变量累加路径
+Lincase上用的命令
+set PATH=${PATH}:/home/yongjisu
+windows上的cygwin
+PATH=$PATH}:/cygdrive/c/
+6.31  find
+find /vob -name "*.cc" -or -name "*.hh" -print0 | xargs -0 tar -zcvf ~/r4.0_all_c++_file.tar.gz
+
+使用find查找出最近修改过的*.c和*.h文件，然后打包
+find . -name '*.[ch]' -mtime -1 | xargs tar czf backup_$(date +%m_%d).tar.gz
+也可以使用find的-exec参数 
+find . -name '*.[ch]' -mtime -1 -exec tar rf backup_$(date +%m_%d).tar {} \; 
+-mtime -1  表示最近一天修改
+-exec  由于是每一个结果就会调用tar执行一次，效率上不如xargs。而且压缩文件不能追加，只能使用tar的r参数追加归档（若使用c参数，只能得到最后一个文件的tar包）
+
+
+
+find /vob -name "*.cc" -or -name "*.hh" > list
+tar -T list -czvf picture.tar.gz
+6.32  du命令
+这个比较好
+du * –s | sort –n 
+6.33  cent_os
+vmware新建rhel的时候，有个选项直接建rhel5，
+cent_os要自定义，指的是公司的这个64位机器
+6.33.1 网络
+安装的时候开启所有服务，windows 不能ping通的时候，关掉cent_os的secure linux功能。
+6.34  telnet
+telnet  IP地址 端口号
+例如 telnet 172.16.16.25 5150
+
+
+6.35  光盘，U盘
+/media/
+6.36  Su
+Su直接回车是切换root，不改变当前目录
+Su – 改目录
+6.37  后台运行服务器程序&
+jobs
+fg
+bg
+后台运行main程序，main的输出写进tmp文件
+./main & > tmp
+6.38  Linux profile
+ 
+
+
+
+
+
+
+
+
+
+
+6.39  输入法
+按装系统时要选择中文支持
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6.40  快捷捷
+Alt + f9是小化terminal
++ f9是小化terminal
+ 
+
+6.41  打开某端口
+
+
+
+
+ 
+
+6.42  I/O与重定向
+今天在./main > tmp
+这样重定向时发现tmp文件中总是没有内容，后来发现，我每次查看时都是强制结束main进程，这样main里面虽然在向IO中写，但是没有刷新缓冲区，文件中还是没有的。
+printf(“hehe”);后加上这个就可以立即刷新缓冲区了
+fflush(stdout); // 
+运行
+./main > tmp & 
+6.43  alias
+alias grep=’grep –color’
+.bashrc文件中，好像是
+6.44  ftp服务
+6.44.1  匿名登录
+anonymous
+密码为空格，然后回车即可
+6.44.2  开启ftp服务
+重启FTP服务
+/etc/init.d/vsftpd restart
+6.44.3  开机启动
+chkconfig vsftpd on
+
+
+
+
+设置/etc/vsftpd/vsftpd.conf文件
+使用系统帐号
+local_enable=YES
+系统帐号有写入权限
+write_enable=YES
+欢迎文件
+banner_file=/etc/vsftpd/welcome.txt
+不可登录FTP的用户列表，级别比user_list文件更高
+/etc/vsftpd.ftpusers
+不可登录FTP用户列表，级别比ftpusers文件更低
+可以改为可登录FTP用户列表方法是把vsftpd.conf里加上userlist_deny=NO
+/etc/vsftpd.user_list
+把usre_list里的内容全删除加入test01
+限制用户只能在自己目录
+chroot_list_enable=YES
+chroot_list_file=/etc/vsftpd/chroot_list
+把匿名登录关了吧
+anonymous_enable=NO
+6.45  删除软链接 remove softlink
+For example
+I set up a soft link
+Use command:
+Ln –sf   /mnt/aaaa   /home/sunyongjie/rosi
+if I just want to remove the soft link
+I should do the following :
+Rm –rf /home/sunyongjie/rosi
+注意是	Rm –rf /home/sunyongjie/rosi
+不是Rm –rf /home/sunyongjie/rosi/
+6.46  用vs2008编辑code最好，linux不行就还是用vs2008编辑吧
+6.47  ftp服务开启
+ 使用root用户
+/sbin/service vsftpd restart
+6.48  yum命令
+apr安装
+yum install apr* 
+
+
+6.49  log4cxx安装
+tar –zxvf a.tar.gz
+
+/usr/include/下解压log4cxx.tar.gz
+6.50  scp命令
+scp ./l2_api.tar.gz root@172.21.200.23:~/sunyongjie
+6.51  more *
+6.52  g++编译，链接动态链接库
+g++ -fPIC -shared -o libtest.so test_a.cpp test_b.cpp
+g++ -o main main.cpp -L . -ltest libtest.so
+export LD_LIBRARY_PATH=/home/sunyongjie/so_test
+./main
+
+也可以把libtest.so 拷贝到/usr/lib64或相对应目录/usr/lib
+
+6.53  g++编译，链接动态链接库，apr，log4cxx
+g++ -o main main.cpp -L . -ltest libtest.so  -lapr-1
+
+g++ -o main main.cpp -L . -ltest libtest.so  -lapr-1 -lexpat -llog4cxx
+
+
+
+g++ -fPIC -shared -o libtest.so DFITCL2Api.cpp
+cp libtest.so ../demo/
+export LD_LIBRARY_PATH=/home/sunyongjie/l2_api/demo/
+g++ -o main main.cpp my_callback.cpp -L . -ltest libtest.so -lapr-1 -lexpat -llog4cxx
+6.54  nm 与 ldd
+nm libtest.so |grep test
+6.55  查看linux版本信息
+
+cat /etc/issue 
+6.56  中文支持
+yum install “@Chinese Support”
+
+6.57  Firewall selinux  防火墙与安全
+防火墙，打开ssh，ftp，telnet
+Udp连接也要打开接收端口，不然行情过不来。
+
+Selinux加上之后，要注意vnc的功能要添加上
+sudo vi /etc/sysconfig/iptables
+-A RH-Firewall-1-INPUT -p tcp -m tcp -m state --dport 5900:5920 --state NEW -j ACCEPT
+6.58  ESC is already running, but is not responding
+yum remove esc
+6.59  Level 2 server 搭建
+1.	unzip level2Server.zip
+2.	sudo yum install cmake
+3.	cd level2Server/build
+4.	cmake ../
+5.	make
+6.	vi conf/permission.conf
+7.	add “permission=172.16.16.25|DFITC:XINDINGDIAN:10”
+8.	cd conf 
+9.	dos2unix *
+
+6.60  telnet
+yum install telnet-server
+
+vi /etc/xinetd.d/telnet
+ change yes to no
+
+sudo /sbin/service xinetd restart
+6.61  tty pts
+终端 伪终端
+6.62  .dir_colors
+Sudo cp /etc/DIR_COLORS ～/.dir_colors
+
+将dir的那行颜色改为94
+6.63  查看系统已经启动的服务
+netstat –tulp // 查看所有已经启动的服务
+
+netstat –lnp // 查看所有的有监听网络的服务
+6.64  /usr/sbin/ntsysv
+设置开机启动服务
+6.65 W
+W命令，比who好多了。
+6.66 Lastlog
+每个用户的最后登录。
+6.67  centos开机启动详解
+
+6.67.1 CentOS 开机启动详解  
+2011-06-27 16:32:39|  分类： CentOS|字号 订阅
+============================
+仅适用于RedHat/CentOS 企业版。
+============================
+acpid 
+
+配置文件：/proc/acpi/event
+默认端口：无
+说明：Advanced Configuration and Power Interface，为替代传统的APM 电源管理标准而推出
+的新型电源管理标准。
+是否需要启动：如果你需要对电源进行管理，那就需要启动。
+
+anacron 
+
+配置文件：/etc/anacron
+默认端口：无
+说明：一个自动化运行任务。Red Hat Linux 随带四个自动化任务的工具：cron、anacron、
+at、和 batc。当你的Linux 主机并不是全天候开机，这个anacron 就可以帮你执行在crontab
+设定的时间内没有执行的工作。举例来说，当你的主机在晚上12:00 会自动关闭，但是偏偏
+crontab 这个例行性工作是在4:00 工作，这个时候例行性工作就不能起作用了。不过利用
+anacron 就能做到。
+是否需要启动：如果主机已经24 小时开机，而且运行了cron，那么这个守护程序就不需要
+启动了。
+
+apmd 
+
+配置文件：/etc/sysconfig/apmd
+默认端口：无
+说明：Advanced Power Management，高级电源管理。传统的电源管理标准。一般系统都会
+同时支持APM 和APMD 两种标志，但系统加载时只需加载一个即可。对于笔记本计算机比
+较有用，可以了解系统的”电池电量”。
+是否需要启动：如果我们使用的是台式计算机或一直开机的机型，就不需要使用这个守护程
+序。
+
+atd 
+
+配置文件：/etc/at.allow，/etc/at.deny
+预设端口：无
+说明：一个自动化运行任务。
+是否需要启动：通常需要启动。不过如果你一直使用cron，那么也可以不启动。
+
+autofs 
+
+配置文件：/etc/rc.d/init.d/autofs
+预设端口：无
+说明：实现光盘、软盘的自动加载。
+是否需要启动：一般不需要启动。
+
+chargen chargen-udp 
+
+预设端口：TCP/UDP 19
+说明：Character Generator Protocol，一种网络服务，主要功能是提供类似远程打字的功能。
+更多细节：http://www.networksorcery.com/enp/RFC/Rfc864.txt  
+是否需要启动：为安全起见，尽量关闭这个服务。
+
+cpuspeed 
+
+说明：监测系统空闲百分比，降低或加快CPU 时钟速度和电压从而在系统空闲时将能源消
+耗降为最小，而在系统繁忙时最大化加快系统执行速度。
+更多细节： http://altlinux.org/index.php?mo  ... mp;package=cpuspeed
+是否需要启动：如果你使用便携式电脑，则最好启动这个服务。
+
+crond 
+
+配置文件：/etc/crontab
+默认端口：无
+说明：用来执行例行性命令的守护程序。
+是否需要启动：必须启动。
+
+cups 
+
+CUPS 服务器配置文件：/etc/cups/cupsd.conf
+CUPS 客户端配置文件：/etc/cups/client.conf
+CUPS 打印机配置文件：/etc/cups/printers.conf
+CUPS 中类（class）配置文件：/etc/cups/classes.conf
+说明：Common UNIX Printing System，公共UNIX 打印支持，为Linux 提供打印功能。
+是否需要启动：如果不安装打印机，就不需要启动。
+
+cups-lpd 
+
+预设端口：无
+说明：CUPS Line Printer Daemon (“LPD”)，提供打印功能。
+是否需要启动：如果不安装打印机，就不需要启动。
+
+daytime daytime-udp 
+
+默认端口：TCP 13
+说明：Daytime 协议（RFC867）是一个简单的协议，为客户机实现从远程服务器获取日期
+和时间的功能。
+是否需要启动：不用启动。
+
+echo echo-udp 
+
+预设端口：7
+说明：服务器回显客户数据服务。
+是否需要启动：不用启动。
+
+gpm 
+
+配置文件：/etc/sysconfig/mouse
+默认端口：无
+说明：General Purpose Mouse Daemon ，gpm 为文本模式下的Linux 程序如mc(Midnight
+Commander)提供了鼠标的支持。它也支持控制面板下鼠标 的拷贝，粘贴操作以及弹出式菜
+单。
+是否需要启动：没必要的话，建议不要启动。
+
+iptables 
+
+说明：防火墙。
+是否需要启动：根据管理需要，建议启动。
+
+irda 
+
+Infrared Data Association，是一个实现红外无线数据传输的工业标准。
+
+irqbalance 
+
+对多个系统处理器环境下的系统中断请求进行负载平衡的守护程序。
+是否需要启动：如果你只安装了一个CPU，就不需要加载这个守护程序。
+
+isdn 
+
+Integrated Services Digital Network，综合数字服务网络。提供对isdn 设备的支持。
+
+kudzu 
+
+配置文件：/etc/sysconfig/hwconf /etc/sysconfig/kudzu
+说明：硬件自动检测程序，会自动检测硬件是否发生变动，并相应进行硬件的添加、删除工
+作。当系统启动时，kudzu 会对当前的硬件进行检测，并且和存储在 /etc/sysconfig/hwconf
+中的硬件信息进行一一对照，如果某个硬件从系统中被添加或者删除时，那么kudzu 就会察
+觉到，并且通知用户是否进行相关配置，然后修改/etc/sysconfig/hwconf，使硬件数据与系统
+保持同步。如果/etc/sysconfig/hwconf 这个文件不存在，那么kudzu 将会从/etc/modprobe.conf，
+/etc/sysconfig/network-scripts/和 /etc/X11/XF86Config 中探测已经存在的硬件。
+是否需要启动：如果启动kudzu，则每次启动系统，都会检查新硬件（checking new hardware），
+会延长系统启动的时间。如果你不打算增加新硬件，那么就可以关闭这个启动服务，以加快
+系统启动时间。
+
+mdmonitor 
+
+与RAID 设备相关的守护程序。
+
+mdmpd 
+
+与RAID 设备相关的守护程序。
+
+messagebus 
+
+D-BUS 是一个库，为两个或两个以上的应用程序提供一对一的通讯。dbus-daemon-1 是一个
+应用程序，它使用这个库来实现messagebus 守护程序。多个应用程序通过连接messagebus
+守护程序可以实现与其他程序交换信息。
+更多细节： http://www.freedesktop.org/software/dbus/doc/dbus-daemon-1.1.html  
+
+microcode_ctl 
+
+可以编码以及发送新的微代码到kernel 以更新Intel IA32 系列处理器（Pentium Pro，PII，PIII，
+Pentium 4，Celeron, Xeon 等等 - 全部 P6 以及更高,不包括 pentium classics）。
+更多细节：http://www.urbanmyth.org/microcode/  
+http://microcodes.sourceforge.net/
+
+netdump 
+
+News Backup Dump Server，远程备份服务器。
+
+netfs 
+
+Network Filesystem Mounter，安装和卸除NFS、SAMBA 和NCP 网络文件系统。
+
+netplugd 
+
+配置文件：/etc/netplug/netplugd.conf /etc/netplug.d/netplug
+说明：network cable hotplug management daemon，netplugd 是一个守护程序，可以监控一个
+或多个网络接口的状态，当某些事件触发时运行一个外部脚本程序。
+更多细节：http://people.debian.org/~enrico/netplugd.html  
+
+network 
+
+在系统启动时激活所有的网络接口。
+
+nfs 
+
+网络文件系统。
+
+nfslock 
+
+NFS 是一个流行的通过TCP/IP 网络共享文件的协议，此服务提供了NFS 文件锁定功能。
+
+ntpd 
+
+配置文件：/etc/ntp.conf
+说明：Network time Protocol daemon，网络时间校正协议。简单的说,NTP 是用来使系统和一
+个精确的时间源保持时间同步的协议。推荐大家看一篇文章：《NTP－让网络里的计算机时
+间精确到毫秒》发表在2004 年12 月份的《在线技术》杂志第63 页。
+
+pcmcia 
+
+Pcmcia 卡，支持笔记本计算机的PCMCIA 设备，如调制解调器, 网络适配器, SCSI 卡等等。
+
+portmap 
+
+Portmap 守护程序为RPC 服务，如NIS 和NFS 提供动态端口的分配。
+
+psacct 
+
+包括几个工具用来监控进程活动的工具，包括ac,lastcomm, accton 和sa。
+
+random 
+
+说明：快速的将系统的状态在随机的时间内存到景象档案中，对于系统相当重要。因为在开
+机之后，系统会迅速的恢复到开机之前的状态。
+是否需要启动：必须启动。
+
+rawdevices 
+
+在使用集群文件系统时用于加载raw 设备的守护程序。
+
+readahead readahead_early 
+
+配置文件：/etc/readahead.early.files /etc/readahead.files
+说明：readahead 和readahead_early 是在Fedora core 2 中最新推出的两个后台运行的守护程
+序。其作用是在启动系统期间，将启动系统所要用到的文件首先读取到内存中，然后在内存
+中进行执行，以加快系统的启动速度。而上面两个配置文件就保存着将要读取到内存的文件
+列表。
+
+rhnsd 
+
+Red Hat 网络服务。通知你有关官方的安全信息以及为你的系统打补丁。
+
+rpcgssd rpcidmapd rpcsrcgssd 
+说明：gestion NFS v4，是Linux 2.6 内核新添的功能。
+是否需要启动：不需要启动。
+
+rsync 
+
+remote sync，远程数据备份工具。
+
+saslauthd 
+
+使用SASL 的认证守护程序。
+
+sendmail 
+
+邮件服务器。
+
+services 
+
+一个内部xinetd 服务，用于监听活动的服务。
+
+sgi-fam 
+
+实现实时数据镜像。监控文件的变更，提供一个应用程序API 接口用来当指定的文件火目
+录改变时及时通知。
+
+smartd 
+
+Self Monitor Analysis and Reporting Technology System，监控你的硬盘是否出现故障。
+
+sshd 
+
+OpenSSH 服务器配置文件：/etc/ssh/sshd_config
+OpenSSH 客户端配置文件：/etc/ssh/ssh_config
+默认端口：22
+说明：Secure Shell Protocol，实现安全地远程登陆管理主机。
+是否需要启动：如果想实现远程管理，就需要启动。
+
+syslog 
+
+配置文件：/etc/syslog.conf
+说明：记录所有的系统行为。
+是否需要启动：必须启动。
+
+time 
+
+从远程主机获取时间和日期，采用TCP 协议。
+
+time-udp 
+
+从远程主机获取时间和日期，采用UDP 协议。
+
+vncserver 
+
+VNC （Virtual Network Computing，虚拟网络计算），它提供了一种在本地系统上显示远程
+计算机整个”桌面”的轻量型协议。
+更多细节：http://www.realvnc.com/  
+
+xfs 
+
+预设端口：TCP 7100
+说明：x font server，X Window 字型服务器，为本地和远程X 服务器提供字型集。
+是否需要启动：如果使用run-level 为5 的图形界面，那么就需要启动。
+
+xinetd 
+
+配置文件：/etc/xinetd.conf
+说明：xinetd 作为inetd 的后续版本，负责管理系统中不频繁使用的服务，这些服务程序在
+有请求时才由xinetd 服务负责启动运行，一旦完成服务请求服务程序结束运行，这样可以有
+效地减少对系统资源的占用率。通常，xinetd 管理的程序有telnet、ftp、rsh 和rlogin。关闭 inetd
+也就关闭了这些由它管理的服务。
+更多细节：http://www.xinetd.org/  
+是否需要启动：必须启动。
+
+yum 
+
+配置文件：/etc/yum.conf
+说明：Yellow Dog UpdaterModified，是一个自动更新、安装和删除RPM 软件包的管理程序，
+它会自动计算软件包的管理程序，并判断哪些软件应该安装，哪些软件则不必安装。
+更多细节： http://linux.duke.edu/projects/yum/  
+是否需要启动：以系统管理策略而决定是否启动。
+
+第7章 DS_A_math
+
+
+第8章  软件设置 
+8.1  vim
+8.1.1  picute
+Windows
+Taglist
+Tab new == te f2 f11 f2
+Vimgrip /ab/j ./*    j的意思是不跳到第一个查找到的位置
+:cw      
+:.cc
+在quickfix中光标移到想查看的位置，然后shift+w 后回车，新窗口中打开
+白色背景
+ 
+
+
+
+ 
+8.1.2  命令
+http://vimcdoc.sourceforge.net/doc/
+ctrl + w + J(K,H,L)                 移动窗口，注意是大写的
+:only                                     关闭所有其它窗口
+:sh                                        在windows和linux
+exit                                       用:sh进入shell后，回到vim
+ctags -R                                shell时使用生成tag文件在一个大目录下面
+ctrl + ] == shift + y                跳到光标tag定义处
+ctrl + W + ]                           光标位置的变量的定义的文件打开，光标并且跳到那里，因为我的shift + w 等于 ctrl +ｗ　
+                                             所以相当于shift + w +]
+ctrl + T == shift + t                跳回tag  
+:tag same_is<tab>               回车可以自动跳到same_isbn定义处
+:stag same_isbn                   新窗口中打开这个标签
+
+%s/nawk/awk/g
+
+:.,$s/string1/string2/g          串替换
+　　:s/vivian/sky/ 替换当前行第一个 vivian 为 sky
+　　:s/vivian/sky/g 替换当前行所有 vivian 为 sky
+　　:n,$s/vivian/sky/ 替换第 n 行开始到最后一行中每一行的第一个 vivian 为 sky
+　　:n,$s/vivian/sky/g 替换第 n 行开始到最后一行中每一行所有 vivian 为 sky
+　　n 为数字，若 n 为 .，表示从当前行开始到最后一行
+wm                                       fileexploer
+tl                                           taglist
+qa                                         全部退出
+wqa                                      全部保存后退出 
+zo                                         关于折叠
+zO
+zc
+zC
+zf
+zd
+gd                                         光标到局部变量定义处，并高亮显示所有，像查找一样
+gf                                          本窗口中打开光标所在文件
+ctrl + o                                  跳回来，非常常用哈
+ctrl + w f                               新窗口中打开光标所在文件
+ctrl + c                                  esc
+xp                                         光标所在字符与后一个字符交换位置
+ddp                                       光标所有行与下一会交换位置
+*                                           相当于gd但是光标不到变量定义处
+x                                           删除光标字符
+D                                           删除光标后一整行
+cc                                          删除本行并编辑 
+r                                            替换光标所在字符
+dd                                         删除一行
+C                                           删除光标所在这后这一行，并编辑  
+daw                                      删除一个单词
+f'x'                                        向本行后查找某个字符
+%                                         跳到匹配括号等
+m'x'  `'x'                               设定标记，跳转到标记
+marks
+delm!
+nG
+gg
+G
+w
+.
+不用tab，只用split
+tab new. 打开一个在本目录下的另一个文件，在另一个书签中
+gt , gT
+==
+gg=G
+=a{
+sfind
+u
+ctrl + R
+ctrl + g 显示文件名 :f 要结合pwd来查看绝对路径
+f4                   灰
+f7                   白
+hi clear + set bg=light 白色default
+vim –d file1 file2 比较
+
+:e!   重新加载打开的文件
+vimgrep ‘xml’ ./** 然后用copen打开搜索的结果的窗口，然后可以用鼠标双击到结果文件处，然后再用ctrl +ｏ跳回来，也可以用ctrl 加 上鼠标单击。
+
+要在文件中查找字符串
+1  ：vimgrep   /xml/   ./*c 当前目录下所有的以字符c结尾的文件中找，并且跳到找到的第一个位置，你可能用ctrl + o跳回
+2  :vimgrep   /xml/j    ./* 不跳到第一个找到的位置
+3  你也可以使用:cn,来跳到下一个搜索位置处
+4  你也可以保用:copen或:cw来打开搜索框，然后用鼠标双击，或者ctrl +鼠标单击来跳到指定位置
+5  可以光标在quickfix窗口中时，使用:.cc(冒号加.cc)来跳到这个搜索位置，也可以使用ctrl + w 加回车键在新窗口中打开这个搜索位置的文件。非常的好用。
+
+vimgrep    /xml/j  ** 在本目录下的所有目录，包括当前目录的所有文件中查找。
+
+Taglist 中的x , s, 与空格共三个好用的功能。
+
+设置了set mouse=a时，在vi中就不能用鼠标右键进行复制操作了，如果想使用就必须
+set mouse=v复制之后再set mouse=a 
+
+NGRD tree
+o 打开关闭文件或者目录
+t 在标签页中打开
+T 在后台标签页中打开
+! 执行此文件
+p 到上层目录
+P 到根目录
+K 到第一个节点
+J 到最后一个节点
+u 打开上层目录
+m 显示文件系统菜单（添加、删除、移动操作）
+? 帮助
+q 关闭
+; 重复最后一个f，F,t，T的命令
+
+
+vi –d file1 file2 用于合文件，非常的好用
+vim 的help中shity+y或者鼠标双击，都能继续跟进解释说明。
+
+Gvim的安装，首先按装7.3，然后用compare 软件，比对着完成按装。
+
+分号 点 小f 大F 的连续应用
+; . f F
+:x 保存退出
+:xa 全部保存退出
+
+Gvim在windows下，保证全屏时鼠标有够让它最小化的方法是，先按下F2，用鼠标最小化一次，然后F11，重复几次，再次全屏
+就可以用logitech最小化了。
+
+:set encoding=utf-8
+
+:history 后ctrl + y 是复制到粘贴板
+
+/ent$ 搜索以ent结尾的字符串
+
+:e ++ff=dos 去除^M
+
+y3aw 复制从光标所在单词的连续3个单词
+
+
+
+let &termencoding=&encoding (inux中文显示)
+set fileencodings=utf-8,gbk
+
+8.1.3  绝对的vim
+这个软件绝对要坚持使用，大量使用，除非绝对不能使用才不使用。
+8.1.4  Color scheme
+把白底的好好修改修改。
+8.1.5  自定义类型上颜色
+8.1.6  换行符unix dos
+在vim中使用set ff=dos
+然后保存即可
+:e ++ff=dos
+8.1.7  vim_rc
+set nocompatible
+source $VIMRUNTIME/vimrc_example.vim
+source $VIMRUNTIME/mswin.vim
+behave mswin
+
+set diffexpr=MyDiff()
+function MyDiff()
+  let opt = '-a --binary '
+  if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
+  if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
+  let arg1 = v:fname_in
+  if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
+  let arg2 = v:fname_new
+  if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
+  let arg3 = v:fname_out
+  if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
+  let eq = ''
+  if $VIMRUNTIME =~ ' '
+    if &sh =~ '\<cmd'
+      let cmd = '""' . $VIMRUNTIME . '\diff"'
+      let eq = '"'
+    else
+      let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
+    endif
+  else
+    let cmd = $VIMRUNTIME . '\diff'
+  endif
+  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
+endfunction
+
+syntax on
+set background=dark
+set noswapfile
+set expandtab
+set ts=4
+set cindent shiftwidth=4
+set nu                              " 显示行号
+set nowrap                          " 自动换行
+set ignorecase                      " 忽略大小写
+set noincsearch
+map <silent> <F4> <esc> :colorscheme grey <CR>
+map <silent> <F5> <esc> :colorscheme whiteBG <CR>
+map <silent> <F6> <esc> :colorscheme greyBG <CR>
+map <silent> <F7> <esc> :colorscheme white <CR>
+" :%ret! 4 <CR> " 所有tab变空格，我不会用
+map <silent> <F2> :if &guioptions =~# 'T' <Bar>
+        \set guioptions-=T <Bar>
+        \set guioptions-=m <bar>
+    \else <Bar>
+        \set guioptions+=T <Bar>
+        \set guioptions+=m <Bar>
+    \endif<CR>
+set gcr=a:block-blinkon0
+set guioptions-=r
+set hls
+nmap <silent> <S-m> :silent noh<CR>
+au GUIEnter * simalt ~x             " full screen
+" set cursorcolumn                    " highlight the current column
+" set cursorline                      " highlight current line
+set list                            " we do what to show tabs, to ensure we get them out of my files
+set listchars=tab:>-,trail:-        " show tabs and trailin
+set virtualedit=all                 " cursor everywhere
+set scrolloff=5
+set report=0                        " tell us when anything is changed via :...
+set novisualbell                    " don't blink
+" set backup                          " make backup files
+
+" tab new is very good in small monitor computer.
+set ts=4
+set cindent shiftwidth=4
+set nu
+set backspace=2
+set nobackup
+set nowrap
+set ignorecase
+
+map <silent> <S-j> <C-f>
+map <silent> <S-k> <C-b>
+map <silent> <S-w> <C-w>
+map <silent> <S-t> <C-t>
+map <silent> <S-y> <C-]>
+set bg=dark
+" set bg=light
+set cino=g0t0
+hi LineNr ctermfg=grey
+set noeb
+set mouse=a
+""""""""""""""""""""""""""""""
+" Tag list (ctags)
+""""""""""""""""""""""""""""""
+let Tlist_Show_One_File = 1 " don't show multi files
+let Tlist_Exit_OnlyWindow = 1
+let Tlist_Use_Right_Window = 1
+let Tlist_Exit_OnlyWindow=1
+let Tlist_File_Fold_Auto_Close=0
+let Tlist_Show_Menu=2
+let Tlist_Use_Right_Window = 0 " split to the right side of the screen
+let Tlist_Compact_Format = 1
+let Tlist_WinWidth = 25
+let Tlist_Auto_Open=0 " let the tag list open automagically
+let Tlist_Compact_Format = 1 " show small menu
+let Tlist_Ctags_Cmd = 'ctags' " location of ctags
+let Tlist_Enable_Fold_Column = 1 " do show folding tree
+let Tlist_Sort_Type = "time"
+
+
+
+let FileExplorer_WinWidth = 55
+
+
+" let Tlist_Sort_Type = "name"
+" set WinManager
+" let g:winManagerWindowLayout='FileExplorer|TagList'
+let g:winManagerWindowLayout='FileExplorer'
+nmap wm :WMToggle<cr>
+nmap tl :Tlist<cr>
+nmap tr :NERDTreeToggle<CR>
+
+set list
+" set listchars=tab:>-,trail:-
+" set listchars=tab:\.\ ,nbsp:%,trail:-
+set listchars=tab:\ \ ,nbsp:%,trail:-
+" set listchars=tab:\|\ ,nbsp:%,trail:-
+
+" set foldenable
+" set foldmethod=syntax
+set foldmethod=manual
+set foldcolumn=0
+setlocal foldlevel=1
+
+set modifiable
+set write
+set tags+=./tags " not necessary
+set tags+=../tags " upper lever
+set tags+=../../tags
+set tags+=d:\work\tags
+set tags+=D:\sunyongjie\work\code\gen_hss\oam_sdmhss_srv\tags
+set tags+=D:\sunyongjie\work\code\gen_hss\oam_generic_srv\tags
+" set path+=/usr/include/**
+set path+=../../**
+set path+=D:\Program\\\ Files\Microsoft\\\ Visual\\\ Studio\\\ 9.0\VC\include\**
+set path+=D:\sunyongjie\work\code\gen_hss\**
+set path+=D:\boost_1_47_0\**
+" colorscheme white
+colorscheme whiteBG
+set guioptions-=r
+set guioptions-=m                   " menu
+set guioptions-=T                   " tools bar
+set guioptions-=L                   " tools bar
+" syntax off
+" full screen
+" first tab new, second f11, and f2, and f2
+if has('gui_running') && has("win32")
+    map <F11> :call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
+endif
+
+" colorscheme morning is a pretty good choic
+:set fileformats=unix,dos
+:e ++ff=dos
+
+:retab
+8.1.8  给gvim加上编译器与调试器
+用cgwin的g++编译器
+8.1.9  ctrl + F2书签
+F2
+
+8.1.10  自定义颜色
+
+:syntax keyword cType my_class_type_name1 my_class_type_name2
+:syntax keyword cFunction my_function1 my_function2
+
+8.1.11  Linux下vim汉字显示
+1，	在terminal export LANG=zh_CN.utf-8
+8.1.12  _vimrc设置字体
+
+set guifont=Courier\ New\:h11
+8.1.13  全屏
+保证按装好插件。
+Tab new f11 f3等等
+在不全屏的时候，用我的鼠标最小化一次，之后一个文件全屏之后也可以用鼠标一键最小化。
+
+8.1.14  VIM中空格和TAB的替换  
+
+2. 全部用空格。将 tabstop 和 shiftwidth 设置成相同的值，如 4，并设置 expandtab。这样新增的缩进会用空格，你按下 tab 键，出来的也全是空格。如果文件里本来就有 tab 的话，可以再用一次 :retab 命令，将所有 tab 扩展成空格，这样就完美了。
+
+2011-08-24 11:12:26|  分类： vim|字号 订阅
+本文引用自JiangZX《VIM中空格和TAB的替换》
+我的vim设置：
+
+set smarttab  
+set tabstop=4  
+set shiftwidth=4  
+set expandtab
+"继承前一行的缩进方式，特别适用于多行注释
+set autoindent
+"
+"为C程序提供自动缩进
+set smartindent
+"使用C样式的缩进
+set cindent
+ 
+" 在状态行上显示光标所在位置的行号和列号
+set ruler
+set rulerformat=%20(%2*%<%f%=\ %m%r\ %3l\ %c\ %p%%%)
+ 
+摘自 Vim 手册：
+选项 ：
+1. tabstop：表示一个 tab 显示出来是多少个空格，默认 8
+2. softtabstop：在编辑的时候（比如按退格或 tab 键）一个 tab 是多少个空格（有点不好理解。。。我也没完全弄明白）
+3. expandtab/noexpandtab：将 tab 扩展/不扩展成空格
+4. shiftwidth：每一级缩进是多少个空格
+5. smarttab：根据文件中其他地方的缩进空格个数来确定一个 tab 是多少个空格
+命令 ：
+:[range]retab [new_tabstop]：应用新的 tabstop 值，替换所有的 tab，如果设置了expandtab，还会把文件中 tab 都替换成空格。
+几种常见用法 ：
+1. 保留 tab。让 tabstop 保持默认，将 softtabstop 和 shiftwidth 设为 4，并设置 noexpandtab。这样文件中本来有 tab 的话会保留，新增的缩进处也会使用 tab。
+2. 全部用空格。将 tabstop 和 shiftwidth 设置成相同的值，如 4，并设置 expandtab。这样新增的缩进会用空格，你按下 tab 键，出来的也全是空格。如果文件里本来就有 tab 的话，可以再用一次 :retab 命令，将所有 tab 扩展成空格，这样就完美了。
+我一般在 ~/.vimrc 中这样设置：
+
+view plain copy to clipboard print ?
+set smarttab  
+set tabstop=4  
+set shiftwidth=4  
+set expandtab  
+
+Vb代码 
+set smarttab  
+set tabstop=4  
+set shiftwidth=4  
+set expandtab  
+
+8.1.15  tag颜色设置linux
+vi ./usr/local/share/vim/vim73/syntax/cpp.vim
+hi cFunction ctermfg=1 gui=NONE guifg=#C00000
+
+sy keyword cType string vector ostream istream CSvrComm HANDLE CCustomDB CAxPool Service_Module CStdString CString iterator conssy keyword cFunction AxNote Cmd Exec GetItem GetConnect More GetLong Get c_str begin end strcpy Format memcpy Quit
+8.1.16  Linux 中文显示
+~/.vimrc
+let &termencoding=&encoding
+set fileencodings=utf-8,gbk
+原因：
+http://www.cnblogs.com/just4fun/archive/2011/07/15/2107190.html
+vim编码方面的基础知识：
+1，存在3个变量：
+encoding—-该选项使用于缓冲的文本(你正在编辑的文件)，寄存器，Vim 脚本文件等等。你可以把 ‘encoding’ 选项当作是对 Vim 内部运行机制的设定。
+fileencoding—-该选项是vim写入文件时采用的编码类型。
+termencoding—-该选项代表输出到客户终端（Term）采用的编码类型。
+2，此3个变量的默认值：
+encoding—-与系统当前locale相同，所以编辑文件的时候要考虑当前locale，否则要设置的东西就比较多了。
+fileencoding—-vim打开文件时自动辨认其编码，fileencoding就为辨认的值。为空则保存文件时采用encoding的编码，如果没有修改encoding，那值就是系统当前locale了。
+termencoding—-默认空值，也就是输出到终端不进行编码转换。
+由此可见，编辑不同编码文件需要注意的地方不仅仅是这3个变量，还有系统当前locale和、文件本身编码以及自动编码识别、客户运行vim的终端所使用的编码类型3个关键点，这3个关键点影响着3个变量的设定。
+8.1.17  vim查找
+" 搜索
+/joe/e : 设置光标到匹配"joe"的末尾
+/joe/e+1 : 设置光标到匹配"joe"的末尾再后移一位
+/joe/s-2 : 设置光标到匹配"joe“的开头再前移两位
+/^joe.*fred.*bill/ : 匹配以'j'开头且"joe"到"fred"到"bill"之间至少有一个字符
+/^[A-J]\+/ : 搜索'A'到’J‘重复两次以上的开头行
+/begin\_.*end : 多行匹配
+/fred\_s*joe/i : 可以是任何空白字符包括\n,\t等等
+/fred\|joe : 搜索fred或者joe
+/.*fred\&.*joe : 搜索同时包括fred跟joe的行
+/\<fred\>/i : 搜索独立的单词fred
+/\<\d\d\d\d\> : 搜索独立的4位数字
+/\D\d\d\d\d\D : 搜索6位字符串中间4位数字前后两位不能为数字
+/\<\d\{4}\> : 同/\<\d\d\d\d\>
+" 查找空行
+/^\n\{3} : 匹配三连续的空行
+" 使用正则表达式组查找
+/\(fred\).*\(joe\).*\2.*\1
+" 正则表达式重复
+/^\([^,]*,\)\{8}
+" visual searching
+:vmap // y/<C-R>"<CR> : visually模式下的键盘映射，把//映射成匹配当前选中的文本
+:vmap <silent> // y/<C-R>=escape(@", '\\/.*$^~[]')<CR><CR> : 包括空白字符
+" \zs 和 \ze 匹配原 :h /\zs
+/<\zs[^>]*\ze> : 匹配尖括号中的内容
+" 零宽度匹配 :h /\@=
+/<\@<=[^>]*>\@= : search for tag contents, ignoring chevrons
+/<\@<=\_[^>]*>\@= : search for tags across possible multiple lines
+" 多行查找 \_ 的意思是包括换行符
+/<!--\_p\{-}--> : 匹配<!--开始到-->结尾的所有内容
+/fred\_s*joe/i : 匹配fred开始到joe，之间一定得是空白字符
+/bugs\(\_.\)*bunny : 匹配所有bugs到bunny的字符串
+:h \_ : help
+" 查找函数声明，nmap为normal模式下的键盘映射
+:nmap gx yiw/^\(sub\<bar>function\)\s\+<C-R>"<CR>
+" 查找多个文件
+:bufdo /searchstr/ : 在多个文件缓冲区里执行查找
+" 更好的多文件查找定位方法
+:bufdo %s/searchstr/&/gic : 在多个文件缓冲区里查找，按下n停止
+" 怎样不使用 / 来查找网址
+?http://www.vim.org/ : 向后查找
+" 查找指定字符以外的字符串
+/\c\v([^aeiou]&\a){4} : 查找4个辅音字母
+----------------------------------------
+#替换
+:%s/fred/joe/igc : 普通替换命令
+:%s/\r//g : 删除 DOS 的换行符 ^M
+" 你的文本文件是否乱七八糟的排成一行？使用如下命令
+:%s/\r/\r/g : 转换 DOS 回车符 ^M 为真正的回车符
+:%s= *$== : 删除行尾空白
+:%s= \+$== : 同上
+:%s#\s*\r\?$## : 删除尾部空白和dos换行符
+:%s#\s*\r*$## : 同上
+" 删除空行
+:%s/^\n\{3}// : 删除连续3个空行
+:%s/^\n\+/\r/ : 压缩空行，多个替换为一个
+%s#<[^>]\+>##g : 删除html的tag部分
+" IF YOU ONLY WANT TO KNOW ONE THING
+:'a,'bg/fred/s/dick/joe/igc : 非常有用
+# 译释：''a,''b指定一个范围：mark a ~ mark b
+# g//用一个正则表达式指出了进行操作的行必须可以被fred匹配
+# 看后面，g//是一个全局显示命令
+# s/dick/joe/igc则对于这些满足条件的行进行替换
+" 复制列
+:%s= [^ ]\+$=&&= : 复制最后一列
+:%s= \f\+$=&&= : 一样
+:%s= \S\+$=&& : 晕，还一样！
+" 记忆（反向引用）
+:s/\(.*\):\(.*\)/\2 : \1/ : 将两个字段颠倒
+:%s/^\(.*\)\n\1$/\1/ : 删除重复行
+" 非贪婪匹配 \{-}
+:%s/^.\{-}pdf/new.pdf/ : 删除第一个pdf
+" use of optional atom \?
+:%s#\<[zy]\?tbl_[a-z_]\+\>#\L&#gc : lowercase with optional leading characters
+" 跨越尽量多的行
+:%s/<!--\_.\{-}-->// : 删除多行注释
+:help /\{-} : 查看非贪婪匹配的更多帮助
+" 使用寄存器替换
+:s/fred/<c-r>a/g : 将fred替换为寄存器a里的内容
+:s/fred/<c-r>asome_text<c-r>s/g
+:s/fred/\=@a/g : better alternative as register not displayed
+" 在一行里写多种命令
+:%s/\f\+\.gif\>/\r&\r/g | v/\.gif$/d | %s/gif/jpg/
+:%s/a/but/gie|:update|:next : 当使用 @: 来重复
+" 或运算
+:%s/suck\|buck/loopy/gc : 替换suck或者buck（这里|不是管道）
+" 调用vim函数
+:s/__date__/\=strftime("%c")/ : 将__date__替换成当前日期，使用strftime函数
+" 处理列，替换所有在第三列中的str1
+:%s:\(\(\w\+\s\+\)\{2}\)str1:\1str2:
+" 交换第一列跟第四列
+:%s:\(\w\+\)\(.*\s\+\)\(\w\+\)$:\3\2\1:
+" 过滤form中的内容放在寄存器里
+:redir @*|sil exec 'g#<\(input\|select\|textarea\|/\=form\)\>#p'|redir END
+:nmap ,z :redir @*<Bar>sil exec 'g@<\(input\<Bar>select\<Bar>textarea\<Bar>
+/\=form\)\>@p'<Bar>redir END<CR>
+" 两位以上的数字减三（带进位。这个命令挺有趣）
+:%s/\d\+/\=(submatch(0)-3)/
+" 包含loc或者functions的行中的数字加6
+:g/loc\|function/s/\d/\=submatch(0)+6/
+" 比上面更好的方法
+:%s#txtdev\zs\d#\=submatch(0)+1#g
+:h /\zs 查看帮助
+" 前缀为gg的数字加6
+:%s/\(gg\)\@<=\d\+/\=submatch(0)+6/
+:h zero-width 查看帮助
+" 替换一个特定字符串为数字
+:let i=10 | 'a,'bg/Abc/s/yy/\=i/ |let i=i+1 # 将yy转换成10，11，12等等
+" 比上面的更精确
+:let i=10 | 'a,'bg/Abc/s/xx\zsyy\ze/\=i/ |let i=i+1 # 将xxyy 转换成 xx11,xx12,
+xx13
+" find replacement text, put in memory, then use \zs to simplify substitute
+:%s/"\([^.]\+\).*\zsxx/\1/
+" Pull word under cursor into LHS of a substitute
+:nmap <leader>z :%s#\<<c-r>=expand("<cword>")<cr>\>#
+" Pull Visually Highlighted text into LHS of a substitute
+:vmap <leader>z :<C-U>%s/\<<c-r>*\>/
+----------------------------------------
+" all following performing similar task, substitute within substitution
+" Multiple single character substitution in a portion of line only
+:%s,\(all/.*\)\@<=/,_,g : replace all / with _ AFTER "all/"
+" Same thing
+:s#all/\zs.*#\=substitute(submatch(0), '/', '_', 'g')#
+" Substitute by splitting line, then re-joining
+:s#all/#&^M#|s#/#_#g|-j!
+" Substitute inside substitute
+:%s/.*/\='cp '.submatch(0).' all/'.substitute(submatch(0),'/','_','g')/
+----------------------------------------
+" 全局显示命令
+:g/gladiolli/# : 查找并显示匹配的行号
+:g/fred.*joe.*dick/ : 显示所有含有 fred,joe & dick的行
+:g/\<fred\>/ : 显示单一单词fred
+:g/^\s*$/d : 删除所有空行
+:g!/^dd/d : 删除不含字符串''dd''的行
+:v/^dd/d : 同上
+:g/fred/,/joe/d : 删除所有的从fred到joe
+:g/-------/.-10,.d : 以-------为标记删除之前的10行
+:g/{/ ,/}/- s/\n\+/\r/g : 删除 {...}之间的空行
+:v/\S/d : Delete empty lines (both types)
+:v/./,/./-j : 压缩空行
+:g/^$/,/./-j : 同上
+:g/<input\|<form/p : 或运算
+:g/^/put_ : 双倍行宽 (pu = put)
+:g/^/m0 : 颠倒文件 (m = move)
+:'a,'bg/^/m'b : 颠倒选中的 a 到 b
+:g/^/t. : 重复行
+:g/fred/t$ : 拷贝行从fred到结尾
+:g/stage/t'a : 拷贝行从stage 到 marker a（a为标记的位置）
+:g/\(^I[^^I]*\)\{80}/d : 删除最少包含80个tab的行
+" perform a substitute on every other line
+:g/^/ if line('.')%2|s/^/zz /
+" match all lines containing "somestr" between markers a & b
+" copy after line containing "otherstr"
+:'a,'bg/somestr/co/otherstr/ : co(py) or mo(ve)
+" as above but also do a substitution
+:'a,'bg/str1/s/str1/&&&/|mo/str2/
+:%norm jdd : 隔行删除
+" 增加数字 (键入 <c-a>)
+:.,$g/^\d/exe "norm! \<c-a>": 增加从当前行首到结尾的数字
+:'a,'bg/\d\+/norm! ^A : 增加数字
+" 保存全局命令的结果 (注意必须使用添加模式) 你需要使用 qaq 清空寄存器a.
+"save results to a register/paste buffer 存储结果到 寄存器/粘贴 到 a
+:g/fred/y A : 添加配备行到寄存器到 a
+:g/fred/y A | :let @*=@a : 放入复制缓冲区
+:let @a=''|g/Barratt/y A |:let @*=@a
+:'a,'b g/^Error/ . w >> errors.txt
+" 复制每一行，然后在复制出来的每一行两侧加上一个 print '复制出来的内容'
+:g/./yank|put|-1s/'/"/g|s/.*/Print '&'/
+" 用文件中的内容替换字符串，-d 表示删除“标记”
+:g/^MARK$/r tmp.ex | -d
+" display prettily
+:g/<pattern>/z#.5 : display with context
+:g/<pattern>/z#.5|echo "==========" : display beautifully
+" Combining g// with normal mode commands
+:g/|/norm 2f|r* : replace 2nd | with a star
+"send output of previous global command to a new window
+:nmap <F3> :redir @a<CR>:g//<CR>:redir END<CR>:new<CR>:put! a<CR><CR>
+----------------------------------------
+" 全局命令和替换命令联姻 (强大的编辑能力)
+:'a,'bg/fred/s/joe/susan/gic : 可以使用反向引用来匹配
+:g/fred/,/joe/s/fred/joe/gic : non-line based (ultra)
+----------------------------------------
+" 先找fred，然后找joe
+:/fred/;/joe/-2,/sid/+3s/sally/alley/gIC
+----------------------------------------
+" create a new file for each line of file eg 1.txt,2.txt,3,txt etc
+:g/^/exe ".w ".line(".").".txt"
+----------------------------------------
+" Absolutely essential
+----------------------------------------
+* # g* g# : 查找当前光标下的单词（单个单词） (<cword>) (向前/向后)
+% : 匹配括号 {}[]()
+. : 重复上次操作
+@: : 重复上次的命令
+matchit.vim : 适%能匹配 <script> <?php等标记
+<C-N><C-P> : 插入模式下自动完成填词
+<C-X><C-L> : 行自动完成（超级有用）
+/<C-R><C-W> : 把单个<cword>单词放入搜索或者命令行
+/<C-R><C-A> : 把字符串中有的单词<CWORD>放入搜索或者命令行
+:set ignorecase : 忽略大小写
+:syntax on : 打开语法高亮 Perl,HTML,PHP 等等
+:h regexp<C-D> : 按ctrl+d得到包含regexp的列表
+(按tab自动不齐)
+----------------------------------------
+" 简单编辑更新 _vimrc文件
+:nmap ,s :source $VIM/_vimrc :普通模式下的键盘映射 ,s映射成加载用户目录下的
+_vimrc文件
+:nmap ,v :e $VIM/_vimrc :,v映射成打开_vimrc文件
+----------------------------------------
+#VISUAL 模式 (方便增加 HTML 标签)
+:vmap sb "zdi<C-R>z<ESC> : 在 VISUALLY模式下将选中的文本前后分别加上
+:vmap st "zdi<?= <C-R>z ?><ESC> : 加上 <?= ?>
+----------------------------------------
+" 浏览
+:Exp(lore) : 浏览文件
+:Sex(plore) : 分割窗口浏览文件
+:ls : 显示缓冲区
+:cd .. : 设置当前目录位置
+:args : 查看当前打开的所有文件
+:lcd %:p:h : 改变路径到当前编辑的文件
+:autocmd BufEnter * lcd %:p:h : 放入.vimrc自动完成上面的命令
+----------------------------------------
+" 缓冲区浏览(一直排名前10的vim脚本)
+" 需要 bufexplorer.vim http://www.vim.org/script.php?script_id=42
+\be : 缓冲浏览器中查看缓冲列表
+\bs : 同上，但是分割窗口
+----------------------------------------
+" 转换大小写
+guu : 将正行的字母转换成小写
+gUU : 将正行的字母转换成大写
+Vu : 转换选中的行（小写）
+VU : 转换选中的行（大写）
+g~~ : 反向转换
+vEU : 转换词大写
+vE~ : 反向转换词
+ggguG : 将当前编辑文件内容全部转换成小写
+" Visually 模式下选择所有的字母及数字 (放入 .vimrc文件中)
+vmap ,c :s/\<\(.\)\(\k*\)\>/\u\1\L\2/g<CR>
+" 大写所有句子的第一个字母
+:%s/[.!?]\_s\+\a/\U&\E/g
+----------------------------------------
+gf : 打开当前光标下或后的文件
+:nnoremap gF :view <cfile><cr> : 打开当前光标下或后的文件, 如果不存在则创建
+ga : 显示当前光标下单个字的ascii,十进制，十六进制……
+ggVGg? : 将整个文件用rot13编码……（谁看得懂啊~~hoho)
+ggg?G : 同上 (针对大文件)
+:8 | normal VGg? : 将第八行用rot13编码
+:normal 10GVGg? : 同上
+<C-A>,<C-X> : 增加，减少当前光标下的数字
+win32 用户需要重定义 CNTRL-A
+<C-R>=5*5 : 插入25 (小型计算器)
+----------------------------------------
+" 几个彩蛋……
+:h 42 : also http://www.google.com/search?q=42
+:h holy-grail
+:h!
+----------------------------------------
+" 标记 & 移动
+'. : 跳回最后编辑的行 (超有用)
+`. : 同上，但是定位编辑点
+g; : 跳转到比较旧的编辑位置（如果有的话） (vim6.3后的新功能)
+g, : 这个是较心的位置 (同上)
+:changes :打出改变表
+:h changelist : 查看“改变表跳转”的帮助
+<C-O> : 依次沿着你的跳转记录向回跳 (从最近的一次开始)
+<C-I> : 依次沿着你的跳转记录向前跳
+:ju(mps) : 列出跳转轨迹
+:help jump-motions
+:history : 列出历史记录
+:his c : 命令行历史
+:his s : 搜索历史
+q/ : 搜索命令历史的窗口
+q: : 命令行命令历史的窗口
+:<C-F> : 历史窗口
+----------------------------------------
+" 缩写 & 映射
+:map <f7> :'a,'bw! c:/aaa/x
+:map <f8> :r c:/aaa/x
+:map <f11> :.w! c:/aaa/xr<CR>
+:map <f12> :r c:/aaa/xr<CR>
+:ab php : 查看以php开头的缩写
+:map , : 列出所有的映射（以逗号开始的）
+" 允许映射 F10 (win32)
+set wak=no : :h winaltkeys
+" 映射中常使用的表示
+<CR> : 回车
+<ESC> : Esc
+<LEADER> : 右斜杠
+<BAR> : 管道符号
+<BACKSPACE> : 退格键
+<SILENT> : 不回显
+#显示自定义的 RGB 颜色显示当前光标下的字符串 例如 #445588
+:nmap <leader>c :hi Normal guibg=#<c-r>=expand("<cword>")<cr><cr>
+map <f2> /price only\\|versus/ :in a map need to backslash the \
+----------------------------------------
+" Simple PHP debugging display all variables yanked into register a
+" 简单的 PHP 调试将所有显示的变量放入寄存器a
+iab phpdb exit("<hr>Debug <C-R>a ");
+----------------------------------------
+" 使用寄存器来映射 (放入 .vimrc文件自动加载)
+:let @m=":'a,'bs/"
+:let @s=":%!sort -u"
+----------------------------------------
+" 列出寄存器
+:reg : 显示当前所有的寄存器
+:reg a : 显示寄存器a中的内容
+"1p.... : 引用一个叫1的寄存器
+:let @y='yy@"' : pre-loading registers (put in .vimrc)
+qqq : 清空寄存器 "q"
+----------------------------------------
+" 一些有用的决窍
+"ayy@a : 把当前行作为命令执行
+yy@" : 上面的匿名寄存器
+u@. : 只执行键入的命令
+----------------------------------------
+" 从其它命令处获得输入（需要外部命令）
+:r!ls.exe : 从ls 获得输入插入到当前位置
+!!date : 从date获得输入（删除当前行）
+" 使用外部sort排序
+:%!sort -u : 用sort排序整个文件（结果覆盖整个文件）
+:'a,'b!sort -u : 从mark a到mark b之间的内容进行排序
+!1} sort -u : 排序一个段落
+:g/^$/;,/^$/-1!sort : Sort each block (note the crucial ;)
+----------------------------------------
+" 多文件管理 (基本的)
+:bn : 跳转到下一个buffer
+:bp : 跳转到前一个buffer
+:wn : 保存当前buffer并跳转到下一个buffer (超有用)
+:wp : 保存当前buffer并跳转到前一个buffer
+:bd : 把当前文件从buffer移出 (超有用)
+:bun : 卸载当前buffer (关闭这个窗口但是不移出)
+:badd file.c : 添加file.c到buffer列表
+:b 3 : 前往第三个 buffer
+:b main : 前往含有main的buffer中 比如说 main.c
+:sav php.html : 把当前文件存为php.html并打开
+:sav! %<.bak : 换一个后缀名保存 (旧方法)
+:sav! %:r.cfm : 同上
+:sav %:s/fred/joe/ : 替换文件名
+:sav %:s/fred/joe/:r.bak2 : 替换文件和后缀
+:!mv % %:r.bak : 重命名当前文件
+:e! : 打开未修改之前的文件
+:w c:/aaa/% : 存储文件到指定位置
+:e # : 编辑标记为#的文件在buffer中
+:rew : 返回到第一个可编辑的文件
+:brew : 回到第一个buffer
+:sp fred.txt : 分割窗口打开fred.txt
+:sball,:sb : 把所有的 buffers分割显示在一个窗口中 (超有用)
+:scrollbind : in each split window
+:map <F5> :ls<CR>:e # : 按F5显示所有buffer, 并显示行号
+:set hidden : 允许不保存当前buffer而进行切换
+----------------------------------------
+" 在分割窗口中快速切换
+map <C-J> <C-W>j<C-W>_
+map <C-K> <C-W>k<C-W>_
+----------------------------------------
+" 录制命令 (最好的技巧)
+qq # 录制命令放入 q寄存器
+输入一些命令
+q # 录制结束
+@q :执行放入寄存器q中的内容
+@@ ：重复
+5@@ ：重复5次
+" 编辑一个 寄存器/录制
+"qp :显示寄存器q中的内容(普通模式下)
+<ctrl-R>q :显示寄存器q中的内容 (插入模式下)
+" 你现在可以看到记录内容，随便编辑
+"qdd :删除，重新存入q
+@q :执行 录制/寄存器 q
+" 在可视块中运行记录
+1) 定义记录/寄存器
+qq:s/ to/ from/g^Mq
+2) 定义可视块
+V}
+3) 键入 : 将显示下面信息
+:'<,'>
+4)完成如下操作
+:'<,'>norm @q
+----------------------------------------
+"combining a recording with a map (to end up in command mode)
+nnoremap ] @q:w!<bar>bd
+----------------------------------------
+" 可视化模式提供一种灵活易用的方法选择一块文本供操作符使用
+" 记出
+v : 进入可视化模式
+V : 进入可视化行选择模式
+<C-V> : 进入可视化块选择模式
+gv : 重新选择
+o : 选择的区域头尾移动
+"*y : 复制选择区域到paste buffer
+V% : 选择一个匹配段
+V}J : 合并一个段落
+V}gJ : 合并一个段落，并保留空格
+----------------------------------------
+" 删除选中的10行的前两个字符（不过这里应该假设是紧凑的排版格式，不能包含空格、
+tab等字符的，可是经实验应该是钱3个字符才对啊？？）
+0<c-v>10j2ld
+----------------------------------------
+" 如何用可视块拷贝几列
+" 可视块(并非通常的 v 命令)
+<C-V>，然后通过移动命令选择列 (win32 <C-Q>)
+然后执行 c,d,y,r 等命令
+----------------------------------------
+" how to overwrite a visual-block of text with another such block
+Pick the first block: ctrl-v move "ay
+Pick the second block: ctrl-v move c ctrl-o "aP <esc>
+----------------------------------------
+" _vimrc 基本设置
+:set incsearch : 输入搜索命令时，立即显示目前输入的模式对应的匹配。匹配的字符串
+被高亮。
+:set wildignore=*.o,*.obj,*.bak,*.exe : tab补全时忽略这些忽略这些
+:set shiftwidth=3 : 设置自动缩进为3个字符
+:set vb t_vb=". : 安静模式，关闭响铃跟闪烁
+:set browsedir=buffer : 设置文件浏览使用的目录
+“注：
+”last 使用文件浏览器最近访问相同的目录。
+“buffer 使用相关缓冲区的目录。
+”current 使用当前目录。
+“{path} 使用指定目录。
+----------------------------------------
+" 启动windows中的IE
+:nmap ,f :update<CR>:silent !start c:\progra~1\intern~1\iexplore.exe
+file://%:p<CR>
+:nmap ,i :update<CR>: !start c:\progra~1\intern~1\iexplore.exe <cWORD><CR>
+----------------------------------------
+" 在vim里打开ftp
+cmap ,r :Nread ftp://209.51.134.122/public_html/index.html
+cmap ,w :Nwrite ftp://209.51.134.122/public_html/index.html
+gvim ftp://www.somedomain.com/index.html # 使用 netrw.vim
+----------------------------------------
+" 向寄存器中添加内容 (使用相应寄存器名称的大写)
+" 复制5行放入a寄存器，然后向下跳转10行再复制5行
+"a5yy
+10j
+"A5yy
+----------------------------------------
+[I : 显示当前行中字符的所有匹配(超级有用)
+----------------------------------------
+" 常规缩进
+:'a,'b>> ：将mark a到mark b之间的内容进行两次缩进
+" 虚拟模式下缩进 (可重复)
+:vnoremap < <gv
+”这是一个虚拟模式下的键盘映射 < 映射为<gv
+"< 意为向内缩进，gv 上面已有解释，为重复上次选区
+“<gv 也就是先向内缩进然后再选择刚才的选区
+“这样就可以只按 < 实现重复缩进了
+:vnoremap > >gv ：向内缩进，原理同上
+" 块缩进
+>i{
+>a{
+" also
+>% and <%
+”自己试试看吧，涉及到用 { 的语言很有用，比如c,c++等
+----------------------------------------
+" 重定向 & 粘贴到寄存器 * （*为寄存器名称）
+:redir @* : 重定向命令到paste缓冲区
+:redir END : 结束
+:redir >> out.txt : 重定向到文件
+" 操作粘贴缓冲区
+"*yy : 复制到寄存器
+"*p : 从寄存器中粘贴一行
+" 复制到粘贴缓冲区 (扩展模式)
+:'a,'by* : 复制一个范围到粘贴寄存器
+:%y* : 复制一个括号匹配到粘贴缓冲区
+:.y* : 复制当前行到粘贴缓冲区
+" 从剪贴板上过滤非可打印字符
+" 当从一些 GUI 程序粘贴时会有用处
+:nmap <leader>p :let @* = substitute(@*,'[^[:print:]]','','g')<cr>"*p
+----------------------------------------
+" 重新格式化文本
+gq} : 合并一个段落
+gqap : 当前段落
+ggVGgq : 全部段落
+Vgq : 当前行
+" 在70列的时候换行
+:s/.\{,69\};\s*\|.\{,69\}\s\+/&\r/g
+----------------------------------------
+" 命令使用于多个文件
+:argdo %s/foo/bar/e : 在所有文件上操做 :args
+:bufdo %s/foo/bar/e
+:windo %s/foo/bar/e
+:argdo exe '%!sort'|w! : 包含外部命令
+----------------------------------------
+" 命令行技巧
+gvim -h : 显示帮助
+ls | gvim - : 管道操作
+cat xx | gvim - -c "v/^\d\d\|^[3-9]/d " : 从管道出过滤内容
+gvim -o file1 file2 : 分割窗口显示两个文件
+" 打开文件后执行一条命令
+gvim.exe -c "/main" joe.c : 打开 joe.c & 跳转到 "main"
+" 在打开一个文件时执行多条命令
+vim -c "%s/ABC/DEF/ge | update" file1.c
+" 在一组文件上执行多条命令
+vim -c "argdo %s/ABC/DEF/ge | update" *.c
+" 从一系列文件中删除一块区域
+vim -c "argdo /begin/+1,/end/-1g/^/d | update" *.c
+" 自动编辑文件 (编辑命令序列Ex commands已经包含在convert.vim中了)
+vim -s "convert.vim" file.c
+#不加载.vimrc跟任何plugin(干净清新的 VIM^_^)
+gvim -u NONE -U NONE -N
+" Access paste buffer contents (put in a script/batch file)
+gvim -c 'normal ggdG"*p' c:/aaa/xp
+" 将paste中的内容送往默认的打印机
+gvim -c 's/^/\=@*/|hardcopy!|q!'
+" gvim 里的 grep (win32 or *nix)
+:grep somestring *.php : 创建匹配的文件列表
+" 使用 :cn(向后后) :cp(向前) 操纵列表
+:h grep ：查看帮助
+----------------------------------------
+" GVIM 的差异比较
+gvim -d file1 file2 : vimdiff (比较不差异)
+dp : 把光标处的不同放到另一个文件
+do : 在光标处从另一个文件取得不同
+----------------------------------------
+" Vim traps
+在正则表达式中 + | ( { 都要加上转义符(反斜杠)
+/fred\+/ : 匹配 fred/freddy 但不匹配 free
+/\(fred\)\{2,3}/ : note what you have to break
+----------------------------------------
+" \v ，或叫做very magic (通常都是这么叫)可以取消转义符
+/codes\(\n\|\s\)*where : 普通的正则表达式
+/\vcodes(\n|\s)*where : very magic
+----------------------------------------
+" 把对象送到命令行或者搜索行
+<C-R><C-W> : 执行当前光标下的单个单词
+<C-R><C-A> : 执行当前光标下尽可能多的单词
+<C-R>- : 送至一个小型寄存器（同样使用于插入模式）
+<C-R>[0-9a-z] : 送至一个命名寄存器 (括弧同上)
+<C-R>% : 送至文件名(#也行) (同上)
+<C-R>=somevar : 送至一个变量 (例如 :let sray="ray[0-9]")
+----------------------------------------
+" 控制寄存器
+:let @a=@_ : 清除寄存器 a
+:let @a="" : 同上 a
+:let @*=@a : 拷贝寄存器 a 到 paste buffer
+:let @*=@: : 拷贝最后执行的命令到 paste buffer
+:let @*=@/ : 拷贝最后执行的查找命令到paste buffer
+:let @*=@% : 拷贝当前文件到 paste buffer
+
+map <f11> "qyy:let @q=@q."zzz"
+----------------------------------------
+" 帮助的帮助？ (使用 TAB)
+:h quickref : VIM 快速参考页
+:h tips : Vim'自己的技巧帮助
+:h visual<C-D><tab> : 虚拟模式的帮助列表
+: 然后使用tab选择它们
+:h ctrl<C-D> : 所有关于ctrl键的帮助列表
+:helpg uganda : 过滤帮助文件 使用 :cn, :cp 查找下一个及后一个
+:h :r : 关于 :ex 的命令帮助
+:h CTRL-R : 普通模式相关
+:h /\r : \r是什么的意思
+:h \\zs : 使用双反斜线查找关于 \zs 的帮助
+:h i_CTRL-R : 在插入模式中 <C-R>的解释
+:h c_CTRL-R : 在命令模式中 <C-R> 的解释
+:h v_CTRL-V : 虚拟模式
+:h tutor : VIM 快速指南
+<C-[>, <C-T> : Move back & Forth in HELP History
+gvim -h : VIM 命令行帮助
+----------------------------------------
+" 选项设置在那里
+:scriptnames : 列出所有已经加载的 plugins, _vimrcs文件
+:verbose set history? :显示 history的值并显示在那里定义的
+:function : 列出所有函数
+:func SearchCompl : 显示指定函数的细节
+----------------------------------------
+" 制作你自己的VIM 帮助
+:helptags /vim/vim64/doc : 重新编译所有 *.txt 的帮助文件在这个目录里
+:help add-local-help ：如何添加本地帮助
+----------------------------------------
+" 用外部程序运行文件 (例如 php)
+map <f9> :w<CR>:!c:/php/php.exe %<CR>
+map <f2> :w<CR>:!perl -c %<CR>
+----------------------------------------
+" 在另一个buffer中，捕捉当前脚本的输出
+:new | r!perl # : 新建一个buffer，从另一个buffer中读入结果
+:new! x.out | r!perl # : 同上，并指定一个新文件名
+:new+read!ls
+----------------------------------------
+" create a new buffer, paste a register "q" into it, then sort new buffer
+:new +put q|%!sort
+----------------------------------------
+" 插入DOS换行符
+:%s/$/\<C-V><C-M>&/g : (that's what you type
+:%s/$/\<C-Q><C-M>&/g : for Win32) 对于Win32应该这样
+:%s/$/\^M&/g : 你看到的^M是一个字符
+----------------------------------------
+" 自动删除行尾 Dos回车符和空格
+autocmd BufRead * silent! %s/[\r \t]\+$//
+autocmd BufEnter *.php :%s/[ \t\r]\+$//e
+----------------------------------------
+" 对指定文件或文件类型执行某个动作
+autocmd VimEnter c:/intranet/note011.txt normal! ggVGg?
+autocmd FileType *.pl exec('set fileformats=unix')
+----------------------------------------
+" 把最后一个命令贴到当前位置
+i<c-r>:
+" 把最后一个搜索指令贴到当前位置
+i<c-r>/
+----------------------------------------
+" 更多的完成功能
+<C-X><C-F> :插入当前目录下的一个文件名到当前位置
+# 在insert模式下使用
+# 然后用 Ctrl-P/Ctrl-N 翻页
+----------------------------------------
+" 替换一个visual区域
+" 选择一个区域，然后输入 :s/Emacs/Vim/ 等等，vim会自动进入:模式
+:'<,'>s/Emacs/Vim/g : 前面的' '<.'> 是vim自动添加的
+gv : 重新选择前一个可视区域 (ULTRA)
+----------------------------------------
+" 在文件中插入行号
+:g/^/exec "s/^/".strpart(line(".")." ", 0, 4)
+:%s/^/\=strpart(line(".")." ", 0, 5)
+:%s/^/\=line('.'). ' '
+----------------------------------------
+#用VIM的方式来编号行
+:set number : 显示行号
+:map <F12> :set number!<CR> : Show linenumbers flip-flop
+:%s/^/\=strpart(line('.')." ",0,&ts)
+#从任意行开始编号(需要perl)
+:'a,'b!perl -pne 'BEGIN{$a=223} substr($_,2,0)=$a++'
+#产生数字列表
+#Type in number on line say 223 in an empty file
+qqmnYP`n^Aq : in recording q repeat with @q
+" 递增已存在数字到文件末
+:.,$g/^\d/exe "normal! \<c-a>"
+" 高级递增，参见：
+http://vim.sourceforge.net/tip_view.php?tip_id=150
+----------------------------------------
+" 高级递增 (真的很有用)
+" 把下面几句放到 _vimrc
+let g:I=0
+function! INC(increment)
+let g:I =g:I + a:increment
+return g:I
+endfunction
+" 例如从mark a 到mark b 递增，从223开始，步长为5
+:let I=223
+:'a,'bs/^/\=INC(5)/
+" create a map for INC
+cab viminc :let I=223 \| 'a,'bs/$/\=INC(5)/
+----------------------------------------
+" 生成从 23-64 的数字列表
+o23<ESC>qqYp<C-A>q40@q
+----------------------------------------
+" 在当前插入模式下编辑/移动 (真得很有用)
+<C-U> : 删除全部
+<C-W> : 删除最后一个单词
+<HOME><END> : 移动到行首/行尾
+<C-LEFTARROW><C-RIGHTARROW> : 向前/后移动一个单词
+<C-X><C-E>,<C-X><C-Y> : scroll while staying put in insert
+----------------------------------------
+#加密(小心使用，不要忘了密码)
+:X : vim会提示你输入密码
+:h :X
+----------------------------------------
+" 模式行 (使文件只读等)，必须在前/后 5行内
+// vim:noai:ts=2:sw=4:readonly:
+" vim:ft=html: : 使用 HTML 语法高亮
+:h modeline
+----------------------------------------
+" 建立你自己的菜单项
+amenu Modeline.Insert\ a\ VIM\ modeline <Esc><Esc>ggOvim:ff=unix ts=4 ss=4<CR>
+vim60:fdm=marker<esc>gg
+----------------------------------------
+" 一个保存当前光标下的狭义字到一个文件的函数
+function! SaveWord()
+normal yiw
+exe ':!echo '.@0.' >> word.txt'
+endfunction
+map ,p :call SaveWord()
+----------------------------------------
+" 删除重复行的函数
+function! Del()
+if getline(".") == getline(line(".") - 1)
+norm dd
+endif
+endfunction
+
+:g/^/ call Del() #使用该函数的一个例子
+----------------------------------------
+" 双字节编码 (non alpha-numerics)
+:digraphs : 显示编码表
+:h dig : 帮助
+i<C-K>e' : 输入 é
+i<C-V>233 : 输入 é (Unix)
+i<C-Q>233 : 输入 é (Win32)
+ga : 查看字符的hex值
+#删除非 ascii 字符
+:%s/[<C-V>128-<C-V>255]//gi : where you have to type the Control-V
+:%s/[?-?]//gi : Should see a black square & a dotted y
+:%s/[<C-V>128-<C-V>255<C-V>01-<C-V>31]//gi : All pesky non-asciis
+:exec "norm /[\x00-\x1f\x80-\xff]/" : same thing
+#Pull a non-ascii character onto search bar
+yl/<C-R>" :
+/[^a-zA-Z0-9_[:space:][:punct:]] : search for all non-ascii
+----------------------------------------
+" 文件名自动完成 (例如 main_c.c)
+:e main_<tab> : tab 键完成
+gf : 打开光标处广义字命名的文件 (normal模式)
+main_<C-X><C-F> : 文件名自动完成(insert模式)
+----------------------------------------
+" Vim复杂使用
+" 交换两个单词
+:%s/\<\(on\|off\)\>/\=strpart("offon", 3 * ("off" == submatch(0)), 3)/g
+" 交换两个单词
+:vnoremap <C-X> <Esc>`.``gvP``P
+----------------------------------------
+" 把text文件转换成html文件(oh,ft)
+:runtime! syntax/2html.vim : 转换 txt 成 html
+:h 2html
+----------------------------------------
+" VIM 有一个内部自带的 grep 命令
+:grep some_keyword *.c : 得到一个包含some_keyword的c文件名列表
+:cn : 去下一个出现的位置
+----------------------------------------
+" 强制无扩展名的文件的语法着色方式
+:set syntax=perl
+" 取消语法着色 (很有用)
+:set syntax off
+" 改变色彩主题 (在~vim/vim??/colors中的任何文件)
+:colorscheme blue
+" 通过使用模式行强迫使用 HTML 语法高亮
+# vim:ft=html:
+" 强制自动语法加亮(非标准的文件扩展)
+au BufRead,BufNewFile */Content.IE?/* setfiletype html
+----------------------------------------
+:set noma (non modifiable) : 防止修改
+:set ro (Read Only) : 只读保护
+----------------------------------------
+" 对话 (打开一堆文件)
+gvim file1.c file2.c lib/lib.h lib/lib2.h : 在"对话"中加载这些文件
+:mksession : 生成一个Session文件 (默认是Session.vim)
+:q
+gvim -S Session.vim : 重新加载所有文件
+----------------------------------------
+#标记(tags) (跳转到子程序/函数)
+taglist.vim : 很流行的插件
+:Tlist : 显示标记 (函数列表)
+<C-]> : 跳转到光标处的函数
+----------------------------------------
+" columnise a csv file for display only as may crop wide columns
+:let width = 20
+:let fill=' ' | while strlen(fill) < width | let fill=fill.fill | endwhile
+:%s/\([^;]*\);\=/\=strpart(submatch(1).fill, 0, width)/ge
+:%s/\s\+$//ge
+" Highlight a particular csv column (put in .vimrc)
+function! CSVH(x)
+execute 'match Keyword /^\([^,]*,\)\{'.a:x.'}\zs[^,]*/'
+execute 'normal ^'.a:x.'f,'
+endfunction
+command! -nargs=1 Csv :call CSVH(<args>)
+" call with
+:Csv 5 : highlight fifth column
+----------------------------------------
+" 折叠：隐藏某些片断，使查看更容易
+zf} : 使用动作命令折叠一个段落
+v}zf : 使用可视模式折叠一个段落
+zf'a : 折叠到一个标记上
+zo : 打开折叠
+zc : 重新关闭折叠
+----------------------------------------
+" 显示"不可见字符"
+:set list
+:h listchars
+----------------------------------------
+" 如何在不进入插入模式的情况下粘贴"普通模式的命令"
+:norm qqy$jq
+----------------------------------------
+" 处理文件名
+:h filename-modifiers : 帮助
+:w % : 写入当前文件
+:w %:r.cfm : 改变文件扩展名为 .cfm
+:!echo %:p : 显示完整路径和文件名
+:!echo %:p:h : 只显示完整路径
+:!echo %:t : 只显示文件名
+:reg % : 显示文件名
+<C-R>% : 插入文件名 (插入模式)
+"%p : 插入文件名 (普通模式)
+/<C-R>% : 在文本中查找文件名
+----------------------------------------
+" 删除，但不破坏 buffer 内容
+"_d : 你一直想要的东西
+"_dw : 例如：删除一个单词 (使用黑洞???)
+----------------------------------------
+" 送完整的路径名到剪贴板，用于邮件附件等
+nnoremap <F2> :let @*=expand("%:p")<cr> :unix
+nnoremap <F2> :let @*=substitute(expand("%:p"), "/", "\\", "g")<cr> :win32
+----------------------------------------
+" 不用离开 Vim 就能修改文件名的简单 shell 脚本
+$ vim
+:r! ls *.c
+:%s/\(.*\).c/mv & \1.bla
+:w !sh
+:q!
+----------------------------------------
+" 在一个文本里计算单词数
+g<C-G>
+----------------------------------------
+" 你自己设置高亮显示的例子
+:syn match DoubleSpace " "
+:hi def DoubleSpace guibg=#e0e0e0
+----------------------------------------
+" reproduce previous line word by word
+imap ] @@@<ESC>hhkyWjl?@@@<CR>P/@@@<CR>3s
+nmap ] i@@@<ESC>hhkyWjl?@@@<CR>P/@@@<CR>3s
+" 根据文件类型映射快捷键
+:autocmd bufenter *.tex map <F1> :!latex %<CR>
+:autocmd bufenter *.tex map <F2> :!xdvi -hush %<.dvi&<CR>
+----------------------------------------
+" 读取 MS-Word 文档，需要 antiword
+:autocmd BufReadPre *.doc set ro
+:autocmd BufReadPre *.doc set hlsearch!
+:autocmd BufReadPost *.doc %!antiword "%"
+----------------------------------------
+" a folding method
+vim: filetype=help foldmethod=marker foldmarker=<<<,>>>
+A really big section closed with a tag <<<
+--- remember folds can be nested ---
+Closing tag >>>
+----------------------------------------
+" Just Another Vim Hacker JAVH
+vim -c ":%s%s*%Cyrnfr)fcbafbe[Oenz(Zbbyranne%|:%s)[[()])-)Ig|norm Vg?"
+# 译释：呵呵，谁来解释一下吧！
+# 其实不过是在启动vim的时候执行了一个命令
+# 先写入了 Just Another Vim Hacker 的rot13编码
+# 然后再解码
+8.1.18  查找空格（下划线等），字符串替换时空格（下划线等）
+例子
+.,$s/insertsort/insert\_sort/g
+8.1.19  Linux .vimrc
+
+" An example for a vimrc file.
+"
+" Maintainer:	Bram Moolenaar <Bram@vim.org>
+" Last change:	2008 Dec 17
+"
+" To use it, copy it to
+"     for Unix and OS/2:  ~/.vimrc
+"	      for Amiga:  s:.vimrc
+"  for MS-DOS and Win32:  $VIM\_vimrc
+"	    for OpenVMS:  sys$login:.vimrc
+
+" When started as "evim", evim.vim will already have done these settings.
+if v:progname =~? "evim"
+  finish
+endif
+
+" Use Vim settings, rather than Vi settings (much better!).
+" This must be first, because it changes other options as a side effect.
+set nocompatible
+
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
+if has("vms")
+  set nobackup		" do not keep a backup file, use versions instead
+else
+  set backup		" keep a backup file
+endif
+set history=50		" keep 50 lines of command line history
+set ruler		" show the cursor position all the time
+set showcmd		" display incomplete commands
+set incsearch		" do incremental searching
+
+" For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
+" let &guioptions = substitute(&guioptions, "t", "", "g")
+
+" Don't use Ex mode, use Q for formatting
+map Q gq
+
+" CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
+" so that you can undo CTRL-U after inserting a line break.
+inoremap <C-U> <C-G>u<C-U>
+
+" In many terminal emulators the mouse works just fine, thus enable it.
+if has('mouse')
+   " set mouse=a
+endif
+
+" Switch syntax highlighting on, when the terminal has colors
+" Also switch on highlighting the last used search pattern.
+if &t_Co > 2 || has("gui_running")
+  syntax on
+   set hlsearch
+endif
+
+" Only do this part when compiled with support for autocommands.
+if has("autocmd")
+
+  " Enable file type detection.
+  " Use the default filetype settings, so that mail gets 'tw' set to 72,
+  " 'cindent' is on in C files, etc.
+  " Also load indent files, to automatically do language-dependent indenting.
+  filetype plugin indent on
+
+  " Put these in an autocmd group, so that we can delete them easily.
+  augroup vimrcEx
+  au!
+
+  " For all text files set 'textwidth' to 78 characters.
+  autocmd FileType text setlocal textwidth=78
+
+  " When editing a file, always jump to the last known cursor position.
+  " Don't do it when the position is invalid or when inside an event handler
+  " (happens when dropping a file on gvim).
+  " Also don't do it when the mark is in the first line, that is the default
+  " position when opening a file.
+  autocmd BufReadPost *
+    \ if line("'\"") > 1 && line("'\"") <= line("$") |
+    \   exe "normal! g`\"" |
+    \ endif
+
+  augroup END
+
+else
+
+  set autoindent		" always set autoindenting on
+
+endif " has("autocmd")
+
+" Convenient command to see the difference between the current buffer and the
+" file it was loaded from, thus the changes you made.
+" Only define it when not defined already.
+if !exists(":DiffOrig")
+  command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
+		  \ | wincmd p | diffthis
+endif
+
+" I add the following one, the lines before is vim example
+filetype plugin on
+filetype indent on
+
+set autoread
+set wildmenu
+set showmatch
+set noerrorbells
+set novisualbell
+" set t_vb
+set tm=500
+set nowb
+" set noswapfile
+
+"                                                                                      
+" tab new is very good in small monitor computer.
+" set expandtab
+set ts=4
+set cindent
+set shiftwidth=4
+set nu
+set backspace=2
+set backup
+set backupdir=~/.backup
+set nowrap
+set ignorecase
+" map <silent> <S-j> <C-f>
+" map <silent> <S-k> <C-b>
+map <silent> <S-w> <C-w>
+map <silent> <S-t> <C-t>
+map <silent> <S-y> <C-]>
+nmap <silent> <S-m> :silent noh<CR>
+set gcr=a:block-blinkon0
+" set hls
+set noincsearch " press enter then search
+set virtualedit=all
+set scrolloff=5
+" set report=0
+set novisualbell
+colorscheme default
+" colorscheme blue
+" colorscheme darkblue
+" colorscheme evening
+" colorscheme desert
+" colorscheme morning
+" colorscheme default
+set bg=light
+set cino=g0t0
+set guifont=fixedsys
+" hi clear
+hi LineNr ctermfg=grey
+" hi PreProc ctermfg=white
+set noeb
+" set mouse=a
+""""""""""""""""""""""""""""""
+" Tag list (ctags)
+""""""""""""""""""""""""""""""
+let Tlist_Ctags_Cmd = '/usr/bin/ctags'
+let Tlist_Show_One_File = 1
+let Tlist_Exit_OnlyWindow = 1
+map <silent> <S-L> <esc> :Tlist <CR>
+let Tlist_Exit_OnlyWindow=1
+let Tlist_File_Fold_Auto_Close=0
+let Tlist_Show_Menu=1
+let Tlist_Use_Right_Window = 0 " split to the left side of the screen
+let Tlist_Compact_Format = 1
+let Tlist_WinWidth = 25
+let Tlist_Auto_Open=0 " let the tag list open automagically
+let Tlist_Compact_Format = 1 " show small menu
+let Tlist_Ctags_Cmd = 'ctags' " location of ctags
+let Tlist_Enable_Fold_Column = 1 " do show folding tree
+let Tlist_Sort_Type = "name"
+"set WinManager
+" let g:winManagerWindowLayout='FileExplorer|TagList'
+let g:winManagerWindowLayout='FileExplorer'
+nmap wm :WMToggle<cr>
+nmap tl :Tlist<cr>
+nmap tr :NERDTreeToggle<CR>
+
+set list
+" set listchars=tab:>-,trail:-
+" set listchars=tab:\.\ ,nbsp:%,trail:-
+set listchars=tab:\ \ ,nbsp:%,trail:-
+" set listchars=tab:\|\ ,nbsp:%,trail:-
+
+set foldenable
+" set foldmethod=syntax
+set foldmethod=manual
+" set foldmethod=indent
+" set foldcolumn=0
+" setlocal foldlevel=1
+
+set modifiable
+set write
+set path+=/usr/include/**
+syntax on
+" syntax off
+map <silent> <F2> <esc> :set bg=dark <CR>
+map <silent> <F3> <esc> :colorscheme darkblue <CR>
+map <silent> <F4> <esc> :colorscheme blue <CR>
+map <silent> <F5> <esc> :colorscheme desert <CR>
+map <silent> <F6> <esc> :colorscheme default <CR>
+" colorscheme darkblue
+" colorscheme morning is a pretty good choice
+"                                                                      
+" set cursorcolumn                    " highlight the current column
+" set cursorline                      " highlight current line
+" hi cursorcolumn ctermbg=lightgrey
+" hi cursorline ctermbg=300000   guibg=#400000
+" hi CursorColumn ctermfg=white ctermbg=darkred guibg=#400000
+" hi CursorColumn ctermfg=white ctermbg=darkred guibg=#400000
+"
+
+set bsdir=buffer
+set autochdir
+
+let &termencoding=&encoding
+set fileencodings=ucs-bom,utf-8,gbk
+8.1.20  Taglist问题
+
+修改taglist.vim
+搜索Tlist_Refresh_Folds
+注释掉这些东西
+
+8.2  万能五笔
+光标不跟随，固定窗口，空格英文。不隐藏
+8.3  360
+8.4  7zip
+8.5  ghost
+8.6  storm 2006
+
+8.7  daemon tools
+8.8  tm
+8.9  beyond compare
+8.10  screen recorder
+8.11  Vmware 
+Rhel 5
+8.11.1  Network
+Windows的本地链接，vmware的两个链接全是自动获得。
+
+http://wenku.baidu.com/view/0609e5f9aef8941ea76e050a.html
+
+NAT模式，
+去掉打勾 auto bridge
+ 
+
+Dhcp
+ 
+
+Nat
+ 
+
+8.11.2  光盘
+Vmware上有个选择是否加载，cdrom，U盘什么的东西，如果想用要打上勾
+8.11.3  Vmtools
+8.11.4  Linux 设置 picture
+
+ 
+8.11.5  网络桥接
+这个好像与vmnet1和vmnet8都无关一样。
+ 
+Vmnet0手动选择一下自己的网卡，其实只有一个选项。
+ 
+不勾中
+ 
+模仿自己的windows的本地连接去设置这个，这样你的vmware就相当于是一个你的局域网中的一台机器了。
+ 
+这个都关掉vnc估计一定能上了。
+8.11.1 CentOS 5.5 64位虚拟机安装过程
+首先vmware软件，
+新建，自定义 64位other
+
+安装完成后，第一件事网络
+ 
+
+Dns 202.106.196.115
+
+完成 。
+
+然后，vmtools见6.17
+
+将
+8.12  vc6
+8.12.1  快捷键
+Alt + 0 class view
+Alt + f9 显示所有断点
+8.12.2  picture
+ 
+8.13  visual 2008
+8.13.1  picture
+全屏编辑与查看代码
+F3查找时的下一个，F2下一个书签。
+按装assist，左侧栏，右侧颜色。
+关于工程，怎么处理linux与windows中代码的问题
+将linux下的代码目录都 拿到windows下，还是visual studio好用啊。
+灰色背景,没有左右滚动条,没有multi tab,自定义工具栏.所有类似工程放在一个solution里面。
+
+ 
+ 
+8.13.2  new project from exsiting code
+非常好用
+8.13.3  another configure
+快捷键
+alt + s: solution explorer
+alt + q: full screen
+alt + c: class view
+ctrl + q: ctrl + f5
+ 
+
+8.13.4  visual assistant
+打开visual 2008时关闭visual assistant
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+找不到一些符号 的时候rebuild symbols
+ 
+8.13.5  快捷键
+Ctrl + j // 自动补全，
+Alt + ->
+Ctrl + alt + l
+Ctrl + shift +c
+8.13.6  Solution exploer选中文件可用vim打开
+8.13.7  使用方法
+鼠标拿到变量或函数时有，相关的定义出现。
+8.13.8  命令行参数添加
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8.13.9  命令行参数添加转换工程从6.0到2008
+开始的时候用凯号给的大商扬扬的code，在2008上用建空工程然后添加文件的办法，不能编译通过，但是在6.0下，建空工程在添加文件就能编译通过，
+这个时候我就用2008转换了6.0的工程，这样在2008下就能用了。
+非常有用，等我有时间，我去研究一下直接下我那里出错了，才导致有链接错误的发生。
+8.13.10  所有文件关掉某个警告
+VS2008菜单
+project --> xxx(工程名) Properties...
+进去以后
+configuration properties --> c/c++ --> advanced
+disable specific warnings栏填入警告的编号，sprintf好像是4996。
+如果要屏蔽多个警告，就把它们编号用逗号分隔~
+
+不过我喜欢用#pragma warning (disable : 4389)这样，这能在某个文件上关掉某个警告。
+8.13.11  系统无法执行指定的程序
+系统无法执行指定的程序
+2012-05-17 10:42
+转载于http://www.builder.com.cn/2007/0930/530247.shtml
+1. 问题描述：
+
+最近在VS2005下用C++写了一个Console程序，在一台未安装VS2005的机器上不能正常运行。
+用命令行方式运行，提示：
+系统无法执行指定的程序
+直接双击运行，提示：
+“由于应用程序的配置不正确，应用程序未能启动，重新安装应用程序可能会纠正这个问题”
+用VC6和VS2003也有这个问题，只不过会提示说找不到“***.dll”，把需要的dll拷贝到目标机器就可以正常运行了。而VS2005并没有提示缺少哪些dll。
+
+2. 解决方案：
+
+在水木C++版请教了一下，ass做出了回答（非常感谢ass的帮助）。把他的回答摘录如下，大家共同学习：
+
+“因为没有msvcr80.dll
+可以改一下编译选项 多线程dll(/MD)改成多线程(MT)这样就静态链接，
+也可以从你的vc8安装盘上找到再分发包vcredist_xxx.exe和你的程序捆绑安装。”
+
+根据ass指导的思路，自己实验了一下，感觉以下两种解决办法是比较方便的：
+
+方法一：
+在C:Program FilesMicrosoft Visual Studio 8VCredi
+stDebug_NonRedistx86Microsoft.VC80.DebugCRT 下找到了下列文件：
+
+msvcm80d.dll
+msvcp80d.dll
+msvcr80d.dll
+Microsoft.VC80.DebugCRT.manifest
+
+把这几个文件拷贝到目标机器上，与运行程序同一文件夹或放到system32下，就可以运行那个程序了。
+
+方法二：
+修改“C++/Code Generation”中的运行时库选项，将/MD或/MDd 改为 /MT或/MTd，这样就实现了对VC运行时库的静态链接，在运行时就不再需要VC的dll了。
+
+8.14  windows
+8.14.1  桌面
+任务栏不置最前，也不自动隐藏，
+定下来了，不使用windows XP them了，一切都是以performance为主的windows theme选项。任务样也是单行。
+Group similar toolbar
+眼睛卫士，绿豆沙颜色。
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+8.14.2  任务栏
+锁定
+Group similar
+
+
+8.15  msdn
+8.15.1  picture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8.16  U盘
+在vmware上有选项是在windows使用，还是在虚拟机上使用。
+su –
+f*
+/sbin/fdisk -l
+8.17  IE6
+8.17.1  Picture
+Full screen autohide
+View the html etc.
+
+ 
+8.18  金山词霸生词本功能
+8.18.1  Picture
+
+8.19  blog csdn
+8.19.1  Picture
+
+<ul>
+<li><a href="http://blog.csdn.net/chief1985" target="_blank">徐凡</a></li>
+<li><a href="http://www.java2s.com/Code/Cpp/CatalogCpp.htm" target="_blank">代码示例</a></li>
+<li><a href="http://blog.csdn.net/v_JULY_v" target="_blank">算法之道</a></li>
+<li><a href="http://blog.csdn.net/bitfan" target="_blank">金旭亮老师  </a></li>
+<li><a href="http://blog.csdn.net/pongba" target="_blank">刘未鹏 csdn</a></li>
+<li><a href="http://blog.csdn.net/MoreExpert.html" target="_blank">csdn博客专家</a></li>
+<li><a href="http://mindhacks.cn/" target="_blank">刘未鹏 mind hacks</a></li>
+<li><a href="http://blog.csdn.net/kindlucy" target="_blank">数据结构与算法kindlucy</a></li>
+<li><a href="http://poj.grids.cn/" target="_blank">北京大学程序在线评测系统</a></li>
+<li><a href="http://www.codeproject.com" rel="tag">CodeProject</a></li>
+
+</ul>
+
+
+<ul>
+<li><a href="http://gcc.gnu.org/" target="_blank">gcc</a></li>
+<li><a href="http://www.boost.org/" target="_blank">boost</a> </li>
+<li><a href="http://ocw.mit.edu/index.htm" target="_blank">MIT open</a> </li>
+<li><a href="http://www.codeguru.com/forum/index.php" target="_blank">codeguru</a></li>
+<li><a href="http://www.codeproject.com/" target="_blank">codeproject</a> </li>
+<li><a href="http://www.cplusplus.com/doc/tutorial/" target="_blank">cplusplus</a></li>
+<li><a href="http://www.cplusplus.com/src/" target="_blank">cplusplus/src</a> </li>
+<li><a href="http://www.robertnz.net/cpp_site.html" target="_blank">Internet sites</a></li>
+<li><a href="http://zh.highscore.de/cpp/boost/frontpage.html" target="_blank">highscore boost</a></li>
+<li><a href="http://www2.research.att.com/~bs/homepage.html" target="_blank">Bjarne Stroustrup</a></li>
+<li><a href="http://www.open-std.org/jtc1/sc22/wg21/" target="_blank">Standards Committee</a></li>
+<li><a href="http://www2.research.att.com/~bs/bs_faq.html" target="_blank">Bjarne Stroustrup's FAQ</a></li>
+</ul>
+8.20  Foxmail_GMail_网易
+8.20.1  产品说明
+=====================
+1. 产品说明
+=====================
+
+    Foxmail是一款著名的电子邮件客户端软件，提供基于Internet标准的电子邮件收发功能。
+    Foxmail 7.0 在基础特性上进行了大量改进，希望为用户提供更专业更好用的邮件管理体验。
+    本产品为完全免费软件，欢迎您使用！
+    腾讯公司Foxmail开发团队衷心祝愿新、老用户使用愉快！
+
+    提醒：因为本产品是在本地电脑处理邮件，因此为了您的邮件安全，建议不要在网吧等公用电脑上使用，以免被他人窃取邮件或密码，造成损失。
+
+===========================================
+2.  Foxmail 7.0的特性列表
+===========================================
+
+(1)全面支持Exchange帐号
+   全面支持Exchange帐号的数据同步，包括邮件、日历、联系人、邮件规则等
+   支持邮件撤回、外出回复、远程管理等特性
+
+(2)快速全文搜索
+   搜索更快捷更稳定，支持在所有文件夹/当前文件夹进行搜索
+
+(3)IMAP更快更流畅
+   改进了IMAP的功能和体验，支持只收取最近部分邮件，支持Gmail邮件的即时推送
+
+(4)新增日历管理
+   所有的会议请求、工作事务，通过日历一目了然
+
+(5)会话邮件
+   快速查看同一邮件会话中的其他邮件，一键搞定
+
+(6)多标签、待办、提醒、备注，更多的邮件管理方式；
+   要更好地分类邮件，一个标签怎么够？自定义多标签帮助您
+   点击星标即可一键标记待办
+   对待办邮件增加提醒
+   在读邮件时，可以对邮件添加备注，让您处理邮件更轻松
+
+(7)附件预览
+   对于常用的办公附件，可以对附件进行预览(需要安装Office2007以上版本支持)
+
+(8)写出更专业更美观的邮件
+   支持动态拼写检查，英文邮件更放心
+   支持10.5号字体，更标准美观
+   快速文本，帮助您快速输入常用文本
+   回复邮件时在原文中进行批注
+   附件缺失检查，支持自定义检查字符串
+   保存收件人组合，选择常用收件人更方便
+
+(9)写邮件支持后续标志
+   在邮件附带提醒，提请收件人注意；或者提醒自己跟进邮件的回复
+
+(10)地址簿支持多级文件夹
+   可以更准确地表现复杂的组织架构
+
+(11)常用文件夹
+   统一查看所有未读、所有待办、所有附件，您也可以将最常用的收件箱等文件夹拖动到这里
+
+(12)自定义快捷键
+   常用操作快捷键支持用户自定义，选择您习惯的快捷键
+
+(13)快速回复
+   不打开回复窗口，在读邮件页面直接进行回复
+
+(14)分别发送
+   对多个人进行一对一发送，每个收件人将收到单独发给自己的邮件
+
+(15)其他改进
+   改进了RSS的阅读体验
+   提高了贝叶斯反垃圾的性能   
+
+
+更详细改进，请关注Foxmail主页。
+
+=====================
+3. 安装
+=====================
+    运行安装程序，如果有Foxmail程序正在运行，请先关闭运行中的Foxmail。
+    执行Foxmail安装程序，按照向导提示进行安装。
+    
+    注意：Foxmail 7.0 与之前版本相比，采取了不同的数据格式，在安装Foxmail 7.0 时，建议您安装在不同的目录。Foxmail 7.0 可以与以前版本的Foxmail同时运行。
+
+
+=====================
+4. 使用
+=====================
+
+    您可以免费使用此软件。
+    您也可以免费复制、分发和传播无限制数量的此软件，但不能用于商业目的的分发，如捆绑，销售，集成等。
+    同时您必须保证每一份复制、分发和传播都必须是完整和真实的。
+
+===================
+
+腾讯公司
+2011年8月
+8.20.2  picture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8.20.3  邮件帐户设置
+Cienet
+ 
+163
+
+Youku
+
+
+nvzhu
+sunyongjie1984
+s5*
+	doubai
+	sunyongjie1984@163.com
+	db54*
+
+apple
+sunyongjie1984@163.com
+App*54*
+
+github
+sunyongjie1984
+sunyongjie1984@163.com
+g54*
+
+chinaunix
+sunyongjie1984
+54*
+
+
+hgame
+sunyongjie19
+54*
+
+360
+36054*
+Sunyongjie1984@163.com
+
+taobao
+15910727425
+t54*
+支付
+T06*
+
+boc
+sunyongjie1984
+boc06*
+
+df
+sunyongjie1984@dce.com.cn
+05*
+Df svn
+Sunyongjie syj_passwd
+Sunyongjie 54*
+
+
+Weekly report
+123456
+	vmware linux
+	rhel 5 cent_os
+sunyongjie 123456
+root f* 
+51job
+sunyongjie1984@163.com 5*
+
+nokia 
+sunyongjie1984
+54*
+
+war3 
+NEDZQ
+war54*
+sunyongjie1984
+war54*
+
+163
+sunyongjie1984@163.com 05*
+safecode 062*
+sunyongjie1983@163.com 5*
+
+sina
+sunyongjie1984@163.com
+54*
+
+qq
+171452508 059*
+sunyongjie1983@163.com fa*
+
+tudou 
+sunyongjie1983@163.com
+5*
+
+codeproject
+sunyongjie1984@163.com
+5*
+
+gmail
+sunyongjie1984@gmail.com g54*
+
+csdn
+sunyongjie_old_boy 05* 已经没有积分
+sunyongjie_old_boy2 5*
+sunyongjie1984 5*
+main account
+sunyongjie1983 5*
+
+360buy
+sunyongjie1984@163.com 5*
+支付
+b54*
+
+3605*
+j06*
+iciba
+sunyongjie1984@163.com 5*
+yongjisu 541981
+
+sohu
+sunyongjie1983@163.com 5*
+
+icbc
+f*
+udun
+06*
+
+dangdang
+@163.com
+54*
+
+baidu
+sunyongjie1984
+54*
+
+learncpp 
+sunyongjie1984 5*
+
+vmware
+sunyongjie f*
+
+cppblog
+sunyongjie1984 5*
+
+163
+wangjie1985*  5*
+
+google
+sunyongjie1984@gmail.com g54
+sunyongjie1984@163.com g54
+
+apple
+ID:Yongjie.sun@alcatel-lucent.com
+ILoveWangJie5*
+
+手机之家
+Sunyj1984
+54*
+
+Vs
+Syj1984
+54*
+
+11
+Sunyongjie1984@163.com
+54*
+syj1984
+54*
+
+火车票
+Sunyongjie1984
+54*
+
+Vs
+Syj198444
+54*
+
+Duzhe读者
+Sunyongjie
+54*
+
+Qq 171452508 05* 
+
+470271478 54*
+ 
+8.20.4  如何阅读RSS
+1只显示RSS列表，找要读哪篇文章
+2点击转发，用来阅读
+8.20.5  标签
+1只显示RSS列表，找要读哪篇文章
+2点击转发，用来阅读
+Life 重要的生活
+CS  非以下几种的计算机其它知识，也就是没有以下几种重要
+	不能与language，DS_A，POCO，OS，一起选中
+Other 非生活，非计算机
+Lang 语言，c++, 汇编，其它语言
+DS_A 数据结构，算法
+POCO 计算机组成原理，深入理解计算机系统等
+OS windows linux
+Method 方法，工作，学习
+ 
+
+8.20.6  Picture
+标签宽度通过空格调齐，所有以图为准 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+标准视图
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+8.20.7  Gmail自己给自己发自动重要，我只能手动调成不重要了
+8.20.8  收到邮件后
+例如，一个要放在c++\boost\exception标签里的邮件
+		和c++\用于大型程序的工具\exception
+1读，设置为语言标签
+2复制到c++
+3复制到boost
+4复制到exception
+5复制到用于大型程序的工具
+6复制到exception
+每一步操作都要看状态栏，显示已经更新后再开始。
+第一步都是从gmail收件箱选中邮件开始复制。
+且一个位置删除，就全部删除。
+
+8.20.9  给转发邮件作笔记
+(非常同意_syj)。
+
+
+
+
+
+
+
+
+
+
+
+
+
+8.20.10  服务器设置
+ 
+ 
+
+
+8.20.11  置顶邮件表示急迫，存档表示重要
+最近要处理的东西，比如我现在要写论文，就放论文的东西，或者我应该看还没有看的东西，所有的邮件保存到gmail中，用foxmail发收邮件，主要不上网用gmail，存档表示重要的意思。
+8.20.12  如何发gmail邮件保存资料
+1.	用163发163收默认全部邮件抄送gmail。
+2.	我定义了模版，选中都是fixedsys，发，转，回复
+3.	当自己发，需要粘东西时，第一粘过来，第二去掉背景色，第三如果格式，字体非常不好，小，或者太大，等等时，全选，全fixedsys，全加粗，再全不加粗，全斜休再全不斜体，或者只是选中code部分fixedsys.
+4.	主题部分写上来源，如作者等信息。
+5.	发，回复，转发注意有的图片粘不上来，要手动粘
+6.	选择fixedsys时不用下拉框，直接输入fix就行了。
+8.20.13  使用日历
+
+8.20.14  如何发gmail邮件保存资料列的视图与宽度等
+一切与gmail\收件箱为准。
+8.20.15  如何备份
+软件有个设置data的地方，我的现在在D:\sunyongjie\mail\Data\，把这个打包然后用按装相同版本的foxmail。
+目前是，要把data放在D:\sunyongjie\mail，那么我备份sunyongjie目录的时候，这些东西就都备份了。
+8.20.16  离开lucent的时候把那个outlook的邮件导入到foxmail中来，来整理
+8.20.17  如何修改并保存收到的邮件
+这应该是不可能的事，因为邮件是和服务器中相同的，你是不能修改的，除非转发时修改再发给自己。
+8.20.18  网易网盘与gmail文档的取舍
+8.20.19  字体模版verdana 20
+8.20.20  打开一个邮件件后显示往来邮件功能非常好用
+8.20.21  写邮件
+主届面点击发邮件的前头可以选择使用那个模版，你现在选中的是那个邮箱，就会默认使用那个邮箱发邮件
+写邮件时显示工具栏，用快捷地址薄来选择给谁发
+8.20.22  模版与签名
+Fixedsys要调成10，这样转发时用模版，比字号8的容易阅读。
+8.20.23  Gmail可imap
+ 
+CHEN Jie的邮件放入标签hide中，并且从收件箱转移到hide中，hide不在foxmail中显示。
+重要的邮件既在收件箱又在重要的标签里
+8.20.24  等待回复与提醒邮件功能非常好用
+8.20.25  无格式粘贴非常好用
+8.20.26  鼠标手式非常好用，预览时候也可以用
+
+8.21  VSS
+8.21.1  加入文件夹
+拖文件夹，然后选中recursive
+8.21.2  Differ用vim –d的形式比较
+ 
+8.21.3  用vim读
+ 
+
+8.21.4  Check in file 好好地加comments
+
+8.21.5  如何备份VSS上的check in的记录
+备份数据库就行了
+8.22  chrome
+8.22.1  下载
+去官网下载，直接安装的那种，是汉语的，浏览器
+8.22.2  字体
+  
+
+8.23  firefox
+8.23.1  调节字体大小
+Ctrl + 滚轮
+ 
+8.24  ssh secure shell
+Must install this software after configure well the vmware network for rhel
+8.25  vc 6.0 
+8.25.1  release版本调试
+众所周知，VC6项目通常默认被分为两个编译版本：Debug 和 Release。前者主要用于开发调试，后者用于对外发布。绝大多数情况下，这个两个版本在功能上是完全一致的，只不过 Debug 版本多出了一些便于调试的特性。
+但是在极少数情况下，Debug 版本和 Release 版本程序运行结果不一样。例如，在 Debug 版本下，程序运行正常，而在 Release 版本下，程序却可能非法退出。因为 Release 版本程序不能设置断点，无法调试跟踪，因而很难找到问题的根源。在这种情况下，为 Release 版本增加调试信息，应该是不错的选择。
+最近恰恰又遇到了这种情况，写出来给大家分享。不过是对之前某本书（《编程高手谏言》？）或某篇文章中介绍的方法的翻版而已。
+为 VC6 程序 Release 版本增加调试信息的具体操作方式如下：
+1、菜单 Build -> Configuration...，点击 Add 按钮，从 Release 版本复制一个编译选项，命名为“Release with debug info”，当然名称随意。
+2、菜单 Project -> Settings...，在左上角选中刚才创建的“Release with debug info”，然后修改以下内容：
+　　a、C++ | Category: General：Optimizations 设置为“Disable (debug)”；选中“Generate browse info”；Debug Info 设置为“Program Database”。
+　　b、Link | Category: General：选中“Generate debug info”。
+3、菜单 Build -> Set Active Configuration...，选中“Release with debug info”。
+经过以上配置之后，编译，即可得到“带调试信息的Release程序”，可设置程序断点，可跟踪调试。这种版本程序既有 Debug 的一面，又有 Release 的一面，当然更多的倾向于 Release。
+调试完毕并解决问题之后，再编译出 Release 版本（Set Active Configuration）发布给最终用户。
+除了上面讲的这个办法之外，还有其它的途径来调试 Release 版本的。下面就结合自己的经验和网上查找的一些资料给出调试 Release 版本方法：
+
+利用 *.PDB 符号文件调试 Release 版本
+在 VCKBASE 的在线杂志中有一篇参考文章：符号文件——Windows 应用程序调试必备（http://www.vckbase.com/document/viewdoc/?id=1710），文章谈到了如何产生 Release 版本二进制文件对应的 PDB 文件的问题。有了 PDB 文件后，就可以调试 Release 了，方法是：
+     1、在Project Settings里选Settings For为All Configurations。 
+     2、在C/C++标签中，Debug info 选 Program Database。 
+     3、在Link 标签中，Category选 Debug，选中Debug info 复选框和Microsoft format。 
+进行了上述设置后，我们就可以像在调试版本中那样设置断点进行测试了，由于代码优化，有些变量观察不到，行的运行顺序可能也会不同。 
+有一点需要注意：ASSERT宏在 Release 版本中不起作用，在 Release 版本中应该使用 VERIFY 来代替 ASSERT 进行调试。如果发行版本运行有问题，可以先禁止所有代码优化再进行调试。
+8.25.2  Picture
+ 
+8.25.3  Visual assistant颜色问题
+自己下载vc assist x安装之后按照的它的英文说明添加了更改了text editors 的颜色可是不起作用，后来发现是我使用的保护眼睛的背景色屏蔽掉它的颜色了。这是到在 VC6 菜单 TOOLS -> Options -> Format 中 更改一下text 的背景颜色改为为白色，然后在改会automatic即可解决问题了。希望对大家有帮助，我搞了半天才发现问题的所在
+
+
+
+
+
+
+8.26  遨游
+8.26.1  网页探测器
+8.27  socket tool
+8.28  windows search
+8.28.1  语法
+搜索可以这样
+加上双引号 例如”terminate调用abort”
+
+8.29  Word
+
+故障现象
+向正在编辑的Word文档中插入一个图形时，发现插入的图形只显示出了一部分。下半部分，图片上面有文字，还能输入文字和回车。好像图片在文字下面一样，就露出了一个底部。无论怎样调整都不能解决问题，如果用浮于文字上方，那是可以的，但我现在需要的是嵌入式的版式。请问应如何处理？感觉是高度被限制了。
+<--------------------------------->
+分析处理
+出现此故障的原因有可能是设置为固定值的文档行距小于图形的高度，从而导致插入的图形只显示出了一部分。可以采用如下的方法解决：
+　　一. 首先，选定该图形，单击【开始】tab页中的【段落】项的右方的箭头，打开【段落】对话框
+8.30  罗技鼠标
+灵敏度调高，移动速度调慢，用os的控制
+8.31  罗技鼠标
+8.31.1 语法
+8.32  老毛桃U盘启动，将安装系统
+1，	打开老毛桃软件
+2，	制作启动盘
+3，	将ghost文件放入u盘中的ghost文件夹
+4，	重启进入pe系统，在这里可以分区，格式化等等，然后运行ghost软件，都是在pe系统中。
+
+以下为了按装与centos的双系统
+4.进pe windows后在里面分区，至少三个，一个将windowsxp，一个fat32，装centos iso, imagin目录
+一个用windows的磁盘管理变成示分配的，将来装centos
+5.不知道为什么这次在centos磁盘规化的时候，不能使用(使用free space来安装）我自己手动分的，
+6.第一创建vm..分区，选的好像是创建，然后，选择edit新创建 的这个vm什么什么的分区，先是一个/boot 200M，然后/home 10G,使用swap2G,然后就是/
+
+
+8.33  lynx
+
+yum install lynx
+
+terminal set charactor encoding gb2312
+export LANG=zh_CN.gb2312
+lynx http://www.163.com
+
+export LANG=zh_TW.Big5
+brother niao
+
+export LANG= zh_CN.utf-8
+鸟哥的私房菜简体
+8.34  Ssh
+
+ 
+ 
+
+
+
+8.35  Secure crt
+Tab 放在下边
+ 
+ 
+
+ 
+第9章  coding rule and preference style 
+9.1  括号
+If( NULL == p )
+括号和NULL之间，p和括号之间有空格行为，包括函数参数等；
+比较无论是小于，等于，大于，不等于，全都是常量在左。
+9.2  坚持构造函数初始化列表
+9.3  命名
+9.3.1  目录的命名
+// 汊语，以容易理解分类为主。
+路径用英文，在源文件中用中文写上清楚的注释，这样找东西的时候用，windows search来做，也非常的容易，要坚持写注释，用汉语写关键字。
+9.3.2  类的命名
+c_book
+9.3.3  文件的命名
+英语，因为用gvim打开时，可以把工程路径中因为存在汉字的目录的，问题由把工程拷到没有汉字的目录，来解决，这样用gvim打开时的taglist就继续可以用了。
+9.3.4  变量的命名
+
+    // modify start for coding rule and style
+    // the following way of comment is good
+    /* 类型名*&    const 对象名
+     * int    *     const p // ok，p是const，不可以修改p的值，来改变指针对象p的指向
+     * int    &     const r // bad，r是一个引用，定义时初始化到死绑定一人，qualifier const is ignored
+     *                      // 这个const无意义
+     *
+     * 类型名const *&    对象名  非常重要的意义
+     * int    const *     p // ok，不可以通过p，去修改p指向的对象
+     * int    const &     r // ok，不可以通过r，去修改r绑定的对象
+     */
+    int i = 10;
+    int * const pp1 = &i;      // pp1为const对象，不可以修改pp1的值，来改变pp1的指向
+    int & const rr1 = i;       // ignored，无意义
+
+    rr1 = 10;
+
+    int const * pp2 = &i;
+    int const & rr2 = i;
+
+    // *pp2 = 10;              // error
+    // rr2  = 10;              // error
+
+                               // 用语言描述的方法，对象名前描述对象类型，对象名后描述const性质
+    int a = 10;                // 整型对象a为non-const
+    int const b = 20;          // 整型对象b为const
+    const int c = 20;          // 整型对象c为const
+    int * p = &a;              // 指向non-const整形对象的指针对象p为non-const
+                               // 程序员打算通过p修改a，程序员打算修改p
+    int const * p2 = &a;       // 指向non-const或者const整型对象的指针对象p2为non-const
+                               // 程序员不打算也不可以通过p2修改a，程序员打算修改p2
+    int const * p3 = &b;       // 指向non-const或者const整型对象的指针对象p3为non-const
+                               // 程序员不打算也不可以通过p3修改b，程序员打算修改p3
+    int * const p4 = &a;       // 指向non-const整形对象的指针对象p4为const
+                               // 程序员打算通过p4修改a，程序员不打算也不可以修改p4
+    int const * const p5 = &a; // 指向non-const或者const整型对象的指针对象p5为const
+                               // 程序员不打算也不可以通过p5修改a，程序员不打算也不可以修改p5 
+    int const * const p6 = &b; // 指向non-const或者const整型对象的指针对象p6为const
+                               // 程序员不打算也不可以通过p6修改b，程序员不打算也不可以修改p6 
+    int & r = a;               // 绑定到non-const整型对象的引用对象r为non-const
+                               // 程序员打算通过r修改a
+    int const & r2 = a;        // 绑定到non-const或者const整型对象的引用对象r2为const
+                               // 程序员不打算也不可以通过r2修改a
+    int const & r3 = b;        // 绑定到non-const或者const整型对象的引用对象r3为const
+                               // 程序员不打算也不可以通过r3修改b
+第10章  cygvim
+10.1  环境路径的添加
+添加vim
+PATH=${PATH}:/cygdrive/c/Program\ Files/Vim/vim73/
+第11章  windows网络编程 
+11.1  winsock简介
+Winsock是一处标准API，应用程序编程接口，它允许两个或者多个进程在同一台计算机或通过网络相互通信。Winsock是一种网络接口，而不是协议，使用winsock编程接口，应用程序可通过普通网络协议如TCP/IP(transmission control protocol/Internet protocol，传输控制协议/网际协议)或IPX(internet packet exchange, internet数据包交换)协议建立通信。Winsock接口在UNIX平台上实现的BSD socket(套接字)中继承了大量的特性。
+11.1.1  Winsock头文件及库文件
+11.1.2  winsock的初始化
+每个winsock应用都必须加载合适的winsock dll版本，调用一个winsock函数之前运行WSAStartup加载winsock库。
+11.1.3  错误检查和处理
+调用Winsock函数时出现了错误，可以用WSAGetLastError函数来获得所发生错误的整数代码。
+11.1.4  协议寻址
+Winsock接口独立于协议，可以基于IP，可以基于IPX。
+IP协议在大多数计算机操作系统中都能得到支持，并可在多数局域网（LAN）上使用，也可在广域网WAN中使用，例如Internet。从设计角度看，IP是一种无连接协议，它不能确保数据传输的成功。两个高级协议TCP和UDP(user datagram protocol，用户数据报协议)用通过IP进行面向连接和无连接的数据通信。TCP和UDP都使用IP进行数据传输，通常被称为TCP/IP,UDP/IP。（TCP，UDP是传输层，IP是网络层）。
+IPv4寻址，在winsock中，应用程序通过SOCKADDR_IN结构来指定IP地址和服务端口信息。
+struct sockaddr_in
+{
+    short           sin_family;
+    u_short         sin_port;
+    struct in_addr  sin_addr;
+    char            sin_zero[8];
+};
+sin_family字段必须设为AF_INET，以告知winsock此时正在使用IP地址族。
+The sin_family field must be set to AF_INET, which tells Winsock we are using the IP address family。
+sin_port字段用来指定端口，这个端口标识服务器的TCP或UDP通信端口。指定端口要小心，有的端口是为已知服务保留的，如FTP文件传输协议，file transfer protocol和HTTP超文本传输协议hypertext transfer protocol。
+SOCKADDR_IN结构的sin_addr字段把IPv4地址作为一个4字节的量存储起来。它是无符号长整数的数据类型，可表示为一个本地或远程IP地址。
+Inet_addr是一个很实用的支持函数，它可把一个点分IP地址转换成一个32位的无符号长整数，它的定义如下：
+unsigned long inet_addr(
+    const char FAR *cp 
+); 
+cp字段是一个空终止字符串，用于接受点分表示法的IP地址。注意，这个函数把IP地址当作一个按网络字节顺序排列的32位无符号长整数返回（网络字节顺序在下面的“字节顺序”小节中有简要的说明。
+字节排序
+有时间再抄，呵呵
+11.1.5  创建套接字
+Winsock api是建立在套接字概念基础上的，套接字是传输提供程序的句柄。在windows中，套接字和文件描述符不是一回事，因而是一个独立的类型。即WINSOCK2.H中的SOCKET类型，WSASocket用来创建套接字。套接字可创建在不同的可用协议上。
+SOCKET socket (
+    int af,
+    int type,
+    int protocol
+);
+第一个参数af是协议的地址族。由于本章仅使用IPv4来描述winsock，因此应将这个字段设为AF_INET(是不是就是说在网络层使用IP协议的意思)。
+第二个参数type是协议的套接字类型。如果使用TCP/IP创建套接字，就设置为SOCK_STREAM，而用UDP/IP时则应设为SOCK_DGRAM。（是不是就是说在传输层使用TCP协议或者是UDP协议的意思）。
+第三个参数是protocol，用于在给定地址族和套接字类型具有多重入口时，对具体的传送作限定。对于TCP，应将该字段设为IPPROTO_TCP;而对于UDP则设为IPPROTO_UDP。
+在成功创建套接字后，就可以在套接字上建立通信，并为收发数据做好准备。
+在winsock中有两种基本的通信技术：面向连接的通信和无连接通信。
+11.1.6  面向连接的通信
+本节讨论接受连接和建立连接所需要的winsock函数，首先讨论如何通过监听客户端连接来开发服务器，并讨论接受或拒绝一个连接的过程。随后讨论怎样通过初始化与服务器的连接来开发客户端。最后讨论数据在面向连接会话中是如何传输的。
+In this section, we'll cover the Winsock functions necessary for both receiving connections and establishing connections. We'll first discuss how to develop a server by listening for client connections and explore the process for accepting or rejecting a connection. Then we'll describe how to develop a client by initiating a connection to a server. Finally, we'll discuss how data is transferred in a connection-oriented session.
+在IP中，面向连接的通信是通过TCP/IP协议完成的。TCP提供两个计算机间可靠无误的数据传输。应用程序使用TCP通信时，在源计算机和目标计算机之间，会建立起一个虚拟连接，计算机之间以双向字节流方式进行数据交换。（是不是说在网络层使用IP协议时，winsock接口使用传输层是TCP的协议实现面向连接的通信。
+In IP, connection-oriented communication is accomplished through the TCP/IP protocol. TCP provides reliable error-free data transmission between two computers. When applications communicate using TCP, a virtual connection is established between the source computer and the destination computer. Once a connection is established, data can be exchanged between the computers as a two-way stream of bytes
+11.1.6.1  服务器端API函数
+这里所说的服务器其实是一个进程，它需要等待任意数量的客户端与之建立连接，以便为它们的请求提供服务。服务器端必须在一个已知的名称上监听连接，在TCP/IP中，这个名称就是本地接口的IP地址，再加上一个端口编号。每种协议都有一套不同的寻址方案，所以各自的命名方法也不同。在winsock中，第一步是用socket将给定协议的套接字绑定到已知的名称上，这个过程是通过bind API调用来完成的。下一步是将套接字置为监听模式，这一步用API函数listen来完成。最后，若一台客户端试图建立连接，服务器端必须通过accept调用来接受连接。
+ 
+A server is a process that waits for any number of client connections with the purpose of servicing their requests. A server must listen for connections on a well-known name. In TCP/IP, this name is the IP address of the local interface and a port number. Every protocol has a different addressing scheme and therefore a different naming method. The first step in Winsock is to create a socket with either the socket or WSASocket call and bind the socket of the given protocol to its well-known name, which is accomplished with the bind API call. The next step is to put the socket into listening mode, which is performed (appropriately enough) with the listen API function. Finally, when a client attempts a connection, the server must accept the connection with either the accept or WSAAccept call. In the next few sections, we will discuss each API call that is required for binding, listening, and accepting a client connection. Figure 1-1 illustrates the basic calls a server and a client must perform in order to establish a communication channel.
+11.1.6.1.1	 绑定
+一旦为某种协议创建了套接字，就必须将套接字绑定到一个已知地址上。bind函数可将指定的套接字同一个已知地址绑定到一起。
+int bind(
+    SOCKET                     s, 
+    const struct sockaddr FAR* name, 
+    int                        namelen
+);
+第一个参数s代表用来等待客户端连接的那个套接字。
+第二个参数类型是struct sockaddr，它的作用很简单，就是一个普通的缓冲区。根据所使用的那个协议，必须实际地填充一个地址缓冲区，并在调用bind时将其转换为一个struct sockaddr。Winsock头文件将SOCKADDR类型定义为struct sockaddr。为简化起见，本章都将使用这个类型。
+第三个参数代表要传递的，由协议决定的地址结构的长度。
+举个例子来说，下列代码显示了在一个TCP连接上，如何来做到这一点.
+SOCKET               s;    
+SOCKADDR_IN          tcpaddr;
+int                  port = 5150;
+
+s = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+
+tcpaddr.sin_family = AF_INET;
+tcpaddr.sin_port = htons(port);    
+tcpaddr.sin_addr.s_addr = htonl(INADDR_ANY);
+
+bind(s, (SOCKADDR *)&tcpaddr, sizeof(tcpaddr));
+这个例子创建了一个流套接字。随后，建立了TCP/IP地址结构，并打算在它上面接受客户端连接。在这种情况下，通过特殊IP地址INADDR_ANY，套接字被绑定到默认的IP接口，并占据5150端口。可以指定系统中一个可用的显示IP地址，不过INADDR_ANY允许将套接字绑定到系统中所有可用的接口，以便将来传到任意接口（这个接口，我认为是协议的意思，不同协议不同的winsock接口）上的客户端连接(必须在正确的端口上)都可以被监听套接字接受。Bind调用正式将套接字同IP地址及端口关联到了一起。
+11.1.6.1.2	 监听
+接下来将套接字置入监听模式。Bind只是将套接字和指定的地址关联到一起。指示套接字等候连接传入的API函数则是listen。
+int listen(
+    SOCKET s, 
+    int    backlog
+);
+第一个参数同样是一个被绑定的套接字
+第二个参数backlog指定了被搁置的连接的最大队列长度。因为完全可能同时出现几个请求连接服务器的连接，所以这个参数非常重要。假定backlog参数为2，如果有3个用户同时发同请求，那么头两个会被放在一个挂起的队列中，以便应用程序依次为它们服务。而第三个连接请求会失败。返回WSAECONNREFUSED错误。注意一旦服务器接受了一个连接，那个连接请求就会从队列中删去，以便别人可继续发出请求。另外对于如何找出实际的backlog的值，还不存在一种标准的方案。
+11.1.6.1.3	 接受连接
+Accept WSAAccept AcceptEx函数来完成接受连接。
+SOCKET accept(
+    SOCKET s, 
+    struct sockaddr FAR* addr, 
+    int FAR* addrlen
+);
+第一个参数s是一个被绑定的套接字，它处于监听模式。
+第二个参数应该是一个有效的SOCKADDR_IN结构的地址。
+第三个参数addrlen是SOCKADDR_IN结构的长度。
+对于属于另一种协议的套接字，应当用那种协议的SOCKADDR结构来替换SOCDADDR_IN。
+通过对accept函数的调用，可以为被搁置的连接队列中的第一个连接请求提供服务。Accept函数返回后，addr结构中会包含发出连接请求的那个客户端的IPv4地址信息，而addrlen参数则指出addr结构的长度。Accept会返回一个新的套接字的描述符，它对应于已经接受的那个客户端连接。该客户端后续的所有操作都应该使用这个新的套接字。至于原来的那个监听套接字，它仍然用于接受其他客户端的连接，而且仍处于监听模式。
+在监听套接字为异步或非阻塞模式，并且没有连接被接受时，最常见的错误是WSAEWOULDBLOCK。阻塞、非阻塞以及其它套接字模式将在第5章中作介绍。
+11.2  winsock IO方法
+重点如何在套接字模式中对IO操作进行管理。Winsock分别提供了套接字模式和套接字IO模型，可对一个套接字上的IO行为加以控制。套接字模式用于决定winsock函数随套接字调用的行为，另一方面，套接字模型描述了一个应用程序如何对套接字上的IO进行管理和操作。
+Winsock提供了两种套接字模式，阻塞与非阻塞。
+提供了多种套接字模型，有助于应用程序通过某种异步方式，一次对一个或多个套接字上进行的通信加以管理，这种模型包括select，WSAAsyncSelet,WSAEventSelect,OverlappedI/O,Completion port等。
+
+11.2.1  套接字模式
+阻塞，I/O操作完成前，执行操作的winsock调用（如send，recv）会一直等候下去，不会立即返回到程序中（将控制权交还给程序）。
+非阻塞，winsock函数无论如何会立即返回。
+11.2.1.1  阻塞模式
+如果主线各读数据，并计算，则recv时会阻塞住，程序没有响应。
+新开一个线程计算，主线程读，涉及同步，主线程读完告诉计算线程。
+要读多个套接字时，每个套接字开一个新线程，是一种方案。
+11.2.1.2  非阻塞模式
+将一个套接字置为非阻塞模式之后，处理收发数据工处理连接的winsock api调用会立即返回，大多数情况下，这些调用失败会返回一个WSAEWOULDBLOCK错误，这意味着请求的操作在调用期间没有足够时间来完成，例如 ，在系统的输入缓冲区中，尚不存在被操起的数据，那么recv调用就会返回WSAEWOULDBLOCK错误，通常，需要重复调用同一个函数，直到获得成功的返回代码。
+阻塞与非阻塞套接字模式都存在着优点和缺点。
+阻塞容易使用，但在应付建立连接的多个套接字时，或在数据的收发不均，时间不定时，显得极难管理。
+非阻塞，由于要编写更多的代码，以便在每个winsock调用中，对可能收到的WSAWOULDBLOCK错误加以处理，所以非阻塞套接字便显得有些难于操作。在这时，可考虑使用套接字IO模型，它将帮助应用程序通过一咱异步方式，同时对一个或多个套接字上进行的通信加以管理。
+11.3  套接字I/O模型
+共有六种，可让winsock应用程序对IO进行管理。
+Blocking阻塞
+Select选择
+WSAAsyncSelect异步选择
+WSAEventSelect事件选择
+Overlapped重叠
+Completionport完成端口
+11.3.1.1  阻塞模型
+它最简单，也最直接，大多数编程人员都从这种模型开始。
+这种模型，处理IO时，每个套接字使用一个或二个线程，之后第个线程都将发出阻塞操作，如send，recv。
+优点在于简洁，对于简单的应用程序和快速原型化，非常有用，因为创建多线程会消耗宝贵的系统资源，缺点是很难将它扩展到有很多连接的情况。
+11.3.1.2  select模型
+另一个广泛应用的模型。利用select函数实现对IO的管理。用来避免在套接字调用过程中被阻塞，同时进行对多个套接字的管理。
+Select函数可用于判断套接字上是否存在数据，或者能否向一个套接字写入数据。
+之所以要设计这个函数，其目的是防止应用程序在套接字处于阻塞模式中时，在IO绑定调用(如send,recv)进入阻塞状态。同时也防止在套接字处于非阻塞模式中时，产生WSAEWOULDBLOCK错误。除非满足事先用参数规定的条件，否则select函数在进行IO操作时会阻塞。
+int select(
+    int nfds,
+    fd_set FAR * readfds,
+    fd_set FAR * writefds,
+    fd_set FAR * exceptfds,
+    const struct timeval FAR * timeout
+);
+第一个参数忽略。
+3个fd_set参数：一个用于检查可读性，一个用于检查可写性，一个用于带外数据。从根本上说，fd_set数据类型代表一系列待定套接字的集合。其中，readfds集合包括符合下述任何一个条件的套接字：
+?	有数据可以写入
+?	连接已经被关闭，重启或终止
+?	假如已调用了listen，而且有一个连接正处于搁置状态，那么accept函数调用会成功
+Writefds集合包括符合下述任何一个条件的套接字：
+?	有数据可以发出
+?	如果正在对一个非阻塞连接调用进行处理，则连接就成功了
+Exceptfds集合包括符合下述任何一个条件的套接字：
+?	假如正在对一个非阻塞连接调用进行处理，连接尝试就会失败
+?	有OOB(out of band带外)数据可供读取
+……
+使用select的优势是，能够从单个线程的多个套接字上进行多重连接及IO，这就避免了伴随阻塞套接字和多重连接的线程剧增。但可以加到fd_set结构中的最大套接字数量是一个不好的地方，默认状态下，最大数量由FD_SETSIZE定义，该值在WINSOCK2.H中定义为64.为了提高这个上限，应用程序可将FD_SETSIZE定义得更大一些。这个定义必须在包含WINSOCK2.H之前出现。同时，下层提供程序强加了一个fd_set的最大值，通常是1024，但不保证一定是。最后，针对一个较大的FD_SETSIZE，在调用之前，就考虑设置1000个套接字的效果d调用返回之后，检查这1000个套接字中的每一个是否都被设置了，这样便可以看出效果如何。
+11.3.1.3  WSAAsyncSelect模型
+异步IO模型，应用程序可在一个套接字上，接收以windows消息为基础的网络事件通知。
+WSAAsyncSelect和WSAEventSelect模型提供了读写数据能力的异步通知。但它们不提供异步数据传送，而重叠及完成端口模型却提供异步数据传送。
+WSAAsyncSelect模型有许多优点。最突出的一个方面是它可以在系统开销不大的情况下同时处理许多连接，而select模型需要建立fd_set结构。
+缺点是即使应用程序不需要窗口，也不得不额外使用一个窗口。同时，用一个单窗口来处理成千上上万套接字中的所有事件，很可能成为性能瓶颈。
+11.3.1.4  WSAEventSelect模型
+Winsock提供了另一个有用的异步事件通知IO模型。和WSAAsyncSelect模型类似的是，它也允许应用程序在一个或多个套接字上，接收以事件为基础的网络事件通知。与WSAAsyncSelect模型差别在于网络事件通知是由事件对象句柄完成的，而不是通过窗口例程完成。
+WSAEventSelect模型不几个方面的优势。它概念简单，不需要窗口支持，惟一的缺点是它每次只等待64个事件。这一限制使得在处理多个套接字时，有必要组织一个线程池。同时，因为需要许多线程去处理大量套接字连接，这个模型的伸缩性不如后面讨论的重叠模型。
+11.3.1.5  重叠模型
+重叠模型IO(overlapped IO)模型使应用程序能达到更佳的系统性能。此模型的基本设计原理是让应用程序使用重叠的数据结构，一次投递一个或多个winsock IO请求。针对那些提交的请求，在它们完成之后，应用程序可为它们提供服务。模型的总体设计以windows重叠IO为基础。这种机制可通过在readfile和writefile两个函数，在设备上执行IO操作。
+11.3.1.6  完成端口模型
+因为需要做出大量的工作以便将套接字添加到一个完成端口，而其它IO方法的初始化步骤则省事多了，所以对于新手来说，完成端口模型好像过于复杂，然而一旦弄明白是怎么回事，就会发现步骤其实并非那么复杂。同时，假若一个应用程序同时需要管理为数众多的套接字，那么采用这种模型，往往可以达到最佳的系统性能。此模型非常适合用来处理数百乃至上千个套接字。
+从本质上说，完成端口模型要求创建一个windows完成端口对象，该对象通过指定数量的线程，对重叠IO请求进行管理，以便为已经完成的重叠IO请求提供服务。要注意的是，所谓完成端口，实际是windows采用的一种IO构造机制，除套接字够柄外，还可接受其它东西。然而，本节只打算讲述如何使用套接字句柄，来发挥完成端口模型的作用。使用这种模型之前首先要创建一个IO完成端口对象，用它面向任意数量的套接字句柄。管理多个IO请求。要做到这一点，需要调用CreateCompletionPort函数。
+HANDLE CreateIoCompletionPort(
+    HANDLE FileHandle,
+    HANDLE ExistingCompletionPort,
+    DWORD CompletionKey,
+    DWORD NumberOfConcurrentThreads
+);
+这个函数实际用于两个截然不同的目的：
+?	用于创建一个完成端口对象
+?	将一个句柄同完成端口关联到一起
+最开始创建一个完成端口时，我们惟一感兴趣的参数便是NumberOfConcurrentThreads；前3个参数都不大重要。NumberOfConcurrentThreads参数的特殊之处在于，它定义了在一个完成端口上同时允许执行的线程数量。在理想的情况下，我们希望每个处理器各自负责一个线程的运行，为完成端口提供服务，避免过于频繁的任务转换。设置该参数为0则告诉系统，安装了多少个处理器，则允许同时运行多少个线程。可用下述代码创建一个IO完成端口。：
+CompletionPort = CreateIoCompletionPort(INVALID_HANDLE_VALUE,
+    NULL, 0, 0);
+该语句的作用是返回一个句柄，在为完成端口分配了一个套接字句柄后，用来对那个端口进行标识。
+11.3.1.6.1	 工作器线程与完成端口
+成功创建一个完成端口后，便可开始将套接字句柄与对象关联到一起。但在关联套接字之前，首先必须创建一个或多个工作器线程，以便在套接字的IO请求投递给完成端口对象后，为完成端口提供服务。在这个时候，或许大家奇怪到底应创建多少个线程，以便为完成端口提供服务呢？因为服务IO请求所需的线程数量取决于应用程序的总体设计情况，所以这实际正是完成端口模型显得颇为复杂的一个方面。在此要记住一个重点在于，在调用CreateIoComletionPort时指定的并发线程数量，与打算创建的工作器线程数量相比，它们代表的不是同一件事情。以前我们曾建议大家用CreateIoCompletionPort函数为每个处理器都指定一个线程以避免频繁的线程上下文转换。CreateIoCompletionPort函数的NumberOfConcurrentThreads参数明确地指示系统，在一个完成端口上，一次只允许n个工作器线程运行，假如在完成端口上创建的工作器线程数量超过n个，那么在同一时刻，最多只允许n个线程运行。那么为何实际创建的工作器线程数量有时要比CreateIoCompletionPort函数设定的多一些呢？这样做有必要么?如先前所述，这主要取决于应用程序的总体设计情况，假定某个工作器线程调用了一个函数，例如Sleep或WaitForSingleObject，但却进入了暂停状态，就允许另一个线程代替它的位置，换言之，我们希望随时都能执行可能多的线程，当然，最大的线程数量是事先在CreateIoCompletionPort调用里设定好的。这样，假如事先预计到线程有可能暂时处于阻塞状态，那么最好能够创建比CreateIoCompletionPort的NumberOfConcurrentThreads参数值更多的线程，以便到时候充分发挥系统的潜力。
+一旦在完成端口上拥有足够多的工作器线程来为IO请求提供服务，便可着手将套接字句柄同完成端口关联到一起。这需要在一个现有的完成端口上，调用CreateIoCompletionPort函数，同时为前3个参数FileHandle, ExistingCompletionPort, and CompletionKey，提供套接字的信息。其中，FileHandle参数指定一个要同完成端口关联在一起的套接字句柄。ExistingCompletionPort参数标识的是一个现有的完成端口套接字句柄，已经与它关联在了一起。CompletionKey完成健，参数则标识的是要与某个特定套接字句柄关联在一起的单句柄数据per-handle data;在这个参数中，应用程序可保存与一个套接字对应的任意类型的信息，之所以把它叫作单句柄参数，是由于它代表了与套接字句柄关联在一起的数据。可将它作为指向一个数据结构的指针，在这个结构中，同时包含了套接字的句柄，以及与该套接字有关的其它信息。正如本章稍后还会讲述的那样，为完成端口提供服务的线程例程可通过这个参数，取得与套接字句柄有关的信息。
+下面的示例阐述了如何使用完成端口模型，来开发一个回应服务器应用程序。这个程序基本按下述步骤进行：
+1.	创建一个完成端口。第4个参数保持为0，它指定在完成端口上每个处理器一次只允许执行一个工作器线程。
+2.	判断系统内到底有多少个处理器。
+3.	创建工作器线程，根据步骤2得到的处理器信息，在完成端口上为已完成的IO请求提供服务。在这个简单的例子中，我们为每个处理器只创建一个工作器线程。这是由于事先已预计到，到时不会有任何线程进入暂停状态，造成由于线程数量的不足而使处理器空闲的局面（没有足够的线程可供执行）。本节稍后还会详细讨论线程的职责。
+4.	准备好一个监听套接字，在端口5150上监听传入的连接请求。
+5.	使用accept函数，接受入站的连接请求。
+6.	创建一个数据结构，用于容纳单句柄数据，同时在结构中存入接受的套接字句柄。
+7.	调用CreateIoCompletionPort，将自accept返回的新套接字句柄同完成端口关联到一起。通过CompletionKey参数，将单句柄数据结构传递给CreateIoCompletionPort。
+8.	开始在已接受的连接进行IO操作，在此，我们希望通过重叠IO机制，在新建的套接字上投递一个或多个异步WSARecv或WSASend请求。这些IO请求完成后，工作器线程会为IO请求提供服务，同时继续处理以后的IO请求。在步骤3指定的工作器例程中，我们将看到这一点。
+9.	重复步骤5-8，直到服务器终止。
+11.4 地址结构的内容
+我在这里不准备具体介绍哪一个地址结构，而是就地址结构的总体上来说明一下。在地址结构上倾向于为它自身指定一个长度，也就是地址结构往往会有一个长度成员，它指出当前正在使用结构体占有多少字节，但是由于历史原因并不能保证每个实现中都存在这个成员，所以看上去有的这个结构成员可能没有用处──在用户层上这个成员总是很少使用。并且socket api中问题假设用户没有指定这个成员，从而要求把这个长度的值显式地通过参数传递给这些api，如果connect、bind等等。这一点让人难受，有而不用。
+在一些地址结构中存在一个未用的扩展区，也就是这个地方现在没有使用，但是在以后的某个时候可能会使用。这样就给人一种感觉，如果有一天这个地方使用了，那么我现在写的程序怎么办，总叫人不放心。可是socket已经产生了几十年，这个预留的东西从来没有使用过，所以历史告诉我们这些东西将来也不会使用。但是出于安全等等各种因素我们需要把这块内存处理为0。
+在地址结构存在一个这样的成员它指定相应的地址簇或者说协议簇，它会非常有用，内核会根据这个值来对传入的内容作不同的处理。我们可能已经注意到了，诸如connect、bind这些接口并没有与具体地址结构相关的，所以但是内核必须在某个时候来区分这些地址结构，无论内核在哪里区分它们，区分他们总要一个依据，这个成员就是依据。
+地址结构的其它成员就与具体的协议有关了，它们都协议相关的地址结构，各个协议之间可能存在巨大差异，所以我们在这里就不说了。
+11.5 地址结构的使用
+地址结构各有不同，所以用户在使用地址结构的时候必须要知道自己需要使用什么，内核不会为我们做决定，做决定是在用户层上进行的。这就是说，用户需要在使用不同的协议的时候选择一个合适的地址结构并正确的填写其中的成员，接着把填写好的结构交内核，由内核作进一步处理。
+由于历史原因，我们可能没有办法知道或者确切了解一个结构成员，所以我们不能一个成员一个成员地来处理，在这里我们使用一个原则：只设置我们感兴趣的成员，把不感兴趣的成员都设置为0。如此就有了一个基本的思路：把整个结构置0，然后把设置我们感兴趣的成员为合适的值。
+此外地址结构中大多数成员都使用是网络字节序列，所以用户在设置成员值的时候可能需要把机器字节序列调整为网络字节序列，socket给我们两个工具了（htonl一簇函数），但在网络应用中，可能还需要更强大的工具，此时需要我们手工调整字节序列。
+socket套接口地址结构本身可能很复杂，再加上历史原因又加上一些人为的复杂性，所以学习与使用的时候需要小心一些。不过相对socket其它复杂的地方，地址结构可能还是相对简单的。
+
+第12章 vnc 
+12.1  安装
+centos 5.5 配置vnc，开启linux远程桌面教程（完整正确版）
+新客网 XKER.COM 时间:2012-01-14  评论:
+ 0 
+条
+Centos下vnc远程桌面连接配置(完全版，Centos5.5亲测)
+ 
+1.查看本机是否有安装vnc（centOS5默认有安装vnc）
+rpm -q vnc vnc-server
+ 
+如果显示结果为：
+package vnc is not installed
+vnc-server-4.1.2-14.e15_3.1
+ 
+那恭喜你，机器上已经安装了vnc。如果没有安装，可使用命令：
+#yum install vnc-server(注意在root下安装）
+#yum install vnc
+#yum groupinstall "GNOME Desktop Environment"
+ 
+2.把远程桌面的用户加入到配置文件中(下面以ROOT用户为例子)
+vi /etc/sysconfig/vncservers
+ 
+使用vi编辑器打开配置文件，在文件中添加下面两行命令
+VNCSERVERS="1:root 2:leo"
+VNCSERVERARGS[1]="-geometry 800x600"
+VNCSERVERARGS[2]="-geometry 1024x768"
+说明:
+第一、这里的“用户名”是指linux系统用户的名称
+第二、上面三行中第一行是设定可以使用VNC服务器的帐号，可以设定多个，但中间要用空格隔开。注意前面的数字“1”或是“2”，当你要从其它电脑来VNC服务器时，就需要用IP:1这种方法，而不能直接用IP。如假定你的VNC服务器IP是192.168.1.100，那想进入VNC服务器，并以peter用户登录时，需要在vncviewer里输入IP的地方输入：192.168.1.100:1,如果是root,那就是192.168.1.100:2.
+第三、下面两行[1][2]最好与上面那个相对应，后面的800X600可以换成你电脑支持的分辨率。注意中间的"x"不是“*”，而是小写字母"x".
+ 
+3.为配置的远程桌面用户设置密码
+vncpasswd
+说明:注意这里是为上面的root远程用户配密码，所以在root账户下配；依次类推，为别的账户配密码，就要在别的账户下配命令
+ 
+//孙永杰补充应该先运行一下vncserver 会产生一些default文件，不然没有xstartup文件
+4.修改远程桌面显示配置文件
+cd ~/.vnc/   (/root/.vnc)
+vi xstartup
+ 
+原本的xstartup文件内容应该如下：
+#!/bin/sh
+# Uncomment the following two lines for normal desktop:
+# unset SESSION_MANAGER
+# exec /etc/X11/xinit/xinitrc
+[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+xsetroot -solid grey
+vncconfig -iconic &
+xterm -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
+twm &
+ 
+只要取消上面第三行第四行前的#符号，就行，当然，如果你想进入VNC服务器时看到的是图形界面，那就还需要把最后面的那行注释掉，并加上gnome-session $.
+ 
+修改后的文件内容应该如下：
+#!/bin/sh
+# Add the following line to ensure you always have an xterm available.
+# Uncomment the following two lines for normal desktop:
+unset SESSION_MANAGER
+exec /etc/X11/xinit/xinitrc
+[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+xsetroot -solid grey
+vncconfig -iconic &
+xterm -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
+#twm &
+gnome-session &
+ 
+说明:
+第一、不修改此文件你看到的远程桌面很简单，相当于命令行操作，为了远程操作如同本地操作一样，务必参考以下方式进行修改
+第二、只要你启用一次VNCserver，就能自动创建，方法如下：
+#/sbin/service vncserver start(注意要在root下才能启动）
+#/sbin/service vncserver stop(启动后再关闭，方便下面的操作）
+通过上面的方法，就可以在用户家目录下的.vnc目录里创建xstartup文件.
+ 
+5.相关vnc服务操作指令
+#/sbin/service vncserver start(注意要在root下才能启动）
+#/sbin/service vncserver stop(启动后再关闭，方便下面的操作）
+#/sbin/service vncserver restart
+ 
+6.iptables防火墙常常会阻止vnc远程桌面，所以需要在iptables允许，用如下命令
+当你启动vnc服务后，你可以用netstat –tunlp命令来查看vnc服务所使用的端口，可以发现有5801，5901，6001等。使用下面命令开启这些端口:
+vi /etc/sysconfig/iptables
+添加:
+-A RH-Firewall-1-INPUT -p tcp -m tcp -m state --dport 5900:5920 --state NEW -j ACCEPT
+
+service iptables save  //保存
+service iptables restart //重启防火墙
+ 
+或者来点狠的！！关闭防火墙!
+service iptables stop
+ 
+7、开机自动启动vnc
+vi /etc/rc.d/rc.local
+使用vi编辑器打开配置文件，并进行下列修改
+/etc/init.d/vncserver start   --新增行
+ 
+8、可能的问题:
+a、黑屏
+在Linux里安装配置完VNC服务端，发现多用户登陆会出现黑屏的情况，具体的现象为：
+客户端可以通过IP与会话号登陆进入系统，但登陆进去是漆黑一片，除了一个叉形的鼠标以外，伸手不见五指。
+ 
+原因：用户的VNC的启动文件权限未设置正确。
+解决方法：将黑屏用户的xstartup（一般为：/home/用户名称/.vnc/xstartup）文件的属性修改为755（rwxr-xr-x）。
+完后杀掉所有已经启动的VNC客户端：
+vncserver -kill :1
+vncserver -kill :2        （注意：-kill与:1或:2中间有一空格）
+最后重启vncserver服务即可！service vncserver restart
+ 
+b、Windown下如何登陆VNC Server
+ (1).从IE登录
+直接从IE浏览器中输入如下地址：
+http://xxx.xxx.xxx.xxx:5802
+ (2).从VNC view登录
+在windows上安装vnc view，然后输入xxx.xxx.xxx.xxx:x，连接登录。
+ 
+备注：
+a、输入的格式为IP:号码,号码要看你自己的配置而定!!如192.168.1.111:1
+b、登陆提示connection refused(10061)，则是因为linux防火墙的问题，请检查防火墙设置。c、后面的尾缀  “:x”  也是不能少的，要不然老提示failed to connect : connection refused (10061) )
+
+
+分辨率
+命令行直接运行
+vncserver -geometry 1680x1050
+
+现在你就可以在windows下用vncview这个工具远程连接你的Linux桌面了.当然了在连接之前要设置你的Linux服务器允许别人来远程连接自己的桌面.
+具体位置在应用程序--首选项--远程桌面,里面分为共享和安全大家打开后一看就明白
+
+12.1.1  套接字操作尝试一个无法连接的主机
+
+连接失败：套接字操作尝试一个无法连接的主机。（10065）
+问题在于配置redhat的vncserver时，没有将默认的端口号5900+n添加到防火墙中。在使用vncviewer尝试连接vncserver时，被防火墙屏蔽掉了。可以尝试如下方法：
+      vi /etc/sysconfig/iptables
+　　找到下面的语句：
+　　-A RH-Firewall-1-INPUT -j REJECT ——reject-with icmp-host-prohibited
+　　在此行之前，加上下面的内容：
+　
+-A RH-Firewall-1-INPUT -p tcp -m tcp -m state --dport 5900:5920 --state NEW -j ACCEPT
+5920后面的20，表示这个vnc能端口能开到20，我们连接的时候192.168.0.12:21就不能连接上去了！
+然后重启iptables服务：/etc/init.d/iptables restart
+即可。
+
+防火墙和selinux都关掉就一定行了，不过有时不关也行
+加允许端口一定是在这里。
+ 
+12.1.2  开端口
+vncserver -geometry 1680x1050
+第13章  内存池
+13.1  安装
+第14章  网络编程
+14.1  同步、异步、阻塞、非阻塞
+14.1.1  使用异步 I/O 大大提高应用程序的性能
+http://www.ibm.com/developerworks/cn/linux/l-async/
+14.1.2  网络编程socket基本概念：同步、异步、阻塞和非阻塞
+http://wenku.baidu.com/view/024687ec4afe04a1b071de0e.html
+14.1.3  另一个解释
+在进行网络编程时，我们常常见到同步、异步、阻塞和非阻塞四种调用方式。这些方式彼此概念并不好理解。下面是我对这些术语的理解。
+同步
+　　所谓同步，就是在发出一个功能调用时，在没有得到结果之前，该调用就不返回。按照这个定义，其实绝大多数函数都是同步调用（例如sin, isdigit等）。但是一般而言，我们在说同步、异步的时候，特指那些需要其他部件协作或者需要一定时间完成的任务。最常见的例子就是 SendMessage。该函数发送一个消息给某个窗口，在对方处理完消息之前，这个函数不返回。当对方处理完毕以后，该函数才把消息处理函数所返回的 LRESULT值返回给调用者。
+异步
+　　异步的概念和同步相对。当一个异步过程调用发出后，调用者不能立刻得到结果。实际处理这个调用的部件在完成后，通过状态、通知和回调来通知调用者。以CAsycSocket类为例（注意，CSocket从CAsyncSocket派生，但是起功能已经由异步转化为同步），当一个客户端通过调用 Connect函数发出一个连接请求后，调用者线程立刻可以朝下运行。当连接真正建立起来以后，socket底层会发送一个消息通知该对象。这里提到执行部件和调用者通过三种途径返回结果：状态、通知和回调。可以使用哪一种依赖于执行部件的实现，除非执行部件提供多种选择，否则不受调用者控制。如果执行部件用状态来通知，那么调用者就需要每隔一定时间检查一次，效率就很低（有些初学多线程编程的人，总喜欢用一个循环去检查某个变量的值，这其实是一种很严重的错误）。如果是使用通知的方式，效率则很高，因为执行部件几乎不需要做额外的操作。至于回调函数，其实和通知没太多区别。
+阻塞
+　　阻塞调用是指调用结果返回之前，当前线程会被挂起。函数只有在得到结果之后才会返回。有人也许会把阻塞调用和同步调用等同起来，实际上他是不同的。对于同步调用来说，很多时候当前线程还是激活的，只是从逻辑上当前函数没有返回而已。例如，我们在CSocket中调用Receive函数，如果缓冲区中没有数据，这个函数就会一直等待，直到有数据才返回。而此时，当前线程还会继续处理各种各样的消息。如果主窗口和调用函数在同一个线程中，除非你在特殊的界面操作函数中调用，其实主界面还是应该可以刷新。socket接收数据的另外一个函数recv则是一个阻塞调用的例子。当socket工作在阻塞模式的时候，如果没有数据的情况下调用该函数，则当前线程就会被挂起，直到有数据为止。
+非阻塞
+　　非阻塞和阻塞的概念相对应，指在不能立刻得到结果之前，该函数不会阻塞当前线程，而会立刻返回。
+　　对象的阻塞模式和阻塞函数调用
+　　对象是否处于阻塞模式和函数是不是阻塞调用有很强的相关性，但是并不是一一对应的。阻塞对象上可以有非阻塞的调用方式，我们可以通过一定的API去轮询状态，在适当的时候调用阻塞函数，就可以避免阻塞。而对于非阻塞对象，调用特殊的函数也可以进入阻塞调用。函数select就是这样的一个例子。
+阻塞通信
+--------------------------------------------------------------------------------
+　　通过重叠通信和计算在许多系统能提高性能。由一个智能通信控制器自动地执行通信的系统是真实的。轻－重线索是取得这种重叠的一种机制。导致好性能的一个可选的机制是使用非阻塞通信。一个阻塞发送开始调用初始化这个发送操作，但不完成它。在这个消息被从这个发送缓存拷出以前，这个发送开始调用将返回。需要一个独立的”发送完成“调用完成这个通信，例如，检验从发送缓存拷出的数据。用适当的硬件，在发送被初始化后和它完成以前，来自发送者存储的数据转换可以和在发送者完成的计算同时进行。类似地，一个非阻塞&#8220;接收开始调用&#8221;初始化这个接收操作, 但不完成它。在一个消息被存入这个接收缓存以前，这个调用将返回。须要一个独立的&#8220;接收完成&#8221;调用完成这个接收操作，并检验被接收到这个接收缓存的数据。用适当的硬件，在接收操作初始化后和它完成以前，到接收者存储的数据转换可以和计算同时进行。非阻塞接收的使用虽着信息较早地在接收缓存位置被提供，也可以避免系统缓存和存储器到存储器拷贝。
+　　非阻塞发送开始调用能使用与阻塞发送一样的四种模式: 标准, 缓存, 同步和准备好模式。这些具有同样的意义。无论一个匹配接收是否已登入，能开始除“准备好”以外的所有模式的发送；只要一个匹配接收已登入，就能开始一个非阻塞”准备好“发送。在所有情况下，发送开始调用是局部的：无论其它进程的状态如何，它立刻返回。如果这个调用使得一些系统资源用完，那么它将失败并返回一个错误代码。高质量的MPI实现应保证这种情况只在“病态”;时发生。即，一个MPI实现将能支持大数量挂起非阻塞操作。
+　　当数据已被从发送缓存拷出时，这个发送完成调用返回。它可以带有附加的意义，这取决于发送模式。
+　　如果发送模式是“同步的”，那么只有一个匹配接收已开始这个发送才能完成。即，一个接收已被登入，并已和这个发送匹配。这时，这个发送完成调用是非局部的。注意，在接收完成调用发生以前，如果一个同步、非阻塞发送和一个非阻塞接收匹配, 它可以完成。(发送者一”知道“;转换将结束，它就能完成，但在接收者”知道“转换将结束以前)。
+　　如果发送模式是”缓存“，并没有挂起接收，那么消息必须被缓存。这时，发送完成调用是局部的，而且无论一个匹配接收的状态如何，它必须成功。
+　　如果发送模式是标准的，同时这个消息被缓存，那么在一个匹配接收发生以前，发送结束调用可以返回。另一方面，发送完成直到一个匹配接收发生才可以完成，并且这个消息已被拷到接收缓存。
+　　非阻塞发送能被用阻塞接收匹配，反过来也可以。
+　　给用户的建议. 一个发送操作的完成, 对于标准模式可以被延迟, 对于同部模式必须延迟, 直到一个匹配接收登入。这两种情况下非阻塞发送的使用允许发送者提前于接收者进行，以便在两进程的速度方面，计算更容忍波动。
+　　缓存和准备好模式中的非阻塞发送有一个更有限的影响。一可能一个非阻塞发送将返回，而一个阻塞发送将在数据被从发送者存储拷出后返回。只要在数据拷贝能和计算同时的情况下，非阻塞发送的使用有优点。
+　　消息发送模式隐含着由发送者初始化通信。当发送者初始化通信(数据被直接移到接收缓存, 并不要求排队一个挂起发送请求) 时，如果一个接收已登入，这个通信一般将有较低的额外负担。但是，只在匹配发送已发生后，一个接收操作能完成。当非阻塞接收等待发送时，没有阻塞接收，它的使用允许得到较低的通信额外负担。（给用户的建议结束）。
+——————————————————————————————————
+同步与异步传输的区别
+
+　　1,异步传输是面向字符的传输，而同步传输是面向比特的传输。
+　　2,异步传输的单位是字符而同步传输的单位是桢。
+　　3,异步传输通过字符起止的开始和停止码抓住再同步的机会，而同步传输则是以数据中抽取同步信息。
+　　4,异步传输对时序的要求较低，同步传输往往通过特定的时钟线路协调时序。
+　　5,异步传输相对于同步传输效率较低。
+　　同步传输方式中发送方和接收方的时钟是统一的、字符与字符间的传输是同步无间隔的。
+　　异步传输方式并不要求发送方和接收方的时钟完全一样，字符与字符间的传输是异步的。
+　　在网络通信过程中，通信双方要交换数据，需要高度的协同工作。为了正确的解释信号，接收方必须确切地知道信号应当何时接收和处理，因此定时是至关重要的。在计算机网络中，定时的因素称为位同步。同步是要接收方按照发送方发送的每个位的起止时刻和速率来接收数据，否则会产生误差。通常可以采用同步或异步的传输方式对位进行同步处理。
+　　1. 异步传输（Asynchronous Transmission）： 异步传输将比特分成小组进行传送，小组可以是8位的1个字符或更长。发送方可以在任何时刻发送这些比特组，而接收方从不知道它们会在什么时候到达。一个常见的例子是计算机键盘与主机的通信。按下一个字母键、数字键或特殊字符键，就发送一个8比特位的ASCII代码。键盘可以在任何时刻发送代码，这取决于用户的输入速度，内部的硬件必须能够在任何时刻接收一个键入的字符。
+　　异步传输存在一个潜在的问题，即接收方并不知道数据会在什么时候到达。在它检测到数据并做出响应之前，第一个比特已经过去了。这就像有人出乎意料地从后面走上来跟你说话，而你没来得及反应过来，漏掉了最前面的几个词。因此，每次异步传输的信息都以一个起始位开头，它通知接收方数据已经到达了，这就给了接收方响应、接收和缓存数据比特的时间；在传输结束时，一个停止位表示该次传输信息的终止。按照惯例，空闲（没有传送数据）的线路实际携带着一个代表二进制1的信号，异步传输的开始位使信号变成0，其他的比特位使信号随传输的数据信息而变化。最后，停止位使信号重新变回1，该信号一直保持到下一个开始位到达。例如在键盘上数字”1“，按照8比特位的扩展ASCII编码，将发送”00110001“，同时需要在8比特位的前面加一个起始位，后面一个停止位。
+　　异步传输的实现比较容易，由于每个信息都加上了”同步“信息，因此计时的漂移不会产生大的积累，但却产生了较多的开销。在上面的例子，每8个比特要多传送两个比特，总的传输负载就增加25%。对于数据传输量很小的低速设备来说问题不大，但对于那些数据传输量很大的高速设备来说，25%的负载增值就相当严重了。因此，异步传输常用于低速设备。
+　　2. 同步传输（Synchronous Transmission）：同步传输的比特分组要大得多。它不是独立地发送每个字符，每个字符都有自己的开始位和停止位，而是把它们组合起来一起发送。我们将这些组合称为数据帧，或简称为帧。
+　　数据帧的第一部分包含一组同步字符，它是一个独特的比特组合，类似于前面提到的起始位，用于通知接收方一个帧已经到达，但它同时还能确保接收方的采样速度和比特的到达速度保持一致，使收发双方进入同步。
+　　帧的最后一部分是一个帧结束标记。与同步字符一样，它也是一个独特的比特串，类似于前面提到的停止位，用于表示在下一帧开始之前没有别的即将到达的数据了。
+　　同步传输通常要比异步传输快速得多。接收方不必对每个字符进行开始和停止的操作。一旦检测到帧同步字符，它就在接下来的数据到达时接收它们。另外，同步传输的开销也比较少。例如，一个典型的帧可能有500字节（即4000比特）的数据，其中可能只包含100比特的开销。这时，增加的比特位使传输的比特总数增加2.5%，这与异步传输中25 %的增值要小得多。随着数据帧中实际数据比特位的增加，开销比特所占的百分比将相应地减少。但是，数据比特位越长，缓存数据所需要的缓冲区也越大，这就限制了一个帧的大小。另外，帧越大，它占据传输媒体的连续时间也越长。在极端的情况下，这将导致其他用户等得太久
+14.1.4  较好
+
+首先来解释同步和异步的概念,这两个概念与消息的通知机制有关.
+
+举个例子,比如我去银行办理业务,可能选择排队等候,也可能取一个小纸条上面有我的号码,等到排到我这一号时由柜台的人通知我轮到我去办理业务了.
+前者(排队等候)就是同步等待消息,而后者(等待别人通知)就是异步等待消息.在异步消息处理中,等待消息者(在这个例子中就是等待办理业务的人)往往注册一个回调机制,在所等待的事件被触发时由触发机制(在这里是柜台的人)通过某种机制(在这里是写在小纸条上的号码)找到等待该事件的人.
+而在实际的程序中,同步消息处理就好比简单的read/write操作,它们需要等待这两个操作成功才能返回;而异步处理机制就是类似于select/poll之类的多路复用IO操作,当所关注的消息被触发时,由消息触发机制通知触发对消息的处理.
+
+其次再来解释一下阻塞和非阻塞,这两个概念与程序等待消息(无所谓同步或者异步)时的状态有关.
+继续上面的那个例子,不论是排队还是使用号码等待通知,如果在这个等待的过程中,等待者除了等待消息之外不能做其它的事情,那么该机制就是阻塞的,表现在程序中,也就是该程序一直阻塞在该函数调用处不能继续往下执行.相反,有的人喜欢在银行办理这些业务的时候一边打打电话发发短信一边等待,这样的状态就是非阻塞的,因为他(等待者)没有阻塞在这个消息通知上,而是一边做自己的事情一边等待.但是需要注意了,第一种同步非阻塞形式实际上是效率低下的,想象一下你一边打着电话一边还需要抬头看到底队伍排到你了没有,如果把打电话和观察排队的位置看成是程序的两个操作的话,这个程序需要在这两种不同的行为之间来回的切换,效率可想而知是低下的;而后者,异步非阻塞形式却没有这样的问题,因为打电话是你(等待者)的事情,而通知你则是柜台(消息触发机制)的事情,程序没有在两种不同的操作中来回切换.
+
+很多人会把同步和阻塞混淆,我想是因为很多时候同步操作会以阻塞的形式表现出来,比如很多人会写阻塞的read/write操作,但是别忘了可以对fd设置O_NONBLOCK标志位,这样就可以将同步操作变成非阻塞的了;同样的,很多人也会把异步和非阻塞混淆,因为异步操作一般都不会在真正的IO操作处被阻塞,比如如果用select函数,当select返回可读时再去read一般都不会被阻塞,就好比当你的号码排到时一般都是在你之前已经没有人了,所以你再去柜台办理业务就不会被阻塞.
+
+可见,同步/异步与阻塞/非阻塞是两组不同的概念,它们可以共存组合,也可以参见这里:
+http://www.ibm.com/developerworks/cn/linux/l-async/
+同步和异步:上面提到过,同步和异步仅仅是关于所关注的消息如何通知的机制,而不是处理消息的机制.也就是说,同步的情况下,是由处理消息者自己去等待消息是否被触发,而异步的情况下是由触发机制来通知处理消息者,所以在异步机制中,处理消息者和触发机制之间就需要一个连接的桥梁,在我们举的例子中这个桥梁就是小纸条上面的号码,而在select/poll等IO多路复用机制中就是fd,当消息被触发时,触发机制通过fd找到处理该fd的处理函数.
+
+请注意理解消息通知和处理消息这两个概念,这是理解这个问题的关键所在.还是回到上面的例子,轮到你办理业务这个就是你关注的消息,而去办理业务就是对这个消息的处理,两者是有区别的.而在真实的IO操作时,所关注的消息就是该fd是否可读写,而对消息的处理就是对这个fd进行读写.同步/异步仅仅关注的是如何通知消息,它们对如何处理消息并不关心,好比说,银行的人仅仅通知你轮到你办理业务了,而如何办理业务他们是不知道的.
+
+而很多人之所以把同步和阻塞混淆,我想也是因为没有区分这两个概念,比如阻塞的read/write操作中,其实是把消息通知和处理消息结合在了一起,在这里所关注的消息就是fd是否可读/写,而处理消息则是对fd读/写.当我们将这个fd设置为非阻塞的时候,read/write操作就不会在等待消息通知这里阻塞,如果fd不可读/写则操作立即返回.
+
+很多人又会问了,异步操作不会是阻塞的吧?已经通知了有消息可以处理了就一定不是阻塞的了吧?
+其实异步操作是可以被阻塞住的,只不过通常不是在处理消息时阻塞,而是在等待消息被触发时被阻塞.比如select函数,假如传入的最后一个timeout参数为NULL,那么如果所关注的事件没有一个被触发,程序就会一直阻塞在这个select调用处.而如果使用异步非阻塞的情况,比如aio_*组的操作,当我发起一个aio_read操作时,函数会马上返回不会被阻塞,当所关注的事件被触发时会调用之前注册的回调函数进行处理,具体可以参见我上面的连接给出的那篇文章.回到上面的例子中,如果在银行等待办理业务的人采用的是异步的方式去等待消息被触发,也就是领了一张小纸条,假如在这段时间里他不能离开银行做其它的事情,那么很显然,这个人被阻塞在了这个等待的操作上面;但是呢,这个人突然发觉自己烟瘾犯了,需要出去抽根烟,于是他告诉大堂经理说,排到我这个号码的时候麻烦到外面通知我一下(注册一个回调函数),那么他就没有被阻塞在这个等待的操作上面,自然这个就是异步+非阻塞的方式了.
+
+14.1.5  较好二
+通常的，对一个文件描述符指定的文件或设备, 有两种工作方式: 阻塞与非阻塞。所谓阻塞方式的意思是指, 当试图对该文件描述符进行读写时, 如果当时没有东西可读,或者暂时不可写, 程序就进入等待状态, 直到有东西可读或者可写为止。而对于非阻塞状态, 如果没有东西可读, 或者不可写, 读写函数马上返回, 而不会等待。
+ 
+系统I/O方式可分为阻塞，非阻塞同步和非阻塞异步三类，三种方式中，非阻塞异步模式的扩展性和性能最好。主要是讲了两种IO多路复用模式：Reactor和Proactor，并对它们进行了比较。 
+ 一般地,I/O多路复用机制都依赖于一个事件多路分离器(Event Demultiplexer)。分离器对象可将来自事件源的I/O事件分离出来，并分发到对应的read/write事件处理器(Event Handler)。开发人员预先注册需要处理的事件及其事件处理器（或回调函数）；
+事件分离器负责将请求事件传递给事件处理器。两个与事件分离器有关的模式是Reactor和Proactor。Reactor模式采用同步IO，而Proactor采用异步IO。   
+什么是同步和异步,同步和异步是针对应用程序和内核的交互而言的，同步指的是用户进程触发IO操作并等待或者轮询的去查看IO操作是否就绪，而异步是指用户进程触发IO操作以后便开始做自己的事情，而当IO操作已经完成的时候会得到IO完成的通知（异步的特点就是通知）。而阻塞和非阻塞是针对于进程在访问数据的时候，根据IO操作的就绪状态来采取的不同方式，说白了是一种读取或者写入操作函数的实现方式，阻塞方式下读取或者写入函数将一直等待，而非阻塞方式下，读取或者写入函数会立即返回一个状态值。
+ 
+  一般来说I/O模型可以分为：同步阻塞，同步非阻塞，异步阻塞，异步非阻塞IO
+  
+   同步阻塞IO： 
+   在此种方式下，用户进程在发起一个IO操作以后，必须等待IO操作的完成，只有当真正完成了IO操作以后，用户进程才能运行。JAVA传统的IO模型属于此种方式！
+ 
+   同步非阻塞IO: 
+在此种方式下，用户进程发起一个IO操作以后边可返回做其它事情，但是用户进程需要时不时的询问IO操作是否就绪，这就要求用户进程不停的去询问，从而引入不必要的CPU资源浪费。其中目前JAVA的NIO就属于同步非阻塞IO。
+ 
+ 
+   异步阻塞IO：
+   此种方式下是指应用发起一个IO操作以后，不等待内核IO操作的完成，等内核完成IO操作以后会通知应用程序，这其实就是同步和异步最关键的区别，同步必须等待或者主动的去询问IO是否完成，那么为什么说是阻塞的呢？因为此时（通知）是通过select系统调用来完成的，而select函数本身的实现方式是阻塞的，而采用select函数有个好处就是它可以同时监听多个文件句柄（就绪的没有就绪的都有监听，epoll是select的替代方式，只监听就绪的文件句柄），从而提高系统的并发性！
+ 
+ 
+   异步非阻塞IO:
+   在此种模式下，用户进程只需要发起一个IO操作然后立即返回，等IO操作真正的完成以后，应用程序会得到IO操作完成的通知，此时用户进程只需要对数据进行处理就好了，不需要进行实际的IO读写操作，因为真正的IO读取或者写入操作已经由内核完成了。目前Java中还没有支持此种IO模型。   
+         搞清楚了以上概念以后，我们再回过头来看看，Reactor模式和Proactor模式。
+ 
+
+首先来看看Reactor模式，Reactor模式应用于同步I/O的场景。我们分别以读操作和写操作为例来看看Reactor中的具体步骤：
+读取操作：
+1. 应用程序注册读就绪事件和相关联的事件处理器
+2. 事件分离器等待事件的发生
+3. 当发生读就绪事件的时候，事件分离器调用第一步注册的事件处理器
+4. 事件处理器首先执行实际的读取操作，然后根据读取到的内容进行进一步的处理
+写入操作类似于读取操作，只不过第一步注册的是写就绪事件。
+ 
+
+下面我们来看看Proactor模式中读取操作和写入操作的过程：
+读取操作：
+1. 应用程序初始化一个异步读取操作，然后注册相应的事件处理器，此时事件处理器不关注读取就绪事件，而是关注读取完成事件，这是区别于Reactor的关键。
+2. 事件分离器等待读取操作完成事件
+3. 在事件分离器等待读取操作完成的时候，操作系统调用内核线程完成读取操作（异步IO都是操作系统负责将数据读写到应用传递进来的缓冲区供应用程序操作，操作系统扮演了重要角色），并将读取的内容放入用户传递过来的缓存区中。这也是区别于Reactor的一点，Proactor中，应用程序需要传递缓存区。
+4. 事件分离器捕获到读取完成事件后，激活应用程序注册的事件处理器，事件处理器直接从缓存区读取数据，而不需要进行实际的读取操作。
+Proactor中写入操作和读取操作，只不过感兴趣的事件是写入完成事件。
+
+从上面可以看出，Reactor和Proactor模式的主要区别就是真正的读取和写入操作是有谁来完成的，Reactor中需要应用程序自己读取或者写入数据，而Proactor模式中，应用程序不需要进行实际的读写过程，它只需要从缓存区读取或者写入即可，操作系统会读取缓存区或者写入缓存区到真正的IO设备.
+ 
+          综上所述，同步和异步是相对于应用和内核的交互方式而言的，同步 需要主动去询问，而异步的时候内核在IO事件发生的时候通知应用程序，而阻塞和非阻塞仅仅是系统在调用系统调用的时候函数的实现方式而已
+
+14.2  端口添加
+14.2.1  windows xp
+ 
+14.2.2  linux cent_os
+
+ 
+
+14.3  TCP/UDP
+14.3.1  UDP在TCP/IP协议族中的位置
+
+ 
+14.3.2  TCP/UDP相同
+
+14.3.3  TCP/UDP不同
+14.3.4  进程间通信
+
+ 
+14.3.5  端口号
+
+ 
+14.3.6  插口地址
+
+ 
+14.3.7  IANA
+
+　IANA 就是指(Internet Assigned Numbers Authority) ，Internet号分配机构。负责对IP地址分配规划以及对TCP/UDP公共服务的端口定义。国际互联网代理成员管理局（IANA）是在国际互联网中使用的IP 地址、域名和许多其它参数的管理机构。IP地址、自治系统成员以及许多顶级和二级域名分配的日常职责由国际互联网注册中心（IR）和地区注册中心承担。
+　　在IP地址范围内，非路由地址IANA(InternetAssignedNumbersAuthority)将一部分地址保留作为私人IP地址空间，专门用于内部局域网使用，这些地址如下表：
+类IP地址范围网络数
+　　A 10.0.0.0---10.255.255.255(长度相当于1个A类IP地址)
+　　B 172.16.0.0---172.31.255.255(长度相当于16个连续的B类IP地址)
+　　C 192.168.0.0---192.168.255.255(长度相当于256个连续的C类IP地址)
+　　这些地址是不会被Internet分配的，因此它们在Internet上也从来不会被路由，虽然它们不能直接和Internet网连接，但仍旧可以被用来和Internet通讯，我们可以根据需要来选用适当的地址类，在内部局域网中大胆地将这些地址当作公用IP地址一样地使用。在Internet上，那些不需要与Internet通讯的设备，如打印机、可管理集线器等也可以使用这些地址，以节省IP地址资源。
+特殊IP地址(保留IP地址)介绍
+　　就像我们每个人都有一个身份证号码一样，网络里的每台电脑(更确切地说，是每一个设备的网络接口)都有一个IP地址用于标示自己。我们可能都知道这些地址由四个字节组成，用点分十进制表示以及它们的A，B，C分类等，然而，在总数大约为四十多亿个可用IP 地址里，你知道下面一些常见的有特殊意义地址吗？我们一起来看看吧：
+　　一、0.0.0.0
+　　严格说来，0.0.0.0已经不是一个真正意义上的IP地址了。它表示的是这样一个集合：所有不清楚的主机和目的网络。这里的“不清楚”是指在本机的路由表里没有特定条目指明如何到达。对本机来说，它就是一个“收容所”，所有不认识的“三无”人员，一 律送进去。如果你在网络设置中设置了缺省网关，那么Windows系统会自动产生一个目的地址为0.0.0.0的缺省路由。
+　　二、255.255.255.255
+　　限制广播地址。对本机来说，这个地址指本网段内(同一广播域)的所有主机。如果翻译成人类的语言，应该是这样：“这个房间里的所有人都注意了！”这个地址不能被路由器转发。
+　　三、127.0.0.1
+　　本机地址，主要用于测试。用汉语表示，就是“我自己”。在Windows系统中，这个地址有一个别名“Localhost”。寻址这样一个地址，是不能把它发到网络接口的。除非出错，否则在传输介质上永远不应该出现目的地址为“127.0.0.1”的 数据包。
+　　四、224.0.0.1
+　　组播地址，注意它和广播的区别。从224.0.0.0到239.255.255.255都是这样的地址。224.0.0.1特指所有主机，224.0.0.2特指所有路由器。这样的地址多用于一些特定的程序以及多媒体程序。如果你的主机开启了IRDP (Internet路由发现协议，使用组播功能)功能，那么你的主机路由表中应该有这样一条路由。
+　　五、169.254.x.x
+　　如果你的主机使用了DHCP功能自动获得一个IP地址，那么当你的DHCP服务器发生故障，或响应时间太长而超出了一个系统规定的时间，Windows系统会为你分配这样一个地址。如果你发现你的主机IP地址是一个诸如此类的地址，很不幸，十有八九 是你的网络不能正常运行了。
+　　六、10.x.x.x、172.16.x.x～172.31.x.x、192.168.x.x
+　　私有地址，这些地址被大量用于企业内部网络中。一些宽带路由器，也往往使用192.168.1.1作为缺省地址。私有网络由于不与外部互连，因而可能使用随意的IP地址。保留这样的地址供其使用是为了避免以后接入公网时引起地址混乱。使用私有地址的私 有网络在接入Internet时，要使用地址翻译(NAT)，将私有地址翻译成公用合法地址。在Internet上，这类地址是不能出现的。
+　　对一台网络上的主机来说，它可以正常接收的合法目的网络地址有三种：本机的IP地址、广播地址以及组播地址。
+14.3.8  IANA端口号范围
+ 
+14.3.9  UDP特点
+
+ 
+ 
+14.4  ARP
+ARP，即地址解析协议，实现通过IP地址得知其物理地址。在TCP/IP网络环境下，每个主机都分配了一个32位的IP地址，这种互联网地址是在网际范围标识主机的一种逻辑地址。为了让报文在物理网路上传送，必须知道对方目的主机的物理地址。这样就存在把IP地址变换成物理地址的地址转换问题。以以太网环境为例，为了正确地向目的主机传送报文，必须把目的主机的32位IP地址转换成为48位以太网的地址。这就需要在互连层有一组服务将IP地址转换为相应物理地址，这组协议就是ARP协议。另有电子防翻滚系统也称为ARP
+14.4.1  基本功能
+　　在以太网协议中规定，同一局域网中的一台主机要和另一台主机进行直接通信，必须要知道目标主机的MAC地址。而在TCP/IP协议栈中，网络层和传输层只关心目标主机的IP地址。这就导致在以太网中使用IP协议时，数据链路层的以太网协议接到上层IP协议提供的数据中，只包含目的主机的IP地址。于是需要一种方法，根据目的主机的IP地址，获得其MAC地址。这就是ARP协议要做的事情。所谓地址解析（address resolution）就是主机在发送帧前将目标IP地址转换成目标MAC地址的过程。
+　　另外，当发送主机和目的主机不在同一个局域网中时，即便知道目的主机的MAC地址，两者也不能直接通信，必须经过路由转发才可以。所以此时，发送主机通过ARP协议获得的将不是目的主机的真实MAC地址，而是一台可以通往局域网外的路由器的某个端口的MAC地址。于是此后发送主机发往目的主机的所有帧，都将发往该路由器，通过它向外发送。这种情况称为ARP代理（ARP Proxy）。
+14.4.2  工作原理
+   
+ARP
+　　在每台安装有TCP/IP协议的电脑里都有一个ARP缓存表，表里的IP地址与MAC地址是一一对应的。
+   
+ARP工作原理
+　　以主机A（192.168.1.5）向主机B（192.168.1.1）发送数据为例。当发送数据时，主机A会在自己的ARP缓存表中寻找是否有目标IP地址。如果找到了，也就知道了目标MAC地址，直接把目标MAC地址写入帧里面发送就可以了；如果在ARP缓存表中没有找到目标IP地址，主机A就会在网络上发送一个广播，A主机MAC地址是“主机A的MAC地址”，这表示向同一网段内的所有主机发出这样的询问：“我是192.168.1.5，我的硬件地址是"主机A的MAC地址".请问IP地址为192.168.1.1的MAC地址是什么？”网络上其他主机并不响应ARP询问，只有主机B接收到这个帧时，才向主机A做出这样的回应：“192.168.1.1的MAC地址是00-aa-00-62-c6-09”。这样，主机A就知道了主机B的MAC地址，它就可以向主机B发送信息了。同时A和B还同时都更新了自己的ARP缓存表（因为A在询问的时候把自己的IP和MAC地址一起告诉了B），下次A再向主机B或者B向A发送信息时，直接从各自的ARP缓存表里查找就可以了。ARP缓存表采用了老化机制（即设置了生存时间TTL），在一段时间内（一般15到20分钟）如果表中的某一行没有使用，就会被删除，这样可以大大减少ARP缓存表的长度，加快查询速度。
+　　ARP攻击就是通过伪造IP地址和MAC地址实现ARP欺骗，能够在网络中产生大量的ARP通信量使网络阻塞，攻击者只要持续不断的发出伪造的ARP响应包就能更改目标主机ARP缓存中的IP-MAC条目，造成网络中断或中间人攻击。
+　　ARP攻击主要是存在于局域网网络中，局域网中若有一个人感染ARP木马，则感染该ARP木马的系统将会试图通过“ARP欺骗”手段截获所在网络内其它计算机的通信信息，并因此造成网内其它计算机的通信故障。
+　　RARP的工作原理：
+　　1． 发送主机发送一个本地的RARP广播，在此广播包中，声明自己的MAC地址并且请求任何收到此请求的RARP服务器分配一个IP地址；
+　　2． 本地网段上的RARP服务器收到此请求后，检查其RARP列表，查找该MAC地址对应的IP地址；
+　　3． 如果存在，RARP服务器就给源主机发送一个响应数据包并将此IP地址提供给对方主机使用；
+　　4． 如果不存在，RARP服务器对此不做任何的响应；
+　　5． 源主机收到从RARP服务器的响应信息，就利用得到的IP地址进行通讯；如果一直没有收到RARP服务器的响应信息，表示初始化失败。
+　　6．如果在第1-3中被ARP病毒攻击，则服务器做出的反映就会被占用，源主机同样得不到RARP服务器的响应信息，此时并不是服务器没有响应而是服务器返回的源主机的IP被占用。
+14.4.3  数据结构
+　　ARP协议的数据结构：
+　　typedef structarphdr
+　　{
+　　unsigned short arp_hrd;/*硬件类型*/
+　　unsigned short arp_pro;/*协议类型*/
+　　unsigned char arp_hln;/*硬件地址长度*/
+　　unsigned char arp_pln;/*协议地址长度*/
+　　unsigned short arp_op;/*ARP操作类型*/
+　　unsigned char arp_sha[6];/*发送者的硬件地址*/
+　　unsigned long arp_spa;/*发送者的协议地址*/
+　　unsigned char arp_tha[6];/*目标的硬件地址*/
+　　unsigned long arp_tpa;/*目标的协议地址*/
+　　}ARPHDR,*PARPHDR;
+14.4.4  RARP 反向地址解析协议
+　　反向地址解析协议用于一种特殊情况，如果站点被初始化后，只有自己的物理网络地址而没有IP地址，则它可以通过RARP协议，并发出广播请求，征求自己的IP地址，而RARP服务器则负责回答。这样无IP的站点可以通过RARP协议取得自己的IP地址，这个地址在下一次系统重新开始以前都有效，不用连续广播请求。RARP广泛用于获取无盘工作站的IP地址。
+14.4.5  ARP缓存表查看方法及修改
+　　ARP缓存表是可以查看的，也可以添加和修改。在命令提示符下，输入“arp -a”就可以查看ARP缓存表中的内容了，如附图所示。
+   
+arp -a
+　　用“arp -d”命令可以删除ARP表中所有的内容；
+　　用“arp+空格+ <指定ip地址>+空格-d” 可以删除指定ip所在行的内容
+　　用“arp -s”可以手动在ARP表中指定IP地址与MAC地址的对应，类型为static(静态)，静态ARP缓存除非手动清除，否则不会丢失。无论是静态还是动态ARP缓存，重启启动计算机后都会丢失。
+14.5  mtu
+通信术语 最大传输单元（Maximum Transmission Unit，MTU）是指一种通信协议的某一层上面所能通过的最大数据包大小（以字节为单位）。最大传输单元这个参数通常与通信接口有关（网络接口卡、串口等）。
+14.6  wireshark
+
+之前学习Wireshark，看到wireshark简明教程里有关过滤器的介绍，特别是新手不明白捕捉过滤器和显示过滤器的区别与作用。这篇文章感觉写的挺好，解答了我的疑惑，毕竟看英文也是挺吃力的而且自己理解意思也不太明确。特地转来，顺便加了点料，特来分享。
+使用Wireshark时最常见的问题，是当您使用默认设置时，会得到大量冗余信息，以至于很难找到自己需要的部分。
+这就是为什么过滤器会如此重要。它们可以帮助我们在庞杂的结果中迅速找到我们需要的信息。
+ 
+14.6.1  过滤器的区别
+捕捉过滤器（CaptureFilters）：用于决定将什么样的信息记录在捕捉结果中。需要在开始捕捉前设置。
+显示过滤器（DisplayFilters）：在捕捉结果中进行详细查找。他们可以在得到捕捉结果后随意修改。
+那么我应该使用哪一种过滤器呢？
+两种过滤器的目的是不同的。
+捕捉过滤器是数据经过的第一层过滤器，它用于控制捕捉数据的数量，以避免产生过大的日志文件。
+显示过滤器是一种更为强大（复杂）的过滤器。它允许您在日志文件中迅速准确地找到所需要的记录。
+两种过滤器使用的语法是完全不同的。
+14.6.2  捕捉过滤器
+语法：	Protocol	Direction	Host(s)	Value	Logical Operations	Other expression
+例子：	tcp	dst	10.1.1.1	80	and	tcp dst 10.2.2.2 3128
+Protocol（协议）:
+可能的值: ether, fddi, ip, arp, rarp, decnet, lat, sca, moprc, mopdl, tcp and udp.
+如果没有特别指明是什么协议，则默认使用所有支持的协议。
+Direction（方向）:
+可能的值: src, dst, src and dst, src or dst
+如果没有特别指明来源或目的地，则默认使用 “src or dst” 作为关键字。
+例如，”host 10.2.2.2″与”src or dst host 10.2.2.2″是一样的。
+Host(s):
+可能的值： net, port, host, portrange.
+如果没有指定此值，则默认使用”host”关键字。
+例如，”src 10.1.1.1″与”src host 10.1.1.1″相同。
+Logical Operations（逻辑运算）:
+可能的值：not, and, or.
+否(“not”)具有最高的优先级。或(“or”)和与(“and”)具有相同的优先级，运算时从左至右进行。
+例如，
+“not tcp port 3128 and tcp port 23″与”(not tcp port 3128) and tcp port 23″相同。
+“not tcp port 3128 and tcp port 23″与”not (tcp port 3128 and tcp port 23)”不同。
+例子：
+tcp dst port 3128
+显示目的TCP端口为3128的封包。
+ip src host 10.1.1.1
+显示来源IP地址为10.1.1.1的封包。
+host 10.1.2.3
+显示目的或来源IP地址为10.1.2.3的封包。
+src portrange 2000-2500
+显示来源为UDP或TCP，并且端口号在2000至2500范围内的封包。
+not imcp
+显示除了icmp以外的所有封包。（icmp通常被ping工具使用）
+src host 10.7.2.12 and not dst net 10.200.0.0/16
+显示来源IP地址为10.7.2.12，但目的地不是10.200.0.0/16的封包。
+(src host 10.4.1.12 or src net 10.6.0.0/16) and tcp dst portrange 200-10000 and dst net 10.0.0.0/8
+显示来源IP为10.4.1.12或者来源网络为10.6.0.0/16，目的地TCP端口号在200至10000之间，并且目的位于网络 10.0.0.0/8内的所有封包。
+src net 192.168.0.0/24
+src net 192.168.0.0 mask 255.255.255.0
+显示来源IP地址为10.1.1.1的封包。
+注意事项：
+当使用关键字作为值时，需使用反斜杠“/”。
+“ether proto /ip” (与关键字”ip”相同).
+这样写将会以IP协议作为目标。
+“ip proto /icmp” (与关键字”icmp”相同).
+这样写将会以ping工具常用的icmp作为目标。
+可以在”ip”或”ether”后面使用”multicast”及”broadcast”关键字。
+当您想排除广播请求时，”no broadcast”就会非常有用。
+Protocol（协议）:
+您可以使用大量位于OSI模型第2至7层的协议。点击”Expression…”按钮后，您可以看到它们。
+比如：IP，TCP，DNS，SSH
+String1, String2 (可选项):
+协议的子类。
+点击相关父类旁的”+”号，然后选择其子类。
+Comparison operators （比较运算符）:
+可以使用6种比较运算符：
+英文写法：	C语言写法：	含义：
+eq	==	等于
+ne	!=	不等于
+gt	>	大于
+lt	<	小于
+ge	>=	大于等于
+le	<=	小于等于
+Logical expressions（逻辑运算符）:
+英文写法：	C语言写法：	含义：
+and	&&	逻辑与
+or	||	逻辑或
+xor	^^	逻辑异或
+not	!	逻辑非
+14.6.3 显示过滤器
+语法：	Protocol	.	String 1	.	String 2	Comparison
+operator	Value	Logical
+Operations	Other
+expression
+例子：	ftp	 	passive	 	ip	==	10.2.3.4	xor	icmp.type
+例子：
+snmp || dns || icmp	显示SNMP或DNS或ICMP封包。
+ip.addr == 10.1.1.1
+显示来源或目的IP地址为10.1.1.1的封包。
+ip.src != 10.1.2.3 or ip.dst != 10.4.5.6
+显示来源不为10.1.2.3或者目的不为10.4.5.6的封包。
+换句话说，显示的封包将会为：
+来源IP：除了10.1.2.3以外任意；目的IP：任意
+以及
+来源IP：任意；目的IP：除了10.4.5.6以外任意
+ip.src != 10.1.2.3 and ip.dst != 10.4.5.6
+显示来源不为10.1.2.3并且目的IP不为10.4.5.6的封包。
+换句话说，显示的封包将会为：
+来源IP：除了10.1.2.3以外任意；同时须满足，目的IP：除了10.4.5.6以外任意
+tcp.port == 25	显示来源或目的TCP端口号为25的封包。
+tcp.dstport == 25	显示目的TCP端口号为25的封包。
+tcp.flags	显示包含TCP标志的封包。
+tcp.flags.syn == 0×02	显示包含TCP SYN标志的封包。
+如果过滤器的语法是正确的，表达式的背景呈绿色。如果呈红色，说明表达式有误。
+14.7  acceptex
+
+AcceptEx函数使用的重叠I / O。与使用accept相比，使用AcceptEx能以相对较少的线程数量处理大量的客户。如同所有的Win32重叠函数，Win32事件或完成端口都可用来作为完成通知机制
+14.8  设置socket的非阻塞模式
+
+设置socket的非阻塞模式
+关于socket的阻塞与非阻塞模式以及它们之间的优缺点，这已经没什么可言的；我打个很简单的比方，如果你调用socket send函数时；
+如果是阻塞模式下：
+send先比较待发送数据的长度len和套接字s的发送缓冲的长度，如果len大于s的发送缓冲区的长度，该函数返回SOCKET_ERROR；如果len小于或者等于s的发送缓冲区的长度，那么send先检查协议是否正在发送s的发送缓冲中的数据，如果是就等待协议把数据发送完，如果协议还没有开始发送s的发送缓冲中的数据或者s的发送缓冲中没有数据，那么 send就比较s的发送缓冲区的剩余空间和len，如果len大于剩余空间大小，send就一直等待协议把s的发送缓冲中的数据发送完，如果len小于剩余空间大小send就仅仅把buf中的数据copy到剩余空间里
+如果是非阻塞模式下：
+在调用socket send函数时，如果能写到socket缓冲区时，就写数据并返回实际写的字节数目，当然这个返回的实际值可能比你所要写的数据长度要小些（On nonblocking stream oriented sockets, the number of bytes written can be between 1 and the requested length, depending on buffer availability on both the client and server computers），如果不可写的话，就直接返回SOCKET_ERROR了，所以没有等待的过程。。
+经过上面的介绍后，下面介绍如何设置socket的非阻塞模式：
+当使用socket()函数和WSASocket()函数创建套接字时，默认都是阻塞的。在创建套接字之后，通过调用ioctlsocket()函数，将该套接字设置为非阻塞模式。
+//-------------------------
+// Set the socket I/O mode: In this case FIONBIO
+// enables or disables the blocking mode for the
+// socket based on the numerical value of iMode.
+// If iMode = 0, blocking is enabled;
+// If iMode != 0, non-blocking mode is enabled.
+u_long iMode = 1;  //non-blocking mode is enabled.
+ioctlsocket(m_socket, FIONBIO, &iMode); //设置为非阻塞模式
+
+套接字设置为非阻塞模式后，在调用Windows Sockets API函数时，调用函数会立即返回。大多数情况下，这些函数调用都会调用“失败”，并返回WSAEWOULDBLOCK错误代码。说明请求的操作在调用期间内没有时间完成。通常，应用程序需要重复调用该函数，直到获得成功返回代码。 不同的Windows Sockets API函数，在调用失败时返回的WSAEWOULDBLOCK错误代码具有不同的含义
+需要说明的是并非所有的 Windows Sockets API 在非阻塞模式下调用，都会返回 WSAEWOULDBLOCK 错误。例如，以非阻塞模式的套接字为参数调用 bind() 函数时，就不会返回该错误代码。当然，在调用 WSAStartup() 函数时更不会返回该错误代码，因为该函数是应用程序第一调用的函数，当然不会返回这样的错误代码。
+要将套接字设置为非阻塞模式，除了使用 ioctlsocket() 函数之外，还可以使用 WSAAsyncselect() 和 WSAEventselect() 函数。当调用该函数时，套接字会自动地设置为非阻塞方式:
+The WSAAsyncSelect function automatically sets socket s to nonblocking mode, regardless of the value of lEvent .
+The WSAEventSelect function automatically sets socket s to nonblocking mode, regardless of the value of lNetworkEvents .
+14.9  博客园newlist
+14.9.1.1  socket函数
+摘要:socket函数是任何套接口网络编程中第一个使用的函数，它向用户提供一个套接字，即套接口描述文件字，它是一个整数，如同文件描述符一样，是内核标识一个IO结构的索引。通过socket函数，我们指定一个套接口的协议相关的属性，为进行使用socket api做好准备。
+如同所有的介绍API的文档一样，我们先给出socket函数的原型：
+#include<sys/socket.h>
+int socket(int family, int type, int protocol)
+返回：非负描述字──成功， -1──出错
+参数family
+这个参数指定一个协议簇，也往往被称为协议域。系统存在许多可以的协议簇，常见有AF_INET──指定为IPv4协议，AF_INET6──指定为IPv6，AF_LOCAL──指定为UNIX 协议域等等。它值都是系统预先定义的宏，系统支持哪些协议我们才可以使用，否则会调用失败。协议簇是网络层的协议。
+参数type
+这个参数指定一个套接口的类型，套接口可能的类型有：SOCK_STREAM、SOCK_DGRAM、SOCK_SEQPACKET、SOCK_RAW等等，它们分别表明字节流、数据报、有序分组、原始套接口。这实际上是指定内核为我们提供的服务抽象，比如我们要一个字节流。需要注意的，并不是每一种协议簇都支持这里的所有的类型，所以类型与协议簇要匹配。
+参数protocol
+指定相应的传输协议，也就是诸如TCP或UDP协议等等，系统针对每一个协议簇与类型提供了一个默认的协议，我们通过把protocol设置为0来使用这个默认的值。注意这里的协议与上面的协议簇是两个不同的概念，前者是指网络层的协议，由于它对于到传输层会出现许多协议，比如IPv4可以用来实现TCP或UDP等等传输层协议，所以称为协议簇。相应的传输层的协议就简单地称为协议。常见的协议有TCP、UDP、SCTP，要指定它们分别使用宏IPPROTO_TCP、IPPROTO_UPD、IPPROTO_SCTP来指定。
+返回值
+socket函数返回一个套接字，即套接口描述字。如果出现错误，它返回-1，并设置errno为相应的值，用户应该检测以判断出现什么错误。
+下面给出几个使用socket函数的示例：
+1.	 #include<sys/socket.h>
+2.	 //使用IPv4作为协议簇，使用字节流类型，
+3.	 //使用系统针对IPv4与字节流的默认的协议，一般为TCP
+4.	 int sockfd=socket(AF_INET, SOCK_STRAM, 0);
+5.	 
+6.	 //使用STCP作为协议
+7.	 int sockfd=socket(AF_INET, SOCK_STRAM, IPPROTO_SCTP);
+8.	 
+9.	 //使用数据报
+10.	 int sockfd=socket(AF_INET, SOCK_DGRAM, 0);
+14.9.1.2  IO复用select
+摘要：在UNIX系统编程过程中，一个进程往往需要等待多个描述字发生某一事件，如可读、可写或异常等等。进程不能永远地等待其中任何单独一个描述字，它需要同时等待所有描述字，此时就是IO复用技术，系统调用select就是实现这一目标的方式之一。本文详细介绍select函数。
+select广泛应用于各种场合，因为select对于任何描述字都有作用，它被应用网络程序，也被应用于终端程序，也被应用其它场合。下面我们先来看看它的函数原型：
+#include<sys/select.h>
+#include<sys/time.h>
+int select(int max_fd_p_1, fd_set *readset, fd_set* writeset, fd_set* exceptset, struct timeval* timeout);
+返回：就绪描述字的个数，0——超时，－1——出错
+select函数有5个参数，我们会介绍每一个参数。
+参数max_fd_p_1
+内核需要一个数字来指定最大的描述字，因为内核使用这个参数来遍历一组描述字。又因为描述字是从0开始计数的，所以max_fd_p_1实现上是最大描述字的加上1的值。
+参数readset
+select可以测试一组描述字是否可读，用户需要告诉内核所有关心的描述字，readset就是用来指定关心的描述字集合。
+参数writeset
+如同readset指定可读描述字集合一样，writeset用来指定关心的可写描述字集合。
+参数exceptset
+跟readset、writeset一样，exceptset用来指定所关心的异常描述字集合，也就是当集合中一个描述字出现异常时会得到内核的一个通知。
+参数timeout
+用来指定超时的时长，这是一个结构体：
+struct timeval
+{
+    long tv_sec;//秒数
+    long tv_usec;//微秒数
+}
+这个结体定义在头文件sys/time.h中。
+      上面我们简单地针对select自身进行了说明。我们注意到，select的参数有4个是指针，如果这些指针取值是空的话会如何？对于指定描述字集合的参数，如果取空的话，它们的意义很直接，就是没有相应的关心的描述字集合。比如readset＝＝NULL，则说明用户不关心任何一个描述字是否可读，对于writeset、exceptset也完全一样。但是对于timeout＝＝NULL的情况就是很直接的，它表示永远等待下去，此时我们不关心需要等待多长时间，我们只要求至少有一个描述字满足用户所关心的。
+对于timeout里面两个成员都取值0的时候，相应意义很直接，就是等待0秒0微秒，也就是说不等待任何时间。此时就相当于简单的轮询。
+上面我们介绍了最后一个参数的，那么先前的三个参数我需要注意一下，就是它们的类型是fd_set，fd_set是什么样的类型呢？我并不知道，但有一点，就是POSIX标准为我们提供了四个宏，这四个宏可以完成我们需要对fd_set的操作，而fd_set的实际类型留给系统去定义。这四个宏分别是：
+void FD_ZERO(fd_set* set);//把set设置为0
+void FD_SET(int fd, fd_set* set);//从把fd添加到set
+void FD_CLR(int fd, fd_set* set);//从set中删除fd
+int FD_ISSET(int fd, fd_set* set);//判断fd是否在set中被设置
+使用这四个宏，我们就可以完成fd_set相关的所有操作了。
+select是一相十分复杂的函数，它的返回值如上所说，-1为错误，0为超时，正数为就绪的打字个数。但是事实上打字的个数往往很小，系统会一个限制，一般为1024；这是因为fd_set这个类型的限制，同时select也不应该处理过多的打字，否则话会有性能问题。
+select也会设置errno值，最常见的值可能就是EINT，表示一个信号中断了select调用，作为应用程序应该在select返回错误的时候查看errno
+
+14.9.1.3  bind函数
+摘要:在套接口中，一个套接字只是用户程序与内核交互信息的枢纽，它自身没有太多的信息，也没有网络协议地址和端口号等信息，在进行网络通信的时候，必须把一个套接字与一个地址相关联，这个过程就是地址绑定的过程。许多时候内核会我们自动绑定一个地址，然而有时用户可能需要自己来完成这个绑定的过程，以满足实际应用的需要，最典型的情况是一个服务器进程需要绑定一个众所周知的地址或端口以等待客户来连接。这个事由bind的函数完成。
+从bind函数功能我们很容易推测出这个函数的需要的参数与相应的返回值，如果此时大家已经对socket接口有点熟悉了：
+#include<sys/socket.h>
+int bind(int sockfd, struct sockaddr* addr, socklen_t addrlen)
+返回：0──成功， -1──失败
+参数sockfd
+指定地址与哪个套接字绑定，这是一个由之前的socket函数调用返回的套接字。调用bind的函数之后，该套接字与一个相应的地址关联，发送到这个地址的数据可以通过这个套接字来读取与使用。
+参数addr
+指定地址。这是一个地址结构，并且是一个已经经过填写的有效的地址结构。调用bind之后这个地址与参数sockfd指定的套接字关联，从而实现上面所说的效果。
+参数addrlen
+正如大多数socket接口一样，内核不关心地址结构，当它复制或传递地址给驱动的时候，它依据这个值来确定需要复制多少数据。这已经成为socket接口中最常见的参数之一了。
+bind函数并不是总是需要调用的，只有用户进程想与一个具体的地址或端口相关联的时候才需要调用这个函数。如果用户进程没有这个需要，那么程序可以依赖内核的自动的选址机制来完成自动地址选择，而不需要调用bind的函数，同时也避免不必要的复杂度。在一般情况下，对于服务器进程问题需要调用bind函数，对于客户进程则不需要调用bind函数。
+
+14.9.1.4  listen函数
+摘要:listen函数使用主动连接套接口变为被连接套接口，使得一个进程可以接受其它进程的请求，从而成为一个服务器进程。在TCP服务器编程中listen函数把进程变为一个服务器，并指定相应的套接字变为被动连接。
+listen函数在一般在调用bind之后-调用accept之前调用，它的函数原型是：
+#include<sys/socket.h>
+int listen(int sockfd, int backlog)
+返回：0──成功， -1──失败
+参数sockfd
+被listen函数作用的套接字，sockfd之前由socket函数返回。在被socket函数返回的套接字fd之时，它是一个主动连接的套接字，也就是此时系统假设用户会对这个套接字调用connect函数，期待它主动与其它进程连接，然后在服务器编程中，用户希望这个套接字可以接受外来的连接请求，也就是被动等待用户来连接。由于系统默认时认为一个套接字是主动连接的，所以需要通过某种方式来告诉系统，用户进程通过系统调用listen来完成这件事。
+参数backlog
+这个参数涉及到一些网络的细节。在进程正理一个一个连接请求的时候，可能还存在其它的连接请求。因为TCP连接是一个过程，所以可能存在一种半连接的状态，有时由于同时尝试连接的用户过多，使得服务器进程无法快速地完成连接请求。如果这个情况出现了，服务器进程希望内核如何处理呢？内核会在自己的进程空间里维护一个队列以跟踪这些完成的连接但服务器进程还没有接手处理或正在进行的连接，这样的一个队列内核不可能让其任意大，所以必须有一个大小的上限。这个backlog告诉内核使用这个数值作为上限。
+毫无疑问，服务器进程不能随便指定一个数值，内核有一个许可的范围。这个范围是实现相关的。很难有某种统一，一般这个值会小30以内。
+当调用listen之后，服务器进程就可以调用accept来接受一个外来的请求。关于accept更的信息，请接着关注本系统文章。
+
+14.9.1.5  accept函数
+摘要：对于服务器编程中最重要的一步等待并接受客户的连接，那么这一步在编程中如何完成，accept函数就是完成这一步的。它从内核中取出已经建立的客户连接，然后把这个已经建立的连接返回给用户程序，此时用户程序就可以与自己的客户进行点到点的通信了。
+accept函数等待并接受客户请求：
+#include<sys/socket.h>
+int accept(int sockfd, struct sockaddr* addr, socklen_t* len)
+返回：非负描述字——成功， -1——失败
+accept默认会阻塞进程，直到有一个客户连接建立后返回，它返回的是一个新可用的套接字，这个套接字是连接套接字。此时我们需要区分两种套接字，一种套接字正如accept的参数sockfd，它是监听套接字，在调用listen函数之后，一个套接字会从主动连接的套接字变身为一个监听套接字；而accept返回是一个连接套接字，它代表着一个网络已经存在的点点连接。自然要问的是：为什么要有两种套接字？原因很简单，如果使用一个描述字的话，那么它的功能太多，使得使用很不直观，同时在内核确实产生了一个这样的新的描述字。
+参数sockfd
+参数sockfd就是上面解释中的监听套接字，这个套接字用来监听一个端口，当有一个客户与服务器连接时，它使用这个一个端口号，而此时这个端口号正与这个套接字关联。当然客户不知道套接字这些细节，它只知道一个地址和一个端口号。
+参数addr
+这是一个结果参数，它用来接受一个返回值，这返回值指定客户端的地址，当然这个地址是通过某个地址结构来描述的，用户应该知道这一个什么样的地址结构。如果对客户的地址不感兴趣，那么可以把这个值设置为NULL。
+参数len
+如同大家所认为的，它也是结果的参数，用来接受上述addr的结构的大小的，它指明addr结构所占有的字节个数。同样的，它也可以被设置为NULL。
+如果accept成功返回，则服务器与客户已经正确建立连接了，此时服务器通过accept返回的套接字来完成与客户的通信
+
+14.9.1.6  套接字地址结构
+摘要：socket api是网络编程的经典选择，可能在许多时候也是不二选择，本文介绍socket套接口中存在的一个知识点：套接口地址结构。socket编程中常存在一个问题，就是填写一个地址结构，然后绑定相应地址，所以对地址结构的理解是基本的要求。
+在我第一次写网络程序的时候，或者说我第一次使用socket的时候，深深地感觉到socket中的地址填写有点难写或者有点难受，这个难受在于第一次接触socket本身的生疏，也在于socket地址看上去有点复杂和乱。出于这个原因，Stevens在他们的《UNIX网络编程》中拿一章来说明这个地址结构。
+socket接口中地址结构有很多，这是一个基本的事实，但对于多数程序来说可能只会用到其中的少数。这些地址结构存在两类完全不同目的的结构，一类是实际中使用的结构，一类却是只是为参数传递的结构。前者与具体协议有关，不同的地址结构之间的差异很大；而后者就只有两个结构，称为通过结构。
+14.10  一些命令
+netstat -a | grep 9877
+ps -o pid,ppid,tty,stat,args,wchan
+
+netstat –na
+
+
+netstat –pan
+
+tail -F --retry log/level2Server.log 
+vim log/level2Server.log 
+netstat -pan | grep 10916
+第15章  我的书
+Linux鸟哥的私房菜
+Linux高级程序设计
+深入理解计算机系统
+Unix环境高级编程
+Unix网络编程 卷一
+Unix网络编程 卷二
+数据结构_严魏敏
+数据结构与算法 c++ 第三版
+C++ primer第四版 1 
+C++ primer第四版 2 
+C++ primer第四版 英语 
+C++ primer第四版 习题集 
+C++ primer 第三版 习题集
+数据结构习题与解析
+Effective c++
+算法导论
+考研英语词汇2007
+脂砚斋全评石头记
+书法 四英章
+论语别裁
+经济学
+张道真实用英语语法
+C++程序设计语言
+格林童话
+安徒生童话
+小王子 n本
+射雕英雄传
+深入探索c++对象模型
+Stl源码剖析
+Python核心编程
+Windows核心编程 第四版
+Windows核心编程 第五版
+四书章句集
+千字文
+论语译注
+
+
+第16章  log
+16.1 Log4cxx配置文件介绍
+2010-03-01 22:04 1767人阅读 评论(1) 收藏 举报
+Log4cxx配置文件介绍
+2009-07-31 20:34
+Log4cxx配置由三个重要的组件构成：日志信息的优先级，日志信息的输出目的地，日志信息的输出格式。
+    
+1.日志信息的优先级
+Logger的语法：               
+log4j.rootLogger = [ level ] , appenderName, appenderName, …          
+其中，level 是日志记录的优先级，分为OFF、FATAL、ERROR、WARN、INFO、DEBUG、ALL或者自定义的级别。Log4j建议只使用四个级别，优先级从高到低分别是ERROR、WARN、INFO、DEBUG。通过在这里定义的级别，可以控制到应用程序中相应级别的日志信息的开关。比如这里定义了INFO级别，则应用程序中所有DEBUG级别的日志信息将不被打印出来。 appenderName名字任意，用来标示日志信息输出到哪里，可以同时指定多个。 
+日志信息的输出目的地              
+Appender的语法：               
+log4j.appender.appenderName = fully.qualified.name.of.appender.class         
+log4j.appender.appenderName.option1 = value1            
+…                
+log4j.appender.appenderName.option = valueN            
+其中，Log4j提供的appender有以下几种：            
+                
+org.apache.log4j.ConsoleAppender 控制台            
+org.apache.log4j.FileAppender 文件             
+org.apache.log4j.DailyRollingFileAppender 每天产生一个日志文件          
+org.apache.log4j.RollingFileAppender 文件大小到达指定尺寸的时候产生一个新的文件        
+org.apache.log4j.WriterAppender 将日志信息以流格式发送到任意指定的地方        
+2.日志信息的输出格式             
+Layout的语法：               
+log4j.appender.appenderName.layout = fully.qualified.name.of.layout.class        
+log4j.appender.appenderName.layout.option1 = value1           
+…                
+log4j.appender.appenderName.layout.option = valueN          
+3.Log4j提供的Layout有以下几种：            
+org.apache.log4j.HTMLLayout 以HTML表格形式布局           
+org.apache.log4j.PatternLayout 可以灵活地指定布局模式           
+org.apache.log4j.SimpleLayout 包含日志信息的级别和信息字符串          
+org.apache.log4j.TTCCLayout 包含日志产生的时间、线程、类别等等信息          
+Log4j采用类似C语言中的printf函数的打印格式格式化日志信息，打印参数如下：        
+                
+%m 输出代码中指定的消息              
+%p 输出优先级，即DEBUG，INFO，WARN，ERROR，FATAL           
+%r 输出自应用启动到输出该log信息耗费的毫秒数            
+%c 输出所属的类目，通常就是所在类的全名            
+%t 输出产生该日志事件的线程名             
+%n 输出一个回车换行符，Windows平台为“/r/n”，Unix平台为“/n”          
+%d 输出日志时间点的日期或时间，默认格式为ISO8601，也可以在其后指定格式，比如：%d{yyy MMM dd HH:mm:ss,SSS}，输出2008年11月14日 15:16:17,890 
+%l 输出日志事件的发生位置，包括类目名、发生的线程，以及在代码中的行数。
+log4cxx调试日志选择性输出的配置方法
+
+（转载请注明来源于金庆的专栏）
+
+一般是每个类都有自己的日志, 可建立一个静态成员logger如下:
+
+class A
+{
+private:
+    static log4cxx::LoggerPtr logger;
+};
+
+需要在cpp文件中静态初始化:
+
+log4cxx::LoggerPtr A::logger = log4cxx::Logger::getLogger("A");
+
+日志类别名"A"就是类名, 也可以是模块名.类名, 如"DB.A".
+
+log4cxx的惯例是使用这样一个静态成员.
+但也可以是静态成员logger(), 这样不必静态初始化. 
+
+class A
+{
+private:
+    static log4cxx::LoggerPtr logger() 
+    {
+        return log4cxx::Logger::getLogger("A");
+    }
+};
+
+但从效率考虑, 每次调用日志都要getLogger()不如静态初始化.
+
+类代码中调用日志只需:
+
+    LOG4CXX_DEBUG(logger, "test log...");
+
+日志配置log4j.properties如下:
+
+log4j.rootLogger=WARN, R
+
+log4j.appender.R=org.apache.log4j.RollingFileAppender
+log4j.appender.R.File=log.txt
+log4j.appender.R.layout=org.apache.log4j.PatternLayout
+log4j.appender.R.layout.ConversionPattern=%d %5p %c %x: %m%n
+
+# log4j.logger.DB.A=DEBUG
+
+默认所有日志等级为WARN, 不会输出DEBUG日志, 
+只需显式设定某一类日志的级别, 就可以选择性地输出该类日志.
+如调试A类时, 取消配置文件中的注释就行了.
+第17章 调试
+17.1  dll与app联调
+用vs2008编写，生成dll
+dll：f:\tpx\Code\trunk\level2\dcelevel2api\dcelevel2api
+
+app：F:\tpx\Doc\trunk\01Project\03测试\APIDemo\lib\debug
+用vc6编写，调用上面的dll
+
+1将生成的dll拷贝到F:\tpx\Doc\trunk\01Project\03测试\APIDemo\lib\debug后，在dll中设置断点，后f5开启调试
+2会产生这样的现象，因为app的source code我们也有，于是在dll中的断点到达之后，调试中如果走到app的code中，vs2008能找到app的source code进行源代码级的调试。
+第18章  系统安装
+18.1  Xp与centos
+http://hi.baidu.com/redsun_hl/item/a3f6030068cc1114cc34ea95
+18.2  windows环境下从硬盘安装Centos5.5
+Grub4Dos是一款遵守GNU开放源代码协议的启动管理器.他有什么作用呢?举个最简单的应用吧,Grub4Dos中的Grldr文件能为NT系统 (包括Windows XP、2000、2003)的启动菜单中添加一个纯DOS模式,为系统维护提供极大的方便.短人DOS、MouseDos硬盘版的启动部分都使用了 Grldr.
+科普：http://baike.baidu.com/view/1634916.htm?fr=ala0_1_1
+官方下载发布地址：http://download.gna.org/grub4dos/
+ 
+windows环境下从硬盘安装Centos5.5
+1.准备软件 
+（1）Centos5.5的ISO镜像。
+（2）grub4dos-0.4.4.rar。//用于引导linu内核和引导文件
+（3）准备一个安装linux的分区，推荐用最后一个分区来安装linux！
+2.修改引导文件,以及启动grub
+（1）解压grub4dos-0.4.4.rar，把里面的grldr、grldr.mbr、和menu.lst这三个文件复制到c盘的根目录。
+（2）把CentOs5.5的镜像放在计算机的一个文件系统为fat32的分区中（不能是欲安装centos的分区）。当然也可放在优盘、移动硬盘中，只要文件系统是fat32就行,因为linux不
+识别ntfs。
+（3）只解压CentOS5.5镜像中的isolinux文件到c盘的根目录。
+（4）找到C盘根目录下的boot.ini文件，在文件最后添加一句话：c:\grldr="CentOS" 
+boot.ini是windos系统启动时引导系统的配置文件，可以在该文件中指定多个不同的系统以便在开机时选择。??
+2.添加那句话的意思是：在启动菜单中显示CentOS，选择则加载C根目录下的grldr引导程序。
+（5）打开C:\menu.lst文件添加以下内容(注意kernel和initrd后面有空格)： 
+title CentOS                                      //指定在grldr中显示的标题
+kernel (hd0,0)/isolinux/vmlinuz         //指定内核文件在哪个磁盘的哪个分区的哪个目录中 
+initrd (hd0,0)/isolinux/initrd.img         //指定initrd.img文件路径，用于在内核启动之后加载硬件驱
+动，以及挂载分区等；
+       *注意路径的格式，hd0代表第一块硬盘，不要写成had。后面的0代表第一个分区；
+*该文件原本有N多引导的内容（可以选择删除不影响安装，看心情来吧），所以在启动grub后会有很多列表菜单。
+（6）现在开始重启系统，在开机菜单中就会看见刚才添加的启动项（如果开机不显此菜单，可按F8）：
+  
+
+（图片为安装时用相机拍的，凑活看吧）
+（7）选择CentOS项回车后就能看到grup的引导菜单列表选择CentOS后按b键进行引导linux启动文件也就是在menu.list中指定的那两个文件，之后便进入安装阶段：      
+ 
+
+       
+   3.进行安装
+（1）选择语言环境
+ 
+
+ （2）选择键盘
+  
+（3）选择安装模式，在这里选择硬盘安装。
+  
+
+（4）这一步是选择你的Centos5.5镜像文件在哪个分区，例如我是放在移动硬盘的第一个分区中了，所以要选则第三项：/dev/sdb5.不记得没关系，依次试一下就能找到。
+  
+（5）之后便加载镜像进入安装页面：
+  
+（6）在往后步骤都比较熟悉了，我就不班门弄斧了，可还要提醒一下在选择分区的模式时一定要选择自定义分区！不然会死的很惨！再者就是分区的时候区分清楚硬盘和分区，选
+择最后一个分区来安装linux。千万别把其他分区的宝贵资料干掉了，（当然如果想告别windows的话，可直接干掉windows分区）。
+（7）安装完成后在启动linux的时候按任意键键进入启动菜单，会看到有两个选项：
+一个是centos5.5；另一个是other也就是winxp。选择other后回车就会启动windows系统；
+如果想更直观更方便的选择菜单可以做一下修改： 
+1.进入Centos5.5系统后：vi /boot/grub/grub.conf 
+2.把hiddenmenu 注释掉：这样就会显示出启动菜单。 
+3.把title Other 改成直观的名称：如title windows xp 
+如图： 
+  
+
+4.最后进入xp清除安装时的解压出的文件以及boot.ini中的语句。
+     到这就基本齐活了，如有不当之处欢迎指出，安装有风险，操作需谨慎！
+18.3  简略
+Install xp
+Install minitool partition wizard to delete the disk e
+Use the doc above install xp and cent os
+As the document say
+It is mainly put the three file to c:\
+Put isolinux to c:\
+Put the iso to d:\
+Modify the c:\boot.ini add c:\grldr="CentOS" 
+
+Disk u not necessary then
+
+Use free space to install centos
+
+Choose install boot loader on /dev/sda(the default choice)
+
+Choose software workstation and costom now and choose all the software
+
+Su root
+Vi /boot/grub/grub…
+Comment the hidden and chage the other to windows xp
+
+Go in to windows change back the boot.ini
+第19章  unix环境高级编程 apue
+19.1  安装
+  在http://www.apuebook.com/下载src.tar.gz源代码的压缩包。
+   1、解压至/home/user/目录下
+   2、修改 Make.defines.linux中的WKDIR=/home/xxx/apue.2e，为WKDIR=/home/user/apue.2e
+   3、返回至apue.2e目录下面，修改linux.mk，将里面的nawk全部改为awk，可以使用这个命令 ：%s/nawk/awk/g 
+   4、make
+   5、将/home/user/apue.2e/include/apue.h和/home/user/apue.2e/lib/error.c复制到/usr/include目录下
+
+19.2  源代码与书对应
+用grep来找吧没有办法
+19.3  编译单个源代码
+比如第一个例子，程序清单1-1 ls
+用grep –irn “directory_name” 找到source code
+然后用 gcc –o main ls1.c ../lib/libapue.a
+19.4 编译单个源代码只编译libapue.a
+Cd lib
+Make –f linux.mk
+
+这样就可以不必要build出所有源代码了，只build需要的东西。
+19.5 Centos 6.3编译不过
+
+最近在读 Richard Stevens 的大作《UNIX环境高级编程》，相信很多初读此书的人都会与我一样遇到这个问题，编译书中的程序实例时会出现问题，提示 “错误：apue.h：没有那个文件或目录”。
+apue.h 是作者自定义的一个头文件，并不是Unix/Linux系统自带的，此头文件包括了Unix程序所需的常用头文件及作者Richard自己写的出错处理函数。所以在默认情况下，gcc在编译时是读不到这个头文件的。
+先在这个网站 http://www.apuebook.com/src.tar.gz 下载tar.gz格式的源码包，然后解压至某个目录，比如说/home/godsoul/下，然后进入目录apue.2e，把文件 Make.defines.linux 中的 WKDIR=/home/xxx/apue.2e 修改为 WKDIR=/home/godsoul/apue.2e ，然后再进入apue.2e目录下的std目录，打开linux.mk，将里面的nawk全部替换为awk，如果是用的vi/vim编辑器，可以使用这个 命令  :1.$s/nawk/awk/g （注意前面有冒号）
+然后在此目录下运行make命令，即回到 /home/godsoul/apue.2e 目录在终端中输入 “./make” (不含引号)
+然后把 /home/godsoul/apue.2e/inlcude 目录下的 apue.h 文件和位于 /home/godsoul/apue.2e/lib 目录下的 error.c 文件都复制到 /usr/include 目录下，apue.2e/lib/libapue.a 到/usr/lib/和 /usr/lib64下。注意复制这文件你需要有root权限。之所以要这样做，是因为gcc在链接头文件时会到 /usr/include 这个目录下寻找需要的头文件，若找不到则报错。
+最终还要编辑一下复制过来的 apue.h 文件
+在最后一行 #endif 前面添加一行 #include “error.c”
+然后进入apue.2e/std 目录，编辑linux.mk。修改里面所有的nawk为awk。
+这样就不会报错了。
+还又可能遇到的问题如下：
+如果出现stropts.h找不到的情况，则下载glibc-2.11，解压缩
+cp ./glibc-2.11/streams/stropts.h /usr/include
+cp ./glibc-2.11/bits/stropts.h /usr/include/bits
+cp ./glibc-2.11/sysdeps/x86_64/bits/xtitypes.h /usr/include/bits
+在我的机器上编译时，提示ARG_MAX未定义，可以这么修改。
+在apue.2e/include/apue.h中添加一行：
+#define ARG_MAX 4096
+打开apue.2e/threadctl/getenv1.c 和apue.2e/threadctl/getenv3.c，添加一行：
+#include “apue.h”
+改好后make clean再重新make
+2. 使用apue.h文件和libapue.a库。
+假定/tmp下有一个文件：threadid.c，内容如下(apue线程章节的例子):
+#include <apue.h>
+#include <pthread.h>
+pthread_t ntid;
+void
+printids(const char *s)
+{
+pid_t           pid;
+pthread_t       tid;
+pid = getpid();
+tid = pthread_self();
+printf(“%s pid %u tid %u (0x%x)\n”, s, (unsigned int)pid,
+(unsigned int)tid, (unsigned int)tid);
+}
+void *
+thr_fn(void *arg)
+{
+printids(“new thread: “);
+return((void *)0);
+}
+int
+main(void)
+{
+int             err;
+err = pthread_create(&ntid, NULL, thr_fn, NULL);
+if (err != 0)
+err_quit(“can’t create thread: %s\n”, strerror(err));
+printids(“main thread:”);
+sleep(1);
+exit(0);
+}
+使用如下命令编译：
+cc -o threadid threadid.c -lapue -lpthread
+可以运行一下：
+dan@dan-laptop:/tmp$ ./threadid
+new thread:  pid 17490 tid 816015696 (0x30a36950)
+main thread: pid 17490 tid 823949040 (0x311c76f0)
+3. 编译《UNP》
+这个稍微麻烦些。
+http://www.unpbook.com/unpv13e.tar.gz
+我们首先产生一个目录，以后自己的代码就敲在这个目录里。
+mkdir /home/dan/study/unp
+仍然是下载到/home/dan/download/，解压缩，进入目录
+cd /home/dan/download/unpv13e/
+README文件中说的很详细：
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Execute the following from the src/ directory:
+./configure    # try to figure out all implementation differences
+cd lib         # build the basic library that all programs need
+make           # use “gmake” everywhere on BSD/OS systems
+cd ../libfree  # continue building the basic library
+make
+cd ../libroute # only if your system supports 4.4BSD style routing sockets
+make           # only if your system supports 4.4BSD style routing sockets
+cd ../libxti   # only if your system supports XTI
+make           # only if your system supports XTI
+cd ../intro    # build and test a basic client program
+make daytimetcpcli
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+这里只编译lib下的文件，这样可以产生libunp.a，复制这个静态库到/usr/lib/和/usr/lib64/
+如果提示：
+unp.h:139: error: conflicting types for ‘socklen_t’
+/usr/include/bits/socket.h:35: error: previous declaration of ‘socklen_t’ was here
+需要注释掉当前目录中unp.h的第１３９行。
+复制libunp.a到系统目录：
+root@dan-laptop:/home/dan/download/unpv13e/lib# cp ../libunp.a /usr/lib
+root@dan-laptop:/home/dan/download/unpv13e/lib# cp ../libunp.a /usr/lib64/
+4.使用unp.h和libunp.a
+如果直接复制unpv13e/lib/unp.h到/usr/include，那么在别的目录编译书上代码时，很可会得到类似下面的错误：
+In file included from daytimetcpsrv1.c:1:
+/usr/include/unp.h:227: error: redefinition of ‘struct sockaddr_storage’
+In file included from daytimetcpsrv1.c:1:
+/usr/include/unp.h:249:30: error: ../lib/addrinfo.h: No such file or directory
+/usr/include/unp.h:263: error: redefinition of ‘struct timespec’
+/usr/include/unp.h:363: error: conflicting types for ‘gai_strerror’
+/usr/include/netdb.h:647: error: previous declaration of ‘gai_strerror’ was here
+/usr/include/unp.h:367: error: conflicting types for ‘getnameinfo’
+/usr/include/netdb.h:653: error: previous declaration of ‘getnameinfo’ was here
+/usr/include/unp.h:371: error: conflicting types for ‘gethostname’
+/usr/include/unistd.h:857: error: previous declaration of ‘gethostname’ was here
+/usr/include/unp.h:387: error: conflicting types for ‘inet_ntop’
+/usr/include/arpa/inet.h:65: error: previous declaration of ‘inet_ntop’ was here
+/usr/include/unp.h:395: error: conflicting types for ‘pselect’
+/usr/include/sys/select.h:121: error: previous declaration of ‘pselect’ was here
+daytimetcpsrv1.c: In function ‘main’:
+daytimetcpsrv1.c:9: error: ‘MAX_LINE’ undeclared (first use in this function)
+daytimetcpsrv1.c:9: error: (Each undeclared identifier is reported only once
+daytimetcpsrv1.c:9: error: for each function it appears in.)
+dan@dan-laptop:~/study/unp/4$ rm -f /usr/include/unp.h
+解决方法有点傻：
+进入我们开始时建立的目录：
+cd /home/dan/study/unp
+复制config.h和unp.h到此目录：
+dan@dan-laptop:~/study/unp$ cp /home/dan/download/unpv13e/config.h .
+dan@dan-laptop:~/study/unp$ cp /home/dan/download/unpv13e/lib/unp.h .
+修改unp.h，
+#include “../config.h”改成 #include “config.h”
+添加一行：
+#define MAX_LINE 2048
+练习书上代码时，在unp目录下建立相应的章节目录，文件中添加一行：
+#include “../unp.h”
+编译时链接unp库就可以了。
+以第四章的daytimetcpsrv1.c为例：
+dan@dan-laptop:~/study/unp/4$ pwd
+/home/dan/study/unp/4
+dan@dan-laptop:~/study/unp/4$ cat daytimetcpsrv1.c
+#include “../unp.h”
+#include <time.h>
+int main(int argc, char **argv)
+{
+int    listenfd, connfd;
+socklen_t    len;
+struct sockaddr_in    servaddr, cliaddr;
+char    buff[MAX_LINE];
+time_t    ticks;
+listenfd = Socket(AF_INET, SOCK_STREAM, 0);
+bzero(&servaddr, sizeof(servaddr));
+servaddr.sin_family = AF_INET;
+servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
+servaddr.sin_port = htons(13);
+Bind(listenfd, (SA *)&servaddr, sizeof(servaddr));
+Listen(listenfd, LISTENQ);
+for (;;) {
+len = sizeof(cliaddr);
+connfd = Accept(listenfd, (SA *)&cliaddr, &len);
+printf(“connection from %s, port %d\n”,
+Inet_ntop(AF_INET, &cliaddr.sin_addr, buff, sizeof(buff)),
+ntohs(cliaddr.sin_port));
+ticks = time(NULL);
+snprintf(buff, sizeof(buff), “%.24s\r\n”, ctime(&ticks));
+Write(connfd, buff, strlen(buff));
+Close(connfd);
+}
+}
+编译：
+cc -o daytimetcpsrv1 daytimetcpsrv1.c -lunp
+运行一下：
+root@dan-laptop:/home/dan/study/unp/4# ./daytimetcpsrv1 &
+[1] 22106
+root@dan-laptop:/home/dan/study/unp/4#
+root@dan-laptop:/home/dan/study/unp/4# ./daytimetcpcli
+usage: a.out <IPaddress>
+root@dan-laptop:/home/dan/study/unp/4# ./daytimetcpcli 127.0.0.1
+connection from 127.0.0.1, port 42064
+Fri Aug 21 23:03:56 2009
+root@dan-laptop:/home/dan/study/unp/4# netstat -nt
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State
+tcp        0      0 127.0.0.1:13            127.0.0.1:42064         TIME_WAIT
+
+第20章 gdb
+20.1  安装
+第21章 X60
+21.1  无线网卡
+无线网卡也可以设置固定ip
+我的在公司设置为
+192.168.0.245
+255.255.255.0
+192.168.0.1
+Dns未设置

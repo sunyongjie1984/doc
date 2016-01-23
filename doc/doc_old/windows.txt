@@ -1,0 +1,13 @@
+1   desktop default 0 78 152
+2   windows xp install the new video card driver
+    alt + w switch desktop
+    alt + tab switch program
+    alt + t    always on top
+3   visual studio 2012
+    full screen
+    ctrl + alt + l
+    ctrl + shift + c
+    and customize the toolbar of sunyongjie
+
+4   system("pause")
+    in visual 2012

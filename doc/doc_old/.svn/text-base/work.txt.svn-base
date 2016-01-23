@@ -1,0 +1,7 @@
+1 df
+1.1 platfort porting
+1.1.2 suco cp AxStd /usr/include
+1.1.3 install xercesc
+1.1.4 cd AxCfg make make install
+1.1.5 cd AxCom make make install
+1.1.6 cd AxBase 
