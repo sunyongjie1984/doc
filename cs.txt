@@ -1775,3 +1775,7 @@ git commit -m "add new"
 git remote add origin
 https://sunyongjie1984:Git541981101211@github.com/sunyongjie1984/new
 git push origin master
+
+178
+Jack is 共享名字在虚拟机启动前设置的，宿主机共享名字
+sudo mount -t vboxsf Jack jack
