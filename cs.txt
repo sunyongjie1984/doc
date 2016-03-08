@@ -1779,3 +1779,161 @@ git push origin master
 178
 Jack is 共享名字在虚拟机启动前设置的，宿主机共享名字
 sudo mount -t vboxsf Jack jack
+
+179
+
+zra@admin
+ 
+dfjj@admin1
+ 
+ B12台式机密码
+zra1234或者zra@1234
+网站服务器
+zramc1234!
+ 
+深信服
+admin
+zramc1234
+ 
+ 
+交易室电脑密码
+zra1234!
+zra1234
+ 
+路由器  
+zramccisco88
+ 
+域名，万网
+yangshuhui@ssga-fund.com
+dfjj@1234
+ 
+测试环境FA
+Oracle
+Zra1234
+ 
+TA 生产
+Admin*
+admin@zramc
+ 
+TA测试环境应用登录
+Admin/666666
+0272/zra1234
+ 
+ 
+TCMP和TA服务器密码都是administrator/admin@zramc
+ 
+VPN控制台登录地址： https://119.57.253.228:4430/        用户：admin/zramc@minsheng
+ 
+ 
+FA:
+Instance: hundsun
+System/zramc
+hsfa/hsfa
+前台登录：
+Hsfa_admin/hsfa_0601
+ 
+台式测试机虚拟机windows server 2008 R2
+zra@1234
+ 
+263，邮箱
+admin@zramc.net
+zra@admin or admin@zra
+ 
+电话会议 095040263263 75529548#
+095040263263 88227220#         
+ 
+电话系统
+admin/123
+ 
+    路由器上配置了，pptp vpdn账号
+ 
+Router(config)#user zramc1 password zramcvpdn1
+Router(config)#user zramc2 password zramcvpdn2
+你可以根据情况在修改或者添加。
+ 
+在计算机上新建 PPTP连接，采用 MS CHAP 认证，不强制加密数据。VPDN的连接地址为119.57.253.226 
+ 
+ 
+Vsphere windows 2008 r2 OA 1 
+zramc@1234
+zra@1234
+ 
+OA测试环境 ekp 与数据库
+ 
+192.168.0.57
+密码zra@1234
+数据库口令
+Zra1234
+ 
+ekp / ABCabc123        
+ 
+测试kk服务器（改为Fa linux测试机）
+192.168.0.58
+root / zra@1234!
+ 
+ 
+ 
+TA DB
+172.16.1.21
+TCMP DB 
+172.16.1.11
+OA KK
+172.16.1.102
+OA DB
+172.16.1.101
+OA EKP
+172.16.1.100
+ 
+OA生产
+Ekp 172.16.1.100  119.57.36.229  oa.zramc.com.cn administrator  Zramc@minshengadmin!1
+DB 172.16.1.101    root         zra1234!
+ KK 172.16.1.102 119.57.36.228  kk.zramc.com.cn  root          zra1234
+ 
+财务 jwfj
+网络 ip地址
+ 
+route -p ADD 10.1.1.0 MASK 255.255.255.0 192.168.249.1
+route -p ADD 10.4.1.0 MASK 255.255.255.0 192.168.249.1
+ping 10.1.1.231
+ 
+192.168.0.53 李宝 192.168.249.11
+192.168.0.54 园育 192.168.249.12
+ 
+找郭建南
+ 
+TCMP和TA服务器密码都是administrator/admin@zramc
+ 
+VPN控制台登录地址： https://119.57.253.228:4430/        用户：admin/zramc@minsheng
+ 
+来自 <http://mail.zramc.net/wm2e/mail/mailOperate/mailOperateAction_mailContent.do?&emailIdentity=0055c986e807bca0@008c@57b0065be279cd28&selfFolderId=2> 
+ 
+ 
+ 
+Tcmp admin /admin@123456
+ 
+B12机房备线 拔号用户名密码
+msjr021200
+ 
+suninfo0921    
+ 
+1、登录root用户
+2、企切换oracle用户
+su - oracle
+3、第一步启动监听：
+$ lsnrctl start
+4、第二步：进入sqlplus$ 
+sqlplus /nolog
+5、第三步：使用sysdab角色登录sqlplus
+conn / as sysdba/6、第四步：启动数据库
+startup
+-------
+CC 系统
+export ORACLE_SID=hscc
+
+
+TA
+
+zramc/zramc@1234
+
+路由 
+tracert -d www.163.com
