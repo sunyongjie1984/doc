@@ -1937,3 +1937,5 @@ zramc/zramc@1234
 
 б╥си 
 tracert -d www.163.com
+
+sqlplus v3xuser/oracle@192.168.0.102:1521/ORAHOST
