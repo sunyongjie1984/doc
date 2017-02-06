@@ -1774,6 +1774,7 @@ git add *
 git commit -m "add new"
 git remote add origin
 https://sunyongjie1984:Git541981101211@github.com/sunyongjie1984/new
+// add a project named new by internet exploer (github.om)
 git push origin master
 
 178
